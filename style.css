@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.game-card {
+  border: 2px solid black;
+  margin: 1em;
+  height: calc(100vh - 2em);
+}
+
+.game-menu {
+  background-color: #eec174;
+  border-bottom: 2px solid black;
+}
+.game-menu button.nav-link {
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  border-right: none;
+  aspect-ratio: 1/1;
+  font-size: 17px;
+  font-weight: 700;
+  width: 104px;
+}
+.game-menu button.nav-link:last-child {
+  border-right: 2px solid black !important;
+}
+.game-menu button.nav-link:hover {
+  background-color: rgba(38, 91, 136, 0.25);
+}
+.game-menu button.nav-link.active {
+  background-color: #265b88;
+  color: white;
+}
+
+.footer {
+  border-top: 2px solid black;
+}
+.footer svg {
+  width: 24px;
+  fill: #265b88;
+}
+.footer button {
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+  color: #265b88;
+  align-items: center;
+  display: flex;
+  gap: 0.5em;
+  border-radius: 0;
+}
+.footer .navbar-nav {
+  gap: 1em;
+}
+.footer .navbar-nav .btn {
+  border: 2px solid black;
+}
+.footer .navbar-nav:last-child .btn {
+  background-color: #265b88;
+  color: white;
+}
+.footer .navbar-nav:last-child .btn svg {
+  fill: white;
+}
+
+.slide {
+  margin: 1em;
+}
+.slide .ul-criticos {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.slide .ul-criticos li {
+  border: 2px solid black;
+  list-style-type: none;
+  padding: 1em;
+}
+.slide .ul-criticos li svg {
+  width: 24px;
+  fill: #426d6f;
+}
+.slide .ul-criticos li:first-child {
+  font-weight: 700;
+  text-align: center;
+}
+.slide .ul-criticos li:first-child svg {
+  width: 40px;
+  margin-bottom: 0.5em;
+}
+.slide .ul-licoes {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.slide .ul-licoes li {
+  list-style-type: none;
+  position: relative;
+}
+.slide .ul-licoes li:before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #C56E53;
+  border: 2px solid black;
+  position: absolute;
+  margin-top: 3px;
+  left: -2rem;
+}
+
+.slide-4 ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.slide-4 ul li {
+  padding: 1em;
+  border: 2px solid black;
+  background-color: #AECBDC;
+}
+
+.slide-5 .card {
+  background-color: #AECBDC;
+  text-align: center;
+}
+.slide-5 .card, .slide-5 button {
+  border-radius: 0;
+  padding: 1em;
+  border: 2px solid black;
+}
+.slide-5 svg {
+  width: 24px;
+  fill: #426D6F;
+}
+.slide-5 .btn {
+  background-color: #265b88;
+  color: white;
+  text-transform: uppercase;
+}
+
+.slide-6 .aviso, .slide-6 li {
+  padding: 1em;
+}
+.slide-6 .aviso {
+  background-color: #AECBDC;
+  border: 2px solid black;
+  margin-bottom: 2em;
+}
+.slide-6 svg {
+  width: 64px;
+}
+.slide-6 ul {
+  list-style: none;
+  padding: 0;
+}
+.slide-6 ul li {
+  font-weight: 700;
+  border: 2px dashed black;
+  margin-bottom: 1em;
+}
+
+/*# sourceMappingURL=style.css.map */
