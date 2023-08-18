@@ -409,37 +409,9 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-
-    <script>
-        var menu = [
-            "Visão<br>Geral",
-            "1<br>Medir",
-            "2<br>Gravar",
-            "3<br>Calcular",
-            "4<br>Identificar",
-            "Resumo",
-            "Estudo<br>de Caso",
-        ]
-
-        const swiper = new Swiper('.swiper', {
-            loop: true,
-
-            direction: 'horizontal',
-
-            pagination: {
-                el: '.nav-pagination',
-                clickable: true,
-                renderBullet: function (index, className) {
-                    return '<button type="button" class="nav-link ' + className + '">' + (menu[index]) + '</button>';
-                },
-            },
-
-            navigation: {
-                nextEl: '.btn-proximo',
-                prevEl: '.btn-anterior',
-            },
-        })
-    </script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 
 </body>
 

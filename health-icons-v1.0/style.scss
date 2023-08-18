@@ -1,0 +1,9081 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?6657u1');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?6657u1#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?6657u1') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?6657u1') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?6657u1##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="hi-"], [class*=" hi-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hi-blood_a_n {
+  &:before {
+    content: $hi-blood_a_n; 
+  }
+}
+.hi-blood_a_p {
+  &:before {
+    content: $hi-blood_a_p; 
+  }
+}
+.hi-blood_ab_n {
+  &:before {
+    content: $hi-blood_ab_n; 
+  }
+}
+.hi-blood_ab_p {
+  &:before {
+    content: $hi-blood_ab_p; 
+  }
+}
+.hi-blood_b_n {
+  &:before {
+    content: $hi-blood_b_n; 
+  }
+}
+.hi-blood_b_p {
+  &:before {
+    content: $hi-blood_b_p; 
+  }
+}
+.hi-blood_bag {
+  &:before {
+    content: $hi-blood_bag; 
+  }
+}
+.hi-blood_o_n {
+  &:before {
+    content: $hi-blood_o_n; 
+  }
+}
+.hi-blood_o_p {
+  &:before {
+    content: $hi-blood_o_p; 
+  }
+}
+.hi-blood_rh_n {
+  &:before {
+    content: $hi-blood_rh_n; 
+  }
+}
+.hi-blood_rh_p {
+  &:before {
+    content: $hi-blood_rh_p; 
+  }
+}
+.hi-arm {
+  &:before {
+    content: $hi-arm; 
+  }
+}
+.hi-bacteria {
+  &:before {
+    content: $hi-bacteria; 
+  }
+}
+.hi-bladder {
+  &:before {
+    content: $hi-bladder; 
+  }
+}
+.hi-blood_cells {
+  &:before {
+    content: $hi-blood_cells; 
+  }
+}
+.hi-blood_drop {
+  &:before {
+    content: $hi-blood_drop; 
+  }
+}
+.hi-blood_vessel {
+  &:before {
+    content: $hi-blood_vessel; 
+  }
+}
+.hi-body {
+  &:before {
+    content: $hi-body; 
+  }
+}
+.hi-dna {
+  &:before {
+    content: $hi-dna; 
+  }
+}
+.hi-ear {
+  &:before {
+    content: $hi-ear; 
+  }
+}
+.hi-enzyme {
+  &:before {
+    content: $hi-enzyme; 
+  }
+}
+.hi-eye {
+  &:before {
+    content: $hi-eye; 
+  }
+}
+.hi-female_reproductive_system {
+  &:before {
+    content: $hi-female_reproductive_system; 
+  }
+}
+.hi-foot {
+  &:before {
+    content: $hi-foot; 
+  }
+}
+.hi-gallbladder {
+  &:before {
+    content: $hi-gallbladder; 
+  }
+}
+.hi-heart {
+  &:before {
+    content: $hi-heart; 
+  }
+}
+.hi-intestine {
+  &:before {
+    content: $hi-intestine; 
+  }
+}
+.hi-joints {
+  &:before {
+    content: $hi-joints; 
+  }
+}
+.hi-kidneys {
+  &:before {
+    content: $hi-kidneys; 
+  }
+}
+.hi-leg {
+  &:before {
+    content: $hi-leg; 
+  }
+}
+.hi-liver {
+  &:before {
+    content: $hi-liver; 
+  }
+}
+.hi-liver-alt {
+  &:before {
+    content: $hi-liver-alt; 
+  }
+}
+.hi-lungs {
+  &:before {
+    content: $hi-lungs; 
+  }
+}
+.hi-lymph_nodes {
+  &:before {
+    content: $hi-lymph_nodes; 
+  }
+}
+.hi-mouth {
+  &:before {
+    content: $hi-mouth; 
+  }
+}
+.hi-nerve {
+  &:before {
+    content: $hi-nerve; 
+  }
+}
+.hi-neurology {
+  &:before {
+    content: $hi-neurology; 
+  }
+}
+.hi-nose {
+  &:before {
+    content: $hi-nose; 
+  }
+}
+.hi-pancreas {
+  &:before {
+    content: $hi-pancreas; 
+  }
+}
+.hi-skeleton {
+  &:before {
+    content: $hi-skeleton; 
+  }
+}
+.hi-skull {
+  &:before {
+    content: $hi-skull; 
+  }
+}
+.hi-spine {
+  &:before {
+    content: $hi-spine; 
+  }
+}
+.hi-spleen {
+  &:before {
+    content: $hi-spleen; 
+  }
+}
+.hi-stomach {
+  &:before {
+    content: $hi-stomach; 
+  }
+}
+.hi-tooth {
+  &:before {
+    content: $hi-tooth; 
+  }
+}
+.hi-allergies {
+  &:before {
+    content: $hi-allergies; 
+  }
+}
+.hi-back_pain {
+  &:before {
+    content: $hi-back_pain; 
+  }
+}
+.hi-cervical_cancer {
+  &:before {
+    content: $hi-cervical_cancer; 
+  }
+}
+.hi-chills {
+  &:before {
+    content: $hi-chills; 
+  }
+}
+.hi-chills_fever {
+  &:before {
+    content: $hi-chills_fever; 
+  }
+}
+.hi-coughing_alt {
+  &:before {
+    content: $hi-coughing_alt; 
+  }
+}
+.hi-deaf {
+  &:before {
+    content: $hi-deaf; 
+  }
+}
+.hi-diarrhea {
+  &:before {
+    content: $hi-diarrhea; 
+  }
+}
+.hi-headache {
+  &:before {
+    content: $hi-headache; 
+  }
+}
+.hi-hiv_ind {
+  &:before {
+    content: $hi-hiv_ind; 
+  }
+}
+.hi-hiv_neg {
+  &:before {
+    content: $hi-hiv_neg; 
+  }
+}
+.hi-hiv_pos {
+  &:before {
+    content: $hi-hiv_pos; 
+  }
+}
+.hi-hpv {
+  &:before {
+    content: $hi-hpv; 
+  }
+}
+.hi-intestinal-pain {
+  &:before {
+    content: $hi-intestinal-pain; 
+  }
+}
+.hi-loss-smell {
+  &:before {
+    content: $hi-loss-smell; 
+  }
+}
+.hi-low_vision {
+  &:before {
+    content: $hi-low_vision; 
+  }
+}
+.hi-nausea {
+  &:before {
+    content: $hi-nausea; 
+  }
+}
+.hi-overweight {
+  &:before {
+    content: $hi-overweight; 
+  }
+}
+.hi-pneumonia {
+  &:before {
+    content: $hi-pneumonia; 
+  }
+}
+.hi-ribbon {
+  &:before {
+    content: $hi-ribbon; 
+  }
+}
+.hi-sti {
+  &:before {
+    content: $hi-sti; 
+  }
+}
+.hi-sweating {
+  &:before {
+    content: $hi-sweating; 
+  }
+}
+.hi-tb {
+  &:before {
+    content: $hi-tb; 
+  }
+}
+.hi-underweight {
+  &:before {
+    content: $hi-underweight; 
+  }
+}
+.hi-varicose_vein {
+  &:before {
+    content: $hi-varicose_vein; 
+  }
+}
+.hi-vih {
+  &:before {
+    content: $hi-vih; 
+  }
+}
+.hi-viral_lung_infection {
+  &:before {
+    content: $hi-viral_lung_infection; 
+  }
+}
+.hi-vomiting {
+  &:before {
+    content: $hi-vomiting; 
+  }
+}
+.hi-blood_pressure {
+  &:before {
+    content: $hi-blood_pressure; 
+  }
+}
+.hi-blood_pressure_2 {
+  &:before {
+    content: $hi-blood_pressure_2; 
+  }
+}
+.hi-blood_pressure_monitor {
+  &:before {
+    content: $hi-blood_pressure_monitor; 
+  }
+}
+.hi-cast {
+  &:before {
+    content: $hi-cast; 
+  }
+}
+.hi-clinical_a {
+  &:before {
+    content: $hi-clinical_a; 
+  }
+}
+.hi-cold_chain {
+  &:before {
+    content: $hi-cold_chain; 
+  }
+}
+.hi-contact_lenses {
+  &:before {
+    content: $hi-contact_lenses; 
+  }
+}
+.hi-defibrilator {
+  &:before {
+    content: $hi-defibrilator; 
+  }
+}
+.hi-dental_hygiene {
+  &:before {
+    content: $hi-dental_hygiene; 
+  }
+}
+.hi-discriminating_concentration_bioassays {
+  &:before {
+    content: $hi-discriminating_concentration_bioassays; 
+  }
+}
+.hi-disinfecting_wipes {
+  &:before {
+    content: $hi-disinfecting_wipes; 
+  }
+}
+.hi-exercise_bicycle {
+  &:before {
+    content: $hi-exercise_bicycle; 
+  }
+}
+.hi-eyeglasses {
+  &:before {
+    content: $hi-eyeglasses; 
+  }
+}
+.hi-fever {
+  &:before {
+    content: $hi-fever; 
+  }
+}
+.hi-hospitalized {
+  &:before {
+    content: $hi-hospitalized; 
+  }
+}
+.hi-inpatient {
+  &:before {
+    content: $hi-inpatient; 
+  }
+}
+.hi-intravenous_bag {
+  &:before {
+    content: $hi-intravenous_bag; 
+  }
+}
+.hi-llin {
+  &:before {
+    content: $hi-llin; 
+  }
+}
+.hi-microscope {
+  &:before {
+    content: $hi-microscope; 
+  }
+}
+.hi-mobile {
+  &:before {
+    content: $hi-mobile; 
+  }
+}
+.hi-observation {
+  &:before {
+    content: $hi-observation; 
+  }
+}
+.hi-odontology {
+  &:before {
+    content: $hi-odontology; 
+  }
+}
+.hi-odontology_implant {
+  &:before {
+    content: $hi-odontology_implant; 
+  }
+}
+.hi-oxygen_tank {
+  &:before {
+    content: $hi-oxygen_tank; 
+  }
+}
+.hi-patient_band .path1 {
+  &:before {
+    content: $hi-patient_band-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.hi-patient_band .path2 {
+  &:before {
+    content: $hi-patient_band-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.hi-patient_band .path3 {
+  &:before {
+    content: $hi-patient_band-path3;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.hi-patient_band .path4 {
+  &:before {
+    content: $hi-patient_band-path4;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.hi-patient_band .path5 {
+  &:before {
+    content: $hi-patient_band-path5;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.hi-patient_band .path6 {
+  &:before {
+    content: $hi-patient_band-path6;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.hi-patient_band .path7 {
+  &:before {
+    content: $hi-patient_band-path7;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.hi-patient_band .path8 {
+  &:before {
+    content: $hi-patient_band-path8;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.hi-patient_band_alt .path1 {
+  &:before {
+    content: $hi-patient_band_alt-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.hi-patient_band_alt .path2 {
+  &:before {
+    content: $hi-patient_band_alt-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.hi-ppe_apron {
+  &:before {
+    content: $hi-ppe_apron; 
+  }
+}
+.hi-ppe_face_mask {
+  &:before {
+    content: $hi-ppe_face_mask; 
+  }
+}
+.hi-ppe_face_shield {
+  &:before {
+    content: $hi-ppe_face_shield; 
+  }
+}
+.hi-ppe_gloves {
+  &:before {
+    content: $hi-ppe_gloves; 
+  }
+}
+.hi-ppe_goggles {
+  &:before {
+    content: $hi-ppe_goggles; 
+  }
+}
+.hi-ppe_gown {
+  &:before {
+    content: $hi-ppe_gown; 
+  }
+}
+.hi-ppe_mask_n95 {
+  &:before {
+    content: $hi-ppe_mask_n95; 
+  }
+}
+.hi-ppe_sanitizer {
+  &:before {
+    content: $hi-ppe_sanitizer; 
+  }
+}
+.hi-ppe_santizer_alt {
+  &:before {
+    content: $hi-ppe_santizer_alt; 
+  }
+}
+.hi-ppe_suit {
+  &:before {
+    content: $hi-ppe_suit; 
+  }
+}
+.hi-ppe-face-shield-alt {
+  &:before {
+    content: $hi-ppe-face-shield-alt; 
+  }
+}
+.hi-ppe-mask {
+  &:before {
+    content: $hi-ppe-mask; 
+  }
+}
+.hi-respirator {
+  &:before {
+    content: $hi-respirator; 
+  }
+}
+.hi-sling {
+  &:before {
+    content: $hi-sling; 
+  }
+}
+.hi-stethoscope {
+  &:before {
+    content: $hi-stethoscope; 
+  }
+}
+.hi-surgical_sterilization {
+  &:before {
+    content: $hi-surgical_sterilization; 
+  }
+}
+.hi-syringe {
+  &:before {
+    content: $hi-syringe; 
+  }
+}
+.hi-syringe-vaccine {
+  &:before {
+    content: $hi-syringe-vaccine; 
+  }
+}
+.hi-tac {
+  &:before {
+    content: $hi-tac; 
+  }
+}
+.hi-thermometer {
+  &:before {
+    content: $hi-thermometer; 
+  }
+}
+.hi-thermometer_digital {
+  &:before {
+    content: $hi-thermometer_digital; 
+  }
+}
+.hi-treated_water {
+  &:before {
+    content: $hi-treated_water; 
+  }
+}
+.hi-ventilator {
+  &:before {
+    content: $hi-ventilator; 
+  }
+}
+.hi-ventilator_alt {
+  &:before {
+    content: $hi-ventilator_alt; 
+  }
+}
+.hi-virus_lab_research_syringe {
+  &:before {
+    content: $hi-virus_lab_research_syringe; 
+  }
+}
+.hi-virus_lab_research_test_tube {
+  &:before {
+    content: $hi-virus_lab_research_test_tube; 
+  }
+}
+.hi-virus-sanitizer-spray {
+  &:before {
+    content: $hi-virus-sanitizer-spray; 
+  }
+}
+.hi-weight {
+  &:before {
+    content: $hi-weight; 
+  }
+}
+.hi-wheelchair {
+  &:before {
+    content: $hi-wheelchair; 
+  }
+}
+.hi-wheelchair_alt {
+  &:before {
+    content: $hi-wheelchair_alt; 
+  }
+}
+.hi-xray {
+  &:before {
+    content: $hi-xray; 
+  }
+}
+.hi-cone_test_on_nets {
+  &:before {
+    content: $hi-cone_test_on_nets; 
+  }
+}
+.hi-cone_test_on_walls {
+  &:before {
+    content: $hi-cone_test_on_walls; 
+  }
+}
+.hi-hiv_self_test {
+  &:before {
+    content: $hi-hiv_self_test; 
+  }
+}
+.hi-intensity_concentration_bioassays {
+  &:before {
+    content: $hi-intensity_concentration_bioassays; 
+  }
+}
+.hi-malaria_microscope {
+  &:before {
+    content: $hi-malaria_microscope; 
+  }
+}
+.hi-malaria_mixed_microscope {
+  &:before {
+    content: $hi-malaria_mixed_microscope; 
+  }
+}
+.hi-malaria_pf_microscope {
+  &:before {
+    content: $hi-malaria_pf_microscope; 
+  }
+}
+.hi-malaria_pv_microscope {
+  &:before {
+    content: $hi-malaria_pv_microscope; 
+  }
+}
+.hi-malaria_testing {
+  &:before {
+    content: $hi-malaria_testing; 
+  }
+}
+.hi-mosquito_collection {
+  &:before {
+    content: $hi-mosquito_collection; 
+  }
+}
+.hi-rdt_result {
+  &:before {
+    content: $hi-rdt_result; 
+  }
+}
+.hi-rdt_result_invalid {
+  &:before {
+    content: $hi-rdt_result_invalid; 
+  }
+}
+.hi-rdt_result_mixed {
+  &:before {
+    content: $hi-rdt_result_mixed; 
+  }
+}
+.hi-rdt_result_mixed_invalid {
+  &:before {
+    content: $hi-rdt_result_mixed_invalid; 
+  }
+}
+.hi-rdt_result_mixed_invalid_rectangular {
+  &:before {
+    content: $hi-rdt_result_mixed_invalid_rectangular; 
+  }
+}
+.hi-rdt_result_mixed_rectangular {
+  &:before {
+    content: $hi-rdt_result_mixed_rectangular; 
+  }
+}
+.hi-rdt_result_neg {
+  &:before {
+    content: $hi-rdt_result_neg; 
+  }
+}
+.hi-rdt_result_neg_invalid {
+  &:before {
+    content: $hi-rdt_result_neg_invalid; 
+  }
+}
+.hi-rdt_result_neg_invalid_rectangular {
+  &:before {
+    content: $hi-rdt_result_neg_invalid_rectangular; 
+  }
+}
+.hi-rdt_result_neg_rectangular {
+  &:before {
+    content: $hi-rdt_result_neg_rectangular; 
+  }
+}
+.hi-rdt_result_no_test {
+  &:before {
+    content: $hi-rdt_result_no_test; 
+  }
+}
+.hi-rdt_result_pf {
+  &:before {
+    content: $hi-rdt_result_pf; 
+  }
+}
+.hi-rdt_result_pf_invalid {
+  &:before {
+    content: $hi-rdt_result_pf_invalid; 
+  }
+}
+.hi-rdt_result_pf_invalid_rectangular {
+  &:before {
+    content: $hi-rdt_result_pf_invalid_rectangular; 
+  }
+}
+.hi-rdt_result_pf_rectangular {
+  &:before {
+    content: $hi-rdt_result_pf_rectangular; 
+  }
+}
+.hi-rdt_result_positive {
+  &:before {
+    content: $hi-rdt_result_positive; 
+  }
+}
+.hi-rdt_result_pv {
+  &:before {
+    content: $hi-rdt_result_pv; 
+  }
+}
+.hi-rdt_result_pv_invalid {
+  &:before {
+    content: $hi-rdt_result_pv_invalid; 
+  }
+}
+.hi-rdt_result_pv_invalid_rectangular {
+  &:before {
+    content: $hi-rdt_result_pv_invalid_rectangular; 
+  }
+}
+.hi-rdt_result_pv_rectangular {
+  &:before {
+    content: $hi-rdt_result_pv_rectangular; 
+  }
+}
+.hi-synergist_insecticide_bioassays {
+  &:before {
+    content: $hi-synergist_insecticide_bioassays; 
+  }
+}
+.hi-angry {
+  &:before {
+    content: $hi-angry; 
+  }
+}
+.hi-bandaged {
+  &:before {
+    content: $hi-bandaged; 
+  }
+}
+.hi-calm {
+  &:before {
+    content: $hi-calm; 
+  }
+}
+.hi-confused {
+  &:before {
+    content: $hi-confused; 
+  }
+}
+.hi-coughing {
+  &:before {
+    content: $hi-coughing; 
+  }
+}
+.hi-crying {
+  &:before {
+    content: $hi-crying; 
+  }
+}
+.hi-dizzy {
+  &:before {
+    content: $hi-dizzy; 
+  }
+}
+.hi-expectorate {
+  &:before {
+    content: $hi-expectorate; 
+  }
+}
+.hi-eyeglasses-1 {
+  &:before {
+    content: $hi-eyeglasses-1; 
+  }
+}
+.hi-fever-1 {
+  &:before {
+    content: $hi-fever-1; 
+  }
+}
+.hi-happy {
+  &:before {
+    content: $hi-happy; 
+  }
+}
+.hi-loudly_crying {
+  &:before {
+    content: $hi-loudly_crying; 
+  }
+}
+.hi-masked {
+  &:before {
+    content: $hi-masked; 
+  }
+}
+.hi-measles {
+  &:before {
+    content: $hi-measles; 
+  }
+}
+.hi-nauseous {
+  &:before {
+    content: $hi-nauseous; 
+  }
+}
+.hi-nervous {
+  &:before {
+    content: $hi-nervous; 
+  }
+}
+.hi-neutral {
+  &:before {
+    content: $hi-neutral; 
+  }
+}
+.hi-not_ok {
+  &:before {
+    content: $hi-not_ok; 
+  }
+}
+.hi-ok {
+  &:before {
+    content: $hi-ok; 
+  }
+}
+.hi-sad {
+  &:before {
+    content: $hi-sad; 
+  }
+}
+.hi-sleepy {
+  &:before {
+    content: $hi-sleepy; 
+  }
+}
+.hi-sweating-1 {
+  &:before {
+    content: $hi-sweating-1; 
+  }
+}
+.hi-tongue {
+  &:before {
+    content: $hi-tongue; 
+  }
+}
+.hi-vomitting {
+  &:before {
+    content: $hi-vomitting; 
+  }
+}
+.hi-woozy {
+  &:before {
+    content: $hi-woozy; 
+  }
+}
+.hi-contraceptive_diaphragm {
+  &:before {
+    content: $hi-contraceptive_diaphragm; 
+  }
+}
+.hi-contraceptive_injection {
+  &:before {
+    content: $hi-contraceptive_injection; 
+  }
+}
+.hi-contraceptive_patch {
+  &:before {
+    content: $hi-contraceptive_patch; 
+  }
+}
+.hi-contraceptive_voucher {
+  &:before {
+    content: $hi-contraceptive_voucher; 
+  }
+}
+.hi-copper_iud {
+  &:before {
+    content: $hi-copper_iud; 
+  }
+}
+.hi-family_planning {
+  &:before {
+    content: $hi-family_planning; 
+  }
+}
+.hi-female_condom {
+  &:before {
+    content: $hi-female_condom; 
+  }
+}
+.hi-hormonal_ring {
+  &:before {
+    content: $hi-hormonal_ring; 
+  }
+}
+.hi-implant {
+  &:before {
+    content: $hi-implant; 
+  }
+}
+.hi-iud {
+  &:before {
+    content: $hi-iud; 
+  }
+}
+.hi-male_condom {
+  &:before {
+    content: $hi-male_condom; 
+  }
+}
+.hi-oral_contraception_pillsx21 {
+  &:before {
+    content: $hi-oral_contraception_pillsx21; 
+  }
+}
+.hi-oral_contraception_pillsx28 {
+  &:before {
+    content: $hi-oral_contraception_pillsx28; 
+  }
+}
+.hi-sayana_press {
+  &:before {
+    content: $hi-sayana_press; 
+  }
+}
+.hi-sperm {
+  &:before {
+    content: $hi-sperm; 
+  }
+}
+.hi-blister_pills_oval_x1 {
+  &:before {
+    content: $hi-blister_pills_oval_x1; 
+  }
+}
+.hi-blister_pills_oval_x4 {
+  &:before {
+    content: $hi-blister_pills_oval_x4; 
+  }
+}
+.hi-blister_pills_oval_x14 {
+  &:before {
+    content: $hi-blister_pills_oval_x14; 
+  }
+}
+.hi-blister_pills_oval_x16 {
+  &:before {
+    content: $hi-blister_pills_oval_x16; 
+  }
+}
+.hi-blister_pills_round_x1 {
+  &:before {
+    content: $hi-blister_pills_round_x1; 
+  }
+}
+.hi-blister_pills_round_x4 {
+  &:before {
+    content: $hi-blister_pills_round_x4; 
+  }
+}
+.hi-blister_pills_round_x14 {
+  &:before {
+    content: $hi-blister_pills_round_x14; 
+  }
+}
+.hi-blister_pills_round_x16 {
+  &:before {
+    content: $hi-blister_pills_round_x16; 
+  }
+}
+.hi-medicines {
+  &:before {
+    content: $hi-medicines; 
+  }
+}
+.hi-pill_1 {
+  &:before {
+    content: $hi-pill_1; 
+  }
+}
+.hi-pills_2 {
+  &:before {
+    content: $hi-pills_2; 
+  }
+}
+.hi-pills_3 {
+  &:before {
+    content: $hi-pills_3; 
+  }
+}
+.hi-pills_4 {
+  &:before {
+    content: $hi-pills_4; 
+  }
+}
+.hi-bandage_adhesive {
+  &:before {
+    content: $hi-bandage_adhesive; 
+  }
+}
+.hi-bills {
+  &:before {
+    content: $hi-bills; 
+  }
+}
+.hi-cleaning {
+  &:before {
+    content: $hi-cleaning; 
+  }
+}
+.hi-coins {
+  &:before {
+    content: $hi-coins; 
+  }
+}
+.hi-construction {
+  &:before {
+    content: $hi-construction; 
+  }
+}
+.hi-credit_card {
+  &:before {
+    content: $hi-credit_card; 
+  }
+}
+.hi-desktop_app {
+  &:before {
+    content: $hi-desktop_app; 
+  }
+}
+.hi-hot_meal {
+  &:before {
+    content: $hi-hot_meal; 
+  }
+}
+.hi-i_utensils {
+  &:before {
+    content: $hi-i_utensils; 
+  }
+}
+.hi-justice {
+  &:before {
+    content: $hi-justice; 
+  }
+}
+.hi-money_bag {
+  &:before {
+    content: $hi-money_bag; 
+  }
+}
+.hi-phone {
+  &:before {
+    content: $hi-phone; 
+  }
+}
+.hi-rdt_result_out_stock {
+  &:before {
+    content: $hi-rdt_result_out_stock; 
+  }
+}
+.hi-running_water {
+  &:before {
+    content: $hi-running_water; 
+  }
+}
+.hi-spreadsheets {
+  &:before {
+    content: $hi-spreadsheets; 
+  }
+}
+.hi-stock_out {
+  &:before {
+    content: $hi-stock_out; 
+  }
+}
+.hi-umbrella {
+  &:before {
+    content: $hi-umbrella; 
+  }
+}
+.hi-unhealthy_food {
+  &:before {
+    content: $hi-unhealthy_food; 
+  }
+}
+.hi-agriculture {
+  &:before {
+    content: $hi-agriculture; 
+  }
+}
+.hi-agriculture_worker {
+  &:before {
+    content: $hi-agriculture_worker; 
+  }
+}
+.hi-agriculture_worker_alt {
+  &:before {
+    content: $hi-agriculture_worker_alt; 
+  }
+}
+.hi-ancv {
+  &:before {
+    content: $hi-ancv; 
+  }
+}
+.hi-asthma {
+  &:before {
+    content: $hi-asthma; 
+  }
+}
+.hi-baby_0203_alt {
+  &:before {
+    content: $hi-baby_0203_alt; 
+  }
+}
+.hi-baby_0203m {
+  &:before {
+    content: $hi-baby_0203m; 
+  }
+}
+.hi-baby_0306m {
+  &:before {
+    content: $hi-baby_0306m; 
+  }
+}
+.hi-baby_female_0203m_alt {
+  &:before {
+    content: $hi-baby_female_0203m_alt; 
+  }
+}
+.hi-baby_female_0306m {
+  &:before {
+    content: $hi-baby_female_0306m; 
+  }
+}
+.hi-baby_female_0609m {
+  &:before {
+    content: $hi-baby_female_0609m; 
+  }
+}
+.hi-baby_male_0203m_alt {
+  &:before {
+    content: $hi-baby_male_0203m_alt; 
+  }
+}
+.hi-baby_male_0306m {
+  &:before {
+    content: $hi-baby_male_0306m; 
+  }
+}
+.hi-baby_male_0609m {
+  &:before {
+    content: $hi-baby_male_0609m; 
+  }
+}
+.hi-boy_0105y {
+  &:before {
+    content: $hi-boy_0105y; 
+  }
+}
+.hi-boy_1015y {
+  &:before {
+    content: $hi-boy_1015y; 
+  }
+}
+.hi-call_centre {
+  &:before {
+    content: $hi-call_centre; 
+  }
+}
+.hi-child_care {
+  &:before {
+    content: $hi-child_care; 
+  }
+}
+.hi-child_cognition {
+  &:before {
+    content: $hi-child_cognition; 
+  }
+}
+.hi-child_program {
+  &:before {
+    content: $hi-child_program; 
+  }
+}
+.hi-city_worker {
+  &:before {
+    content: $hi-city_worker; 
+  }
+}
+.hi-clean_hands {
+  &:before {
+    content: $hi-clean_hands; 
+  }
+}
+.hi-community_healthworker {
+  &:before {
+    content: $hi-community_healthworker; 
+  }
+}
+.hi-construction_worker {
+  &:before {
+    content: $hi-construction_worker; 
+  }
+}
+.hi-diabetes {
+  &:before {
+    content: $hi-diabetes; 
+  }
+}
+.hi-doctor {
+  &:before {
+    content: $hi-doctor; 
+  }
+}
+.hi-doctor_female {
+  &:before {
+    content: $hi-doctor_female; 
+  }
+}
+.hi-doctor_male {
+  &:before {
+    content: $hi-doctor_male; 
+  }
+}
+.hi-domestic_worker {
+  &:before {
+    content: $hi-domestic_worker; 
+  }
+}
+.hi-domestic_worker_alt {
+  &:before {
+    content: $hi-domestic_worker_alt; 
+  }
+}
+.hi-elderly {
+  &:before {
+    content: $hi-elderly; 
+  }
+}
+.hi-exercise_running {
+  &:before {
+    content: $hi-exercise_running; 
+  }
+}
+.hi-exercise_walk_supported {
+  &:before {
+    content: $hi-exercise_walk_supported; 
+  }
+}
+.hi-exercise_walking {
+  &:before {
+    content: $hi-exercise_walking; 
+  }
+}
+.hi-exercise_weights {
+  &:before {
+    content: $hi-exercise_weights; 
+  }
+}
+.hi-factory_worker {
+  &:before {
+    content: $hi-factory_worker; 
+  }
+}
+.hi-female_and_male {
+  &:before {
+    content: $hi-female_and_male; 
+  }
+}
+.hi-female_sex_worker {
+  &:before {
+    content: $hi-female_sex_worker; 
+  }
+}
+.hi-fetus {
+  &:before {
+    content: $hi-fetus; 
+  }
+}
+.hi-forum {
+  &:before {
+    content: $hi-forum; 
+  }
+}
+.hi-girl_0105y {
+  &:before {
+    content: $hi-girl_0105y; 
+  }
+}
+.hi-girl_1015y {
+  &:before {
+    content: $hi-girl_1015y; 
+  }
+}
+.hi-group_discussion_meeting {
+  &:before {
+    content: $hi-group_discussion_meeting; 
+  }
+}
+.hi-group_discussion_meetingx3 {
+  &:before {
+    content: $hi-group_discussion_meetingx3; 
+  }
+}
+.hi-health_worker {
+  &:before {
+    content: $hi-health_worker; 
+  }
+}
+.hi-i_groups_perspective_crowd {
+  &:before {
+    content: $hi-i_groups_perspective_crowd; 
+  }
+}
+.hi-i_training_class {
+  &:before {
+    content: $hi-i_training_class; 
+  }
+}
+.hi-lactation {
+  &:before {
+    content: $hi-lactation; 
+  }
+}
+.hi-male_and_female {
+  &:before {
+    content: $hi-male_and_female; 
+  }
+}
+.hi-male_sex_worker {
+  &:before {
+    content: $hi-male_sex_worker; 
+  }
+}
+.hi-man {
+  &:before {
+    content: $hi-man; 
+  }
+}
+.hi-mental_disorders {
+  &:before {
+    content: $hi-mental_disorders; 
+  }
+}
+.hi-military_worker {
+  &:before {
+    content: $hi-military_worker; 
+  }
+}
+.hi-miner_worker {
+  &:before {
+    content: $hi-miner_worker; 
+  }
+}
+.hi-miner_worker_alt {
+  &:before {
+    content: $hi-miner_worker_alt; 
+  }
+}
+.hi-msm {
+  &:before {
+    content: $hi-msm; 
+  }
+}
+.hi-neuro_surgery {
+  &:before {
+    content: $hi-neuro_surgery; 
+  }
+}
+.hi-nurse {
+  &:before {
+    content: $hi-nurse; 
+  }
+}
+.hi-officer {
+  &:before {
+    content: $hi-officer; 
+  }
+}
+.hi-old_man {
+  &:before {
+    content: $hi-old_man; 
+  }
+}
+.hi-old_woman {
+  &:before {
+    content: $hi-old_woman; 
+  }
+}
+.hi-outpatient {
+  &:before {
+    content: $hi-outpatient; 
+  }
+}
+.hi-pediatric_surgery {
+  &:before {
+    content: $hi-pediatric_surgery; 
+  }
+}
+.hi-people {
+  &:before {
+    content: $hi-people; 
+  }
+}
+.hi-person {
+  &:before {
+    content: $hi-person; 
+  }
+}
+.hi-plantation_worker {
+  &:before {
+    content: $hi-plantation_worker; 
+  }
+}
+.hi-plantation_worker_alt {
+  &:before {
+    content: $hi-plantation_worker_alt; 
+  }
+}
+.hi-pregnant {
+  &:before {
+    content: $hi-pregnant; 
+  }
+}
+.hi-pregnant_32w {
+  &:before {
+    content: $hi-pregnant_32w; 
+  }
+}
+.hi-pregnant_0812w {
+  &:before {
+    content: $hi-pregnant_0812w; 
+  }
+}
+.hi-pregnant_2426w {
+  &:before {
+    content: $hi-pregnant_2426w; 
+  }
+}
+.hi-pregnant_3638w {
+  &:before {
+    content: $hi-pregnant_3638w; 
+  }
+}
+.hi-prisoner {
+  &:before {
+    content: $hi-prisoner; 
+  }
+}
+.hi-pwid {
+  &:before {
+    content: $hi-pwid; 
+  }
+}
+.hi-refused {
+  &:before {
+    content: $hi-refused; 
+  }
+}
+.hi-rmnh {
+  &:before {
+    content: $hi-rmnh; 
+  }
+}
+.hi-security_worker {
+  &:before {
+    content: $hi-security_worker; 
+  }
+}
+.hi-speech_language_therapy {
+  &:before {
+    content: $hi-speech_language_therapy; 
+  }
+}
+.hi-spraying {
+  &:before {
+    content: $hi-spraying; 
+  }
+}
+.hi-symptom {
+  &:before {
+    content: $hi-symptom; 
+  }
+}
+.hi-traumatism {
+  &:before {
+    content: $hi-traumatism; 
+  }
+}
+.hi-travel {
+  &:before {
+    content: $hi-travel; 
+  }
+}
+.hi-travel_alt {
+  &:before {
+    content: $hi-travel_alt; 
+  }
+}
+.hi-truck_driver {
+  &:before {
+    content: $hi-truck_driver; 
+  }
+}
+.hi-wash_hands {
+  &:before {
+    content: $hi-wash_hands; 
+  }
+}
+.hi-water_sanitation {
+  &:before {
+    content: $hi-water_sanitation; 
+  }
+}
+.hi-woman {
+  &:before {
+    content: $hi-woman; 
+  }
+}
+.hi-world_care {
+  &:before {
+    content: $hi-world_care; 
+  }
+}
+.hi-young_people {
+  &:before {
+    content: $hi-young_people; 
+  }
+}
+.hi-ambulatory_clinic {
+  &:before {
+    content: $hi-ambulatory_clinic; 
+  }
+}
+.hi-church {
+  &:before {
+    content: $hi-church; 
+  }
+}
+.hi-city {
+  &:before {
+    content: $hi-city; 
+  }
+}
+.hi-emergency_post {
+  &:before {
+    content: $hi-emergency_post; 
+  }
+}
+.hi-forest {
+  &:before {
+    content: $hi-forest; 
+  }
+}
+.hi-forest_persons {
+  &:before {
+    content: $hi-forest_persons; 
+  }
+}
+.hi-home {
+  &:before {
+    content: $hi-home; 
+  }
+}
+.hi-home_alt {
+  &:before {
+    content: $hi-home_alt; 
+  }
+}
+.hi-hospital {
+  &:before {
+    content: $hi-hospital; 
+  }
+}
+.hi-letrina {
+  &:before {
+    content: $hi-letrina; 
+  }
+}
+.hi-letrina_alt {
+  &:before {
+    content: $hi-letrina_alt; 
+  }
+}
+.hi-market_stall {
+  &:before {
+    content: $hi-market_stall; 
+  }
+}
+.hi-ministry_of_health {
+  &:before {
+    content: $hi-ministry_of_health; 
+  }
+}
+.hi-mosque {
+  &:before {
+    content: $hi-mosque; 
+  }
+}
+.hi-palm_branches_roof {
+  &:before {
+    content: $hi-palm_branches_roof; 
+  }
+}
+.hi-proper_roof {
+  &:before {
+    content: $hi-proper_roof; 
+  }
+}
+.hi-rural_post {
+  &:before {
+    content: $hi-rural_post; 
+  }
+}
+.hi-rural_post_alt {
+  &:before {
+    content: $hi-rural_post_alt; 
+  }
+}
+.hi-temple {
+  &:before {
+    content: $hi-temple; 
+  }
+}
+.hi-temple_alt {
+  &:before {
+    content: $hi-temple_alt; 
+  }
+}
+.hi-village {
+  &:before {
+    content: $hi-village; 
+  }
+}
+.hi-circle_large {
+  &:before {
+    content: $hi-circle_large; 
+  }
+}
+.hi-circle_medium {
+  &:before {
+    content: $hi-circle_medium; 
+  }
+}
+.hi-circle_small {
+  &:before {
+    content: $hi-circle_small; 
+  }
+}
+.hi-information_campaign {
+  &:before {
+    content: $hi-information_campaign; 
+  }
+}
+.hi-square_large {
+  &:before {
+    content: $hi-square_large; 
+  }
+}
+.hi-square_medium {
+  &:before {
+    content: $hi-square_medium; 
+  }
+}
+.hi-square_small {
+  &:before {
+    content: $hi-square_small; 
+  }
+}
+.hi-star_large {
+  &:before {
+    content: $hi-star_large; 
+  }
+}
+.hi-star_medium {
+  &:before {
+    content: $hi-star_medium; 
+  }
+}
+.hi-star_small {
+  &:before {
+    content: $hi-star_small; 
+  }
+}
+.hi-triangle_large {
+  &:before {
+    content: $hi-triangle_large; 
+  }
+}
+.hi-triangle_medium {
+  &:before {
+    content: $hi-triangle_medium; 
+  }
+}
+.hi-triangle_small {
+  &:before {
+    content: $hi-triangle_small; 
+  }
+}
+.hi-accident_and_emergency {
+  &:before {
+    content: $hi-accident_and_emergency; 
+  }
+}
+.hi-admissions {
+  &:before {
+    content: $hi-admissions; 
+  }
+}
+.hi-biochemistry_laboratory {
+  &:before {
+    content: $hi-biochemistry_laboratory; 
+  }
+}
+.hi-cardiology {
+  &:before {
+    content: $hi-cardiology; 
+  }
+}
+.hi-chaplaincy {
+  &:before {
+    content: $hi-chaplaincy; 
+  }
+}
+.hi-coronary_care_unit {
+  &:before {
+    content: $hi-coronary_care_unit; 
+  }
+}
+.hi-critical_care {
+  &:before {
+    content: $hi-critical_care; 
+  }
+}
+.hi-discharge_lounge {
+  &:before {
+    content: $hi-discharge_lounge; 
+  }
+}
+.hi-ears_nose_and_throat {
+  &:before {
+    content: $hi-ears_nose_and_throat; 
+  }
+}
+.hi-endocrinology {
+  &:before {
+    content: $hi-endocrinology; 
+  }
+}
+.hi-finance_dept {
+  &:before {
+    content: $hi-finance_dept; 
+  }
+}
+.hi-gastroenterology {
+  &:before {
+    content: $hi-gastroenterology; 
+  }
+}
+.hi-geriatrics {
+  &:before {
+    content: $hi-geriatrics; 
+  }
+}
+.hi-gym {
+  &:before {
+    content: $hi-gym; 
+  }
+}
+.hi-gynecology {
+  &:before {
+    content: $hi-gynecology; 
+  }
+}
+.hi-hematology {
+  &:before {
+    content: $hi-hematology; 
+  }
+}
+.hi-hematology_laboratory {
+  &:before {
+    content: $hi-hematology_laboratory; 
+  }
+}
+.hi-hepatology {
+  &:before {
+    content: $hi-hepatology; 
+  }
+}
+.hi-human_resoruces {
+  &:before {
+    content: $hi-human_resoruces; 
+  }
+}
+.hi-intensive_care_unit {
+  &:before {
+    content: $hi-intensive_care_unit; 
+  }
+}
+.hi-medical_records {
+  &:before {
+    content: $hi-medical_records; 
+  }
+}
+.hi-nephrology {
+  &:before {
+    content: $hi-nephrology; 
+  }
+}
+.hi-obstetricsmonia {
+  &:before {
+    content: $hi-obstetricsmonia; 
+  }
+}
+.hi-oncology {
+  &:before {
+    content: $hi-oncology; 
+  }
+}
+.hi-opthalmology {
+  &:before {
+    content: $hi-opthalmology; 
+  }
+}
+.hi-orthopaedics {
+  &:before {
+    content: $hi-orthopaedics; 
+  }
+}
+.hi-outpatient_department {
+  &:before {
+    content: $hi-outpatient_department; 
+  }
+}
+.hi-pediatrics {
+  &:before {
+    content: $hi-pediatrics; 
+  }
+}
+.hi-pharmacy {
+  &:before {
+    content: $hi-pharmacy; 
+  }
+}
+.hi-physical_therapy {
+  &:before {
+    content: $hi-physical_therapy; 
+  }
+}
+.hi-psychology {
+  &:before {
+    content: $hi-psychology; 
+  }
+}
+.hi-radiology {
+  &:before {
+    content: $hi-radiology; 
+  }
+}
+.hi-respirology {
+  &:before {
+    content: $hi-respirology; 
+  }
+}
+.hi-rheumatology {
+  &:before {
+    content: $hi-rheumatology; 
+  }
+}
+.hi-social_work {
+  &:before {
+    content: $hi-social_work; 
+  }
+}
+.hi-sonography {
+  &:before {
+    content: $hi-sonography; 
+  }
+}
+.hi-speech_language_therapy-1 {
+  &:before {
+    content: $hi-speech_language_therapy-1; 
+  }
+}
+.hi-urology {
+  &:before {
+    content: $hi-urology; 
+  }
+}
+.hi-g {
+  &:before {
+    content: $hi-g; 
+  }
+}
+.hi-g1 {
+  &:before {
+    content: $hi-g1; 
+  }
+}
+.hi-alcohol {
+  &:before {
+    content: $hi-alcohol; 
+  }
+}
+.hi-alert {
+  &:before {
+    content: $hi-alert; 
+  }
+}
+.hi-alert_circle {
+  &:before {
+    content: $hi-alert_circle; 
+  }
+}
+.hi-alert_triangle {
+  &:before {
+    content: $hi-alert_triangle; 
+  }
+}
+.hi-animal_chicken {
+  &:before {
+    content: $hi-animal_chicken; 
+  }
+}
+.hi-animal_cow {
+  &:before {
+    content: $hi-animal_cow; 
+  }
+}
+.hi-animal_donkey {
+  &:before {
+    content: $hi-animal_donkey; 
+  }
+}
+.hi-animal_spider {
+  &:before {
+    content: $hi-animal_spider; 
+  }
+}
+.hi-animal_tick {
+  &:before {
+    content: $hi-animal_tick; 
+  }
+}
+.hi-assembly_point {
+  &:before {
+    content: $hi-assembly_point; 
+  }
+}
+.hi-award_ribbon {
+  &:before {
+    content: $hi-award_ribbon; 
+  }
+}
+.hi-award_trophy {
+  &:before {
+    content: $hi-award_trophy; 
+  }
+}
+.hi-book {
+  &:before {
+    content: $hi-book; 
+  }
+}
+.hi-breeding_sites {
+  &:before {
+    content: $hi-breeding_sites; 
+  }
+}
+.hi-calendar {
+  &:before {
+    content: $hi-calendar; 
+  }
+}
+.hi-calendar-quarantine {
+  &:before {
+    content: $hi-calendar-quarantine; 
+  }
+}
+.hi-cannabis {
+  &:before {
+    content: $hi-cannabis; 
+  }
+}
+.hi-cardiogram {
+  &:before {
+    content: $hi-cardiogram; 
+  }
+}
+.hi-cardiogram_e {
+  &:before {
+    content: $hi-cardiogram_e; 
+  }
+}
+.hi-chart_bar {
+  &:before {
+    content: $hi-chart_bar; 
+  }
+}
+.hi-chart_bar_stacked {
+  &:before {
+    content: $hi-chart_bar_stacked; 
+  }
+}
+.hi-chart_line {
+  &:before {
+    content: $hi-chart_line; 
+  }
+}
+.hi-chart_line_stacked {
+  &:before {
+    content: $hi-chart_line_stacked; 
+  }
+}
+.hi-chart_pie {
+  &:before {
+    content: $hi-chart_pie; 
+  }
+}
+.hi-chart-cured-decreasing {
+  &:before {
+    content: $hi-chart-cured-decreasing; 
+  }
+}
+.hi-chart-cured-increasing {
+  &:before {
+    content: $hi-chart-cured-increasing; 
+  }
+}
+.hi-chart-death-rate-decreasing {
+  &:before {
+    content: $hi-chart-death-rate-decreasing; 
+  }
+}
+.hi-chart-death-rate-increasing {
+  &:before {
+    content: $hi-chart-death-rate-increasing; 
+  }
+}
+.hi-chart-death-rate-stable {
+  &:before {
+    content: $hi-chart-death-rate-stable; 
+  }
+}
+.hi-chart-infected-decreasing {
+  &:before {
+    content: $hi-chart-infected-decreasing; 
+  }
+}
+.hi-chart-infected-increasing {
+  &:before {
+    content: $hi-chart-infected-increasing; 
+  }
+}
+.hi-chart-infected-stable {
+  &:before {
+    content: $hi-chart-infected-stable; 
+  }
+}
+.hi-cholera {
+  &:before {
+    content: $hi-cholera; 
+  }
+}
+.hi-clinical_f {
+  &:before {
+    content: $hi-clinical_f; 
+  }
+}
+.hi-clinical_fe {
+  &:before {
+    content: $hi-clinical_fe; 
+  }
+}
+.hi-communication {
+  &:before {
+    content: $hi-communication; 
+  }
+}
+.hi-community_meeting {
+  &:before {
+    content: $hi-community_meeting; 
+  }
+}
+.hi-contact_support {
+  &:before {
+    content: $hi-contact_support; 
+  }
+}
+.hi-database {
+  &:before {
+    content: $hi-database; 
+  }
+}
+.hi-death {
+  &:before {
+    content: $hi-death; 
+  }
+}
+.hi-death_alt {
+  &:before {
+    content: $hi-death_alt; 
+  }
+}
+.hi-death_alt2 {
+  &:before {
+    content: $hi-death_alt2; 
+  }
+}
+.hi-default {
+  &:before {
+    content: $hi-default; 
+  }
+}
+.hi-dhis2_logo {
+  &:before {
+    content: $hi-dhis2_logo; 
+  }
+}
+.hi-diabetes-1 {
+  &:before {
+    content: $hi-diabetes-1; 
+  }
+}
+.hi-diabetes_measure {
+  &:before {
+    content: $hi-diabetes_measure; 
+  }
+}
+.hi-discharge {
+  &:before {
+    content: $hi-discharge; 
+  }
+}
+.hi-eco_care {
+  &:before {
+    content: $hi-eco_care; 
+  }
+}
+.hi-electricity {
+  &:before {
+    content: $hi-electricity; 
+  }
+}
+.hi-entry {
+  &:before {
+    content: $hi-entry; 
+  }
+}
+.hi-excel_logo {
+  &:before {
+    content: $hi-excel_logo; 
+  }
+}
+.hi-exercise {
+  &:before {
+    content: $hi-exercise; 
+  }
+}
+.hi-FHIR_logo {
+  &:before {
+    content: $hi-FHIR_logo; 
+  }
+}
+.hi-fingerprint {
+  &:before {
+    content: $hi-fingerprint; 
+  }
+}
+.hi-fruits {
+  &:before {
+    content: $hi-fruits; 
+  }
+}
+.hi-geo_location {
+  &:before {
+    content: $hi-geo_location; 
+  }
+}
+.hi-global-pandemic {
+  &:before {
+    content: $hi-global-pandemic; 
+  }
+}
+.hi-globe {
+  &:before {
+    content: $hi-globe; 
+  }
+}
+.hi-guide_dog {
+  &:before {
+    content: $hi-guide_dog; 
+  }
+}
+.hi-hazardous {
+  &:before {
+    content: $hi-hazardous; 
+  }
+}
+.hi-health {
+  &:before {
+    content: $hi-health; 
+  }
+}
+.hi-health_alt {
+  &:before {
+    content: $hi-health_alt; 
+  }
+}
+.hi-health_data_security {
+  &:before {
+    content: $hi-health_data_security; 
+  }
+}
+.hi-health_data_sync {
+  &:before {
+    content: $hi-health_data_sync; 
+  }
+}
+.hi-health_literacy {
+  &:before {
+    content: $hi-health_literacy; 
+  }
+}
+.hi-health_worker_form {
+  &:before {
+    content: $hi-health_worker_form; 
+  }
+}
+.hi-heart-1 {
+  &:before {
+    content: $hi-heart-1; 
+  }
+}
+.hi-heart_cardiogram {
+  &:before {
+    content: $hi-heart_cardiogram; 
+  }
+}
+.hi-high_bars {
+  &:before {
+    content: $hi-high_bars; 
+  }
+}
+.hi-high_level {
+  &:before {
+    content: $hi-high_level; 
+  }
+}
+.hi-home-quarantine {
+  &:before {
+    content: $hi-home-quarantine; 
+  }
+}
+.hi-hospice {
+  &:before {
+    content: $hi-hospice; 
+  }
+}
+.hi-hospital_symbol {
+  &:before {
+    content: $hi-hospital_symbol; 
+  }
+}
+.hi-i_certificate_paper {
+  &:before {
+    content: $hi-i_certificate_paper; 
+  }
+}
+.hi-i_documents_accepted {
+  &:before {
+    content: $hi-i_documents_accepted; 
+  }
+}
+.hi-i_documents_denied {
+  &:before {
+    content: $hi-i_documents_denied; 
+  }
+}
+.hi-i_exam_multiple_choice {
+  &:before {
+    content: $hi-i_exam_multiple_choice; 
+  }
+}
+.hi-i_exam_qualification {
+  &:before {
+    content: $hi-i_exam_qualification; 
+  }
+}
+.hi-i_note_action {
+  &:before {
+    content: $hi-i_note_action; 
+  }
+}
+.hi-i_schedule_school_date_time {
+  &:before {
+    content: $hi-i_schedule_school_date_time; 
+  }
+}
+.hi-imm {
+  &:before {
+    content: $hi-imm; 
+  }
+}
+.hi-info {
+  &:before {
+    content: $hi-info; 
+  }
+}
+.hi-insecticide_resistance {
+  &:before {
+    content: $hi-insecticide_resistance; 
+  }
+}
+.hi-low_bars {
+  &:before {
+    content: $hi-low_bars; 
+  }
+}
+.hi-low_level {
+  &:before {
+    content: $hi-low_level; 
+  }
+}
+.hi-magnifying_glass {
+  &:before {
+    content: $hi-magnifying_glass; 
+  }
+}
+.hi-malaria_outbreak {
+  &:before {
+    content: $hi-malaria_outbreak; 
+  }
+}
+.hi-medical_advice {
+  &:before {
+    content: $hi-medical_advice; 
+  }
+}
+.hi-medium_bars {
+  &:before {
+    content: $hi-medium_bars; 
+  }
+}
+.hi-medium_level {
+  &:before {
+    content: $hi-medium_level; 
+  }
+}
+.hi-megaphone {
+  &:before {
+    content: $hi-megaphone; 
+  }
+}
+.hi-mosquito {
+  &:before {
+    content: $hi-mosquito; 
+  }
+}
+.hi-negative {
+  &:before {
+    content: $hi-negative; 
+  }
+}
+.hi-network_4g {
+  &:before {
+    content: $hi-network_4g; 
+  }
+}
+.hi-network_5g {
+  &:before {
+    content: $hi-network_5g; 
+  }
+}
+.hi-no {
+  &:before {
+    content: $hi-no; 
+  }
+}
+.hi-nutrition {
+  &:before {
+    content: $hi-nutrition; 
+  }
+}
+.hi-openMRS_logo {
+  &:before {
+    content: $hi-openMRS_logo; 
+  }
+}
+.hi-outbreak {
+  &:before {
+    content: $hi-outbreak; 
+  }
+}
+.hi-palliative-care {
+  &:before {
+    content: $hi-palliative-care; 
+  }
+}
+.hi-paved_road {
+  &:before {
+    content: $hi-paved_road; 
+  }
+}
+.hi-paved_road_alt {
+  &:before {
+    content: $hi-paved_road_alt; 
+  }
+}
+.hi-peace {
+  &:before {
+    content: $hi-peace; 
+  }
+}
+.hi-pharmacy-1 {
+  &:before {
+    content: $hi-pharmacy-1; 
+  }
+}
+.hi-pharmacy_alt {
+  &:before {
+    content: $hi-pharmacy_alt; 
+  }
+}
+.hi-poison {
+  &:before {
+    content: $hi-poison; 
+  }
+}
+.hi-polygon {
+  &:before {
+    content: $hi-polygon; 
+  }
+}
+.hi-positive {
+  &:before {
+    content: $hi-positive; 
+  }
+}
+.hi-prescription_document {
+  &:before {
+    content: $hi-prescription_document; 
+  }
+}
+.hi-provider_fst {
+  &:before {
+    content: $hi-provider_fst; 
+  }
+}
+.hi-question {
+  &:before {
+    content: $hi-question; 
+  }
+}
+.hi-question_circle {
+  &:before {
+    content: $hi-question_circle; 
+  }
+}
+.hi-question_triangle {
+  &:before {
+    content: $hi-question_triangle; 
+  }
+}
+.hi-referral {
+  &:before {
+    content: $hi-referral; 
+  }
+}
+.hi-register_book {
+  &:before {
+    content: $hi-register_book; 
+  }
+}
+.hi-running_water_alt {
+  &:before {
+    content: $hi-running_water_alt; 
+  }
+}
+.hi-rx {
+  &:before {
+    content: $hi-rx; 
+  }
+}
+.hi-sexual_reproductive_health {
+  &:before {
+    content: $hi-sexual_reproductive_health; 
+  }
+}
+.hi-simple_logo {
+  &:before {
+    content: $hi-simple_logo; 
+  }
+}
+.hi-smoking {
+  &:before {
+    content: $hi-smoking; 
+  }
+}
+.hi-smoking_cessation {
+  &:before {
+    content: $hi-smoking_cessation; 
+  }
+}
+.hi-social_distancing {
+  &:before {
+    content: $hi-social_distancing; 
+  }
+}
+.hi-social_distancing_alt {
+  &:before {
+    content: $hi-social_distancing_alt; 
+  }
+}
+.hi-stop {
+  &:before {
+    content: $hi-stop; 
+  }
+}
+.hi-tally {
+  &:before {
+    content: $hi-tally; 
+  }
+}
+.hi-transgender {
+  &:before {
+    content: $hi-transgender; 
+  }
+}
+.hi-ui_folder {
+  &:before {
+    content: $hi-ui_folder; 
+  }
+}
+.hi-ui_folder_family {
+  &:before {
+    content: $hi-ui_folder_family; 
+  }
+}
+.hi-ui_menu {
+  &:before {
+    content: $hi-ui_menu; 
+  }
+}
+.hi-ui_menu_grid {
+  &:before {
+    content: $hi-ui_menu_grid; 
+  }
+}
+.hi-ui_preferences {
+  &:before {
+    content: $hi-ui_preferences; 
+  }
+}
+.hi-ui_secure {
+  &:before {
+    content: $hi-ui_secure; 
+  }
+}
+.hi-ui_settings {
+  &:before {
+    content: $hi-ui_settings; 
+  }
+}
+.hi-ui_user_profile {
+  &:before {
+    content: $hi-ui_user_profile; 
+  }
+}
+.hi-ui_zoom {
+  &:before {
+    content: $hi-ui_zoom; 
+  }
+}
+.hi-ui_zoom_in {
+  &:before {
+    content: $hi-ui_zoom_in; 
+  }
+}
+.hi-ui_zoom_out {
+  &:before {
+    content: $hi-ui_zoom_out; 
+  }
+}
+.hi-un_paved_road {
+  &:before {
+    content: $hi-un_paved_road; 
+  }
+}
+.hi-virus {
+  &:before {
+    content: $hi-virus; 
+  }
+}
+.hi-virus_alt {
+  &:before {
+    content: $hi-virus_alt; 
+  }
+}
+.hi-virus_patient {
+  &:before {
+    content: $hi-virus_patient; 
+  }
+}
+.hi-virus_research_alt {
+  &:before {
+    content: $hi-virus_research_alt; 
+  }
+}
+.hi-virus-mutation {
+  &:before {
+    content: $hi-virus-mutation; 
+  }
+}
+.hi-virus-research {
+  &:before {
+    content: $hi-virus-research; 
+  }
+}
+.hi-virus-shield {
+  &:before {
+    content: $hi-virus-shield; 
+  }
+}
+.hi-water_treatment {
+  &:before {
+    content: $hi-water_treatment; 
+  }
+}
+.hi-yes {
+  &:before {
+    content: $hi-yes; 
+  }
+}
+.hi-uniEB27 {
+  &:before {
+    content: $hi-uniEB27; 
+  }
+}
+.hi-0 {
+  &:before {
+    content: $hi-0; 
+  }
+}
+.hi-1 {
+  &:before {
+    content: $hi-1; 
+  }
+}
+.hi-2 {
+  &:before {
+    content: $hi-2; 
+  }
+}
+.hi-3 {
+  &:before {
+    content: $hi-3; 
+  }
+}
+.hi-4 {
+  &:before {
+    content: $hi-4; 
+  }
+}
+.hi-5 {
+  &:before {
+    content: $hi-5; 
+  }
+}
+.hi-6 {
+  &:before {
+    content: $hi-6; 
+  }
+}
+.hi-7 {
+  &:before {
+    content: $hi-7; 
+  }
+}
+.hi-8 {
+  &:before {
+    content: $hi-8; 
+  }
+}
+.hi-9 {
+  &:before {
+    content: $hi-9; 
+  }
+}
+.hi-A {
+  &:before {
+    content: $hi-A; 
+  }
+}
+.hi-B {
+  &:before {
+    content: $hi-B; 
+  }
+}
+.hi-C {
+  &:before {
+    content: $hi-C; 
+  }
+}
+.hi-D {
+  &:before {
+    content: $hi-D; 
+  }
+}
+.hi-dollar {
+  &:before {
+    content: $hi-dollar; 
+  }
+}
+.hi-E {
+  &:before {
+    content: $hi-E; 
+  }
+}
+.hi-F {
+  &:before {
+    content: $hi-F; 
+  }
+}
+.hi-G {
+  &:before {
+    content: $hi-G; 
+  }
+}
+.hi-ghana {
+  &:before {
+    content: $hi-ghana; 
+  }
+}
+.hi-H {
+  &:before {
+    content: $hi-H; 
+  }
+}
+.hi-I {
+  &:before {
+    content: $hi-I; 
+  }
+}
+.hi-J {
+  &:before {
+    content: $hi-J; 
+  }
+}
+.hi-K {
+  &:before {
+    content: $hi-K; 
+  }
+}
+.hi-L {
+  &:before {
+    content: $hi-L; 
+  }
+}
+.hi-M {
+  &:before {
+    content: $hi-M; 
+  }
+}
+.hi-N {
+  &:before {
+    content: $hi-N; 
+  }
+}
+.hi-O {
+  &:before {
+    content: $hi-O; 
+  }
+}
+.hi-P {
+  &:before {
+    content: $hi-P; 
+  }
+}
+.hi-Q {
+  &:before {
+    content: $hi-Q; 
+  }
+}
+.hi-question_mark {
+  &:before {
+    content: $hi-question_mark; 
+  }
+}
+.hi-R {
+  &:before {
+    content: $hi-R; 
+  }
+}
+.hi-rupee {
+  &:before {
+    content: $hi-rupee; 
+  }
+}
+.hi-S {
+  &:before {
+    content: $hi-S; 
+  }
+}
+.hi-T {
+  &:before {
+    content: $hi-T; 
+  }
+}
+.hi-U {
+  &:before {
+    content: $hi-U; 
+  }
+}
+.hi-V {
+  &:before {
+    content: $hi-V; 
+  }
+}
+.hi-W {
+  &:before {
+    content: $hi-W; 
+  }
+}
+.hi-X {
+  &:before {
+    content: $hi-X; 
+  }
+}
+.hi-Y {
+  &:before {
+    content: $hi-Y; 
+  }
+}
+.hi-yen {
+  &:before {
+    content: $hi-yen; 
+  }
+}
+.hi-Z {
+  &:before {
+    content: $hi-Z; 
+  }
+}
+.hi-x4 {
+  &:before {
+    content: $hi-x4; 
+  }
+}
+.hi-ambulance {
+  &:before {
+    content: $hi-ambulance; 
+  }
+}
+.hi-basic_motorcycle {
+  &:before {
+    content: $hi-basic_motorcycle; 
+  }
+}
+.hi-bike {
+  &:before {
+    content: $hi-bike; 
+  }
+}
+.hi-cross_country_motorcycle {
+  &:before {
+    content: $hi-cross_country_motorcycle; 
+  }
+}
+.hi-drone {
+  &:before {
+    content: $hi-drone; 
+  }
+}
+.hi-helicopter {
+  &:before {
+    content: $hi-helicopter; 
+  }
+}
+.hi-machinery {
+  &:before {
+    content: $hi-machinery; 
+  }
+}
+.hi-mobile_clinic {
+  &:before {
+    content: $hi-mobile_clinic; 
+  }
+}
+.hi-small_plane {
+  &:before {
+    content: $hi-small_plane; 
+  }
+}
+.hi-vespa_motorcycle {
+  &:before {
+    content: $hi-vespa_motorcycle; 
+  }
+}
+.hi-war {
+  &:before {
+    content: $hi-war; 
+  }
+}
+.hi-blood_a_n-1 {
+  &:before {
+    content: $hi-blood_a_n-1; 
+  }
+}
+.hi-blood_a_p-1 {
+  &:before {
+    content: $hi-blood_a_p-1; 
+  }
+}
+.hi-blood_ab_n-1 {
+  &:before {
+    content: $hi-blood_ab_n-1; 
+  }
+}
+.hi-blood_ab_p-1 {
+  &:before {
+    content: $hi-blood_ab_p-1; 
+  }
+}
+.hi-blood_b_n-1 {
+  &:before {
+    content: $hi-blood_b_n-1; 
+  }
+}
+.hi-blood_b_p-1 {
+  &:before {
+    content: $hi-blood_b_p-1; 
+  }
+}
+.hi-blood_bag-1 {
+  &:before {
+    content: $hi-blood_bag-1; 
+  }
+}
+.hi-blood_o_n-1 {
+  &:before {
+    content: $hi-blood_o_n-1; 
+  }
+}
+.hi-blood_o_p-1 {
+  &:before {
+    content: $hi-blood_o_p-1; 
+  }
+}
+.hi-blood_rh_n-1 {
+  &:before {
+    content: $hi-blood_rh_n-1; 
+  }
+}
+.hi-blood_rh_p-1 {
+  &:before {
+    content: $hi-blood_rh_p-1; 
+  }
+}
+.hi-arm-1 {
+  &:before {
+    content: $hi-arm-1; 
+  }
+}
+.hi-bacteria-1 {
+  &:before {
+    content: $hi-bacteria-1; 
+  }
+}
+.hi-bladder-1 {
+  &:before {
+    content: $hi-bladder-1; 
+  }
+}
+.hi-blood_cells-1 {
+  &:before {
+    content: $hi-blood_cells-1; 
+  }
+}
+.hi-blood_drop-1 {
+  &:before {
+    content: $hi-blood_drop-1; 
+  }
+}
+.hi-blood_vessel-1 {
+  &:before {
+    content: $hi-blood_vessel-1; 
+  }
+}
+.hi-body-1 {
+  &:before {
+    content: $hi-body-1; 
+  }
+}
+.hi-dna-1 {
+  &:before {
+    content: $hi-dna-1; 
+  }
+}
+.hi-ear-1 {
+  &:before {
+    content: $hi-ear-1; 
+  }
+}
+.hi-enzyme-1 {
+  &:before {
+    content: $hi-enzyme-1; 
+  }
+}
+.hi-eye-1 {
+  &:before {
+    content: $hi-eye-1; 
+  }
+}
+.hi-female_reproductive_system-1 {
+  &:before {
+    content: $hi-female_reproductive_system-1; 
+  }
+}
+.hi-foot-1 {
+  &:before {
+    content: $hi-foot-1; 
+  }
+}
+.hi-gallbladder-1 {
+  &:before {
+    content: $hi-gallbladder-1; 
+  }
+}
+.hi-heart-2 {
+  &:before {
+    content: $hi-heart-2; 
+  }
+}
+.hi-intestine-1 {
+  &:before {
+    content: $hi-intestine-1; 
+  }
+}
+.hi-joints-1 {
+  &:before {
+    content: $hi-joints-1; 
+  }
+}
+.hi-kidneys-1 {
+  &:before {
+    content: $hi-kidneys-1; 
+  }
+}
+.hi-leg-1 {
+  &:before {
+    content: $hi-leg-1; 
+  }
+}
+.hi-liver-1 {
+  &:before {
+    content: $hi-liver-1; 
+  }
+}
+.hi-liver-alt-1 {
+  &:before {
+    content: $hi-liver-alt-1; 
+  }
+}
+.hi-lungs-1 {
+  &:before {
+    content: $hi-lungs-1; 
+  }
+}
+.hi-lymph_nodes-1 {
+  &:before {
+    content: $hi-lymph_nodes-1; 
+  }
+}
+.hi-mouth-1 {
+  &:before {
+    content: $hi-mouth-1; 
+  }
+}
+.hi-nerve-1 {
+  &:before {
+    content: $hi-nerve-1; 
+  }
+}
+.hi-neurology-1 {
+  &:before {
+    content: $hi-neurology-1; 
+  }
+}
+.hi-nose-1 {
+  &:before {
+    content: $hi-nose-1; 
+  }
+}
+.hi-pancreas-1 {
+  &:before {
+    content: $hi-pancreas-1; 
+  }
+}
+.hi-skeleton-1 {
+  &:before {
+    content: $hi-skeleton-1; 
+  }
+}
+.hi-skull-1 {
+  &:before {
+    content: $hi-skull-1; 
+  }
+}
+.hi-spine-1 {
+  &:before {
+    content: $hi-spine-1; 
+  }
+}
+.hi-spleen-1 {
+  &:before {
+    content: $hi-spleen-1; 
+  }
+}
+.hi-stomach-1 {
+  &:before {
+    content: $hi-stomach-1; 
+  }
+}
+.hi-tooth-1 {
+  &:before {
+    content: $hi-tooth-1; 
+  }
+}
+.hi-allergies-1 {
+  &:before {
+    content: $hi-allergies-1; 
+  }
+}
+.hi-back_pain-1 {
+  &:before {
+    content: $hi-back_pain-1; 
+  }
+}
+.hi-cervical_cancer-1 {
+  &:before {
+    content: $hi-cervical_cancer-1; 
+  }
+}
+.hi-chills-1 {
+  &:before {
+    content: $hi-chills-1; 
+  }
+}
+.hi-chills_fever-1 {
+  &:before {
+    content: $hi-chills_fever-1; 
+  }
+}
+.hi-coughing_alt-1 {
+  &:before {
+    content: $hi-coughing_alt-1; 
+  }
+}
+.hi-deaf-1 {
+  &:before {
+    content: $hi-deaf-1; 
+  }
+}
+.hi-diarrhea-1 {
+  &:before {
+    content: $hi-diarrhea-1; 
+  }
+}
+.hi-headache-1 {
+  &:before {
+    content: $hi-headache-1; 
+  }
+}
+.hi-hiv_ind-1 {
+  &:before {
+    content: $hi-hiv_ind-1; 
+  }
+}
+.hi-hiv_neg-1 {
+  &:before {
+    content: $hi-hiv_neg-1; 
+  }
+}
+.hi-hiv_pos-1 {
+  &:before {
+    content: $hi-hiv_pos-1; 
+  }
+}
+.hi-hpv-1 {
+  &:before {
+    content: $hi-hpv-1; 
+  }
+}
+.hi-intestinal-pain-1 {
+  &:before {
+    content: $hi-intestinal-pain-1; 
+  }
+}
+.hi-loss-smell-1 {
+  &:before {
+    content: $hi-loss-smell-1; 
+  }
+}
+.hi-low_vision-1 {
+  &:before {
+    content: $hi-low_vision-1; 
+  }
+}
+.hi-nausea-1 {
+  &:before {
+    content: $hi-nausea-1; 
+  }
+}
+.hi-overweight-1 {
+  &:before {
+    content: $hi-overweight-1; 
+  }
+}
+.hi-pneumonia-1 {
+  &:before {
+    content: $hi-pneumonia-1; 
+  }
+}
+.hi-ribbon-1 {
+  &:before {
+    content: $hi-ribbon-1; 
+  }
+}
+.hi-sti-1 {
+  &:before {
+    content: $hi-sti-1; 
+  }
+}
+.hi-sweating-2 {
+  &:before {
+    content: $hi-sweating-2; 
+  }
+}
+.hi-tb-1 {
+  &:before {
+    content: $hi-tb-1; 
+  }
+}
+.hi-underweight-1 {
+  &:before {
+    content: $hi-underweight-1; 
+  }
+}
+.hi-varicose_vein-1 {
+  &:before {
+    content: $hi-varicose_vein-1; 
+  }
+}
+.hi-vih-1 {
+  &:before {
+    content: $hi-vih-1; 
+  }
+}
+.hi-viral_lung_infection-1 {
+  &:before {
+    content: $hi-viral_lung_infection-1; 
+  }
+}
+.hi-vomiting-1 {
+  &:before {
+    content: $hi-vomiting-1; 
+  }
+}
+.hi-blood_pressure-1 {
+  &:before {
+    content: $hi-blood_pressure-1; 
+  }
+}
+.hi-blood_pressure_2-1 {
+  &:before {
+    content: $hi-blood_pressure_2-1; 
+  }
+}
+.hi-blood_pressure_monitor-1 {
+  &:before {
+    content: $hi-blood_pressure_monitor-1; 
+  }
+}
+.hi-cast-1 {
+  &:before {
+    content: $hi-cast-1; 
+  }
+}
+.hi-clinical_a-1 {
+  &:before {
+    content: $hi-clinical_a-1; 
+  }
+}
+.hi-cold_chain-1 {
+  &:before {
+    content: $hi-cold_chain-1; 
+  }
+}
+.hi-contact_lenses-1 {
+  &:before {
+    content: $hi-contact_lenses-1; 
+  }
+}
+.hi-defibrilator-1 {
+  &:before {
+    content: $hi-defibrilator-1; 
+  }
+}
+.hi-dental_hygiene-1 {
+  &:before {
+    content: $hi-dental_hygiene-1; 
+  }
+}
+.hi-discriminating_concentration_bioassays-1 {
+  &:before {
+    content: $hi-discriminating_concentration_bioassays-1; 
+  }
+}
+.hi-disinfecting_wipes-1 {
+  &:before {
+    content: $hi-disinfecting_wipes-1; 
+  }
+}
+.hi-exercise_bicycle-1 {
+  &:before {
+    content: $hi-exercise_bicycle-1; 
+  }
+}
+.hi-eyeglasses-2 .path1 {
+  &:before {
+    content: $hi-eyeglasses-2-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.hi-eyeglasses-2 .path2 {
+  &:before {
+    content: $hi-eyeglasses-2-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.hi-fever-2 {
+  &:before {
+    content: $hi-fever-2; 
+  }
+}
+.hi-hospitalized-1 {
+  &:before {
+    content: $hi-hospitalized-1; 
+  }
+}
+.hi-inpatient-1 {
+  &:before {
+    content: $hi-inpatient-1; 
+  }
+}
+.hi-intravenous_bag-1 {
+  &:before {
+    content: $hi-intravenous_bag-1; 
+  }
+}
+.hi-llin-1 {
+  &:before {
+    content: $hi-llin-1; 
+  }
+}
+.hi-microscope-1 {
+  &:before {
+    content: $hi-microscope-1; 
+  }
+}
+.hi-mobile-1 {
+  &:before {
+    content: $hi-mobile-1; 
+  }
+}
+.hi-observation-1 {
+  &:before {
+    content: $hi-observation-1; 
+  }
+}
+.hi-odontology-1 {
+  &:before {
+    content: $hi-odontology-1; 
+  }
+}
+.hi-odontology_implant-1 {
+  &:before {
+    content: $hi-odontology_implant-1; 
+  }
+}
+.hi-oxygen_tank-1 {
+  &:before {
+    content: $hi-oxygen_tank-1; 
+  }
+}
+.hi-patient_band-1 {
+  &:before {
+    content: $hi-patient_band-1; 
+  }
+}
+.hi-patient_band_alt-1 {
+  &:before {
+    content: $hi-patient_band_alt-1; 
+  }
+}
+.hi-ppe_apron-1 {
+  &:before {
+    content: $hi-ppe_apron-1; 
+  }
+}
+.hi-ppe_face_mask-1 {
+  &:before {
+    content: $hi-ppe_face_mask-1; 
+  }
+}
+.hi-ppe_face_shield-1 {
+  &:before {
+    content: $hi-ppe_face_shield-1; 
+  }
+}
+.hi-ppe_gloves-1 {
+  &:before {
+    content: $hi-ppe_gloves-1; 
+  }
+}
+.hi-ppe_goggles-1 {
+  &:before {
+    content: $hi-ppe_goggles-1; 
+  }
+}
+.hi-ppe_gown-1 {
+  &:before {
+    content: $hi-ppe_gown-1; 
+  }
+}
+.hi-ppe_mask_n95-1 {
+  &:before {
+    content: $hi-ppe_mask_n95-1; 
+  }
+}
+.hi-ppe_sanitizer-1 {
+  &:before {
+    content: $hi-ppe_sanitizer-1; 
+  }
+}
+.hi-ppe_santizer_alt-1 {
+  &:before {
+    content: $hi-ppe_santizer_alt-1; 
+  }
+}
+.hi-ppe_suit-1 {
+  &:before {
+    content: $hi-ppe_suit-1; 
+  }
+}
+.hi-ppe-face-shield-alt-1 {
+  &:before {
+    content: $hi-ppe-face-shield-alt-1; 
+  }
+}
+.hi-ppe-mask-1 {
+  &:before {
+    content: $hi-ppe-mask-1; 
+  }
+}
+.hi-respirator-1 {
+  &:before {
+    content: $hi-respirator-1; 
+  }
+}
+.hi-sling-1 {
+  &:before {
+    content: $hi-sling-1; 
+  }
+}
+.hi-stethoscope-1 {
+  &:before {
+    content: $hi-stethoscope-1; 
+  }
+}
+.hi-surgical_sterilization-1 {
+  &:before {
+    content: $hi-surgical_sterilization-1; 
+  }
+}
+.hi-syringe-1 {
+  &:before {
+    content: $hi-syringe-1; 
+  }
+}
+.hi-syringe-vaccine-1 {
+  &:before {
+    content: $hi-syringe-vaccine-1; 
+  }
+}
+.hi-tac-1 {
+  &:before {
+    content: $hi-tac-1; 
+  }
+}
+.hi-thermometer-1 {
+  &:before {
+    content: $hi-thermometer-1; 
+  }
+}
+.hi-thermometer_digital-1 {
+  &:before {
+    content: $hi-thermometer_digital-1; 
+  }
+}
+.hi-treated_water-1 {
+  &:before {
+    content: $hi-treated_water-1; 
+  }
+}
+.hi-ventilator-1 {
+  &:before {
+    content: $hi-ventilator-1; 
+  }
+}
+.hi-ventilator_alt-1 {
+  &:before {
+    content: $hi-ventilator_alt-1; 
+  }
+}
+.hi-virus_lab_research_syringe-1 {
+  &:before {
+    content: $hi-virus_lab_research_syringe-1; 
+  }
+}
+.hi-virus_lab_research_test_tube-1 {
+  &:before {
+    content: $hi-virus_lab_research_test_tube-1; 
+  }
+}
+.hi-virus-sanitizer-spray-1 {
+  &:before {
+    content: $hi-virus-sanitizer-spray-1; 
+  }
+}
+.hi-weight-1 {
+  &:before {
+    content: $hi-weight-1; 
+  }
+}
+.hi-wheelchair-1 {
+  &:before {
+    content: $hi-wheelchair-1; 
+  }
+}
+.hi-wheelchair_alt-1 {
+  &:before {
+    content: $hi-wheelchair_alt-1; 
+  }
+}
+.hi-xray-1 {
+  &:before {
+    content: $hi-xray-1; 
+  }
+}
+.hi-cone_test_on_nets-1 {
+  &:before {
+    content: $hi-cone_test_on_nets-1; 
+  }
+}
+.hi-cone_test_on_walls-1 {
+  &:before {
+    content: $hi-cone_test_on_walls-1; 
+  }
+}
+.hi-hiv_self_test-1 {
+  &:before {
+    content: $hi-hiv_self_test-1; 
+  }
+}
+.hi-intensity_concentration_bioassays-1 {
+  &:before {
+    content: $hi-intensity_concentration_bioassays-1; 
+  }
+}
+.hi-malaria_microscope-1 {
+  &:before {
+    content: $hi-malaria_microscope-1; 
+  }
+}
+.hi-malaria_mixed_microscope-1 {
+  &:before {
+    content: $hi-malaria_mixed_microscope-1; 
+  }
+}
+.hi-malaria_pf_microscope-1 {
+  &:before {
+    content: $hi-malaria_pf_microscope-1; 
+  }
+}
+.hi-malaria_pv_microscope-1 {
+  &:before {
+    content: $hi-malaria_pv_microscope-1; 
+  }
+}
+.hi-malaria_testing-1 {
+  &:before {
+    content: $hi-malaria_testing-1; 
+  }
+}
+.hi-mosquito_collection-1 {
+  &:before {
+    content: $hi-mosquito_collection-1; 
+  }
+}
+.hi-rdt_result-1 {
+  &:before {
+    content: $hi-rdt_result-1; 
+  }
+}
+.hi-rdt_result_invalid-1 {
+  &:before {
+    content: $hi-rdt_result_invalid-1; 
+  }
+}
+.hi-rdt_result_mixed-1 {
+  &:before {
+    content: $hi-rdt_result_mixed-1; 
+  }
+}
+.hi-rdt_result_mixed_invalid-1 {
+  &:before {
+    content: $hi-rdt_result_mixed_invalid-1; 
+  }
+}
+.hi-rdt_result_mixed_invalid_rectangular-1 {
+  &:before {
+    content: $hi-rdt_result_mixed_invalid_rectangular-1; 
+  }
+}
+.hi-rdt_result_mixed_rectangular-1 {
+  &:before {
+    content: $hi-rdt_result_mixed_rectangular-1; 
+  }
+}
+.hi-rdt_result_neg-1 {
+  &:before {
+    content: $hi-rdt_result_neg-1; 
+  }
+}
+.hi-rdt_result_neg_invalid-1 {
+  &:before {
+    content: $hi-rdt_result_neg_invalid-1; 
+  }
+}
+.hi-rdt_result_neg_invalid_rectangular-1 {
+  &:before {
+    content: $hi-rdt_result_neg_invalid_rectangular-1; 
+  }
+}
+.hi-rdt_result_neg_rectangular-1 {
+  &:before {
+    content: $hi-rdt_result_neg_rectangular-1; 
+  }
+}
+.hi-rdt_result_no_test-1 {
+  &:before {
+    content: $hi-rdt_result_no_test-1; 
+  }
+}
+.hi-rdt_result_pf-1 {
+  &:before {
+    content: $hi-rdt_result_pf-1; 
+  }
+}
+.hi-rdt_result_pf_invalid-1 {
+  &:before {
+    content: $hi-rdt_result_pf_invalid-1; 
+  }
+}
+.hi-rdt_result_pf_invalid_rectangular-1 {
+  &:before {
+    content: $hi-rdt_result_pf_invalid_rectangular-1; 
+  }
+}
+.hi-rdt_result_pf_rectangular-1 {
+  &:before {
+    content: $hi-rdt_result_pf_rectangular-1; 
+  }
+}
+.hi-rdt_result_positive-1 {
+  &:before {
+    content: $hi-rdt_result_positive-1; 
+  }
+}
+.hi-rdt_result_pv-1 {
+  &:before {
+    content: $hi-rdt_result_pv-1; 
+  }
+}
+.hi-rdt_result_pv_invalid-1 {
+  &:before {
+    content: $hi-rdt_result_pv_invalid-1; 
+  }
+}
+.hi-rdt_result_pv_invalid_rectangular-1 {
+  &:before {
+    content: $hi-rdt_result_pv_invalid_rectangular-1; 
+  }
+}
+.hi-rdt_result_pv_rectangular-1 {
+  &:before {
+    content: $hi-rdt_result_pv_rectangular-1; 
+  }
+}
+.hi-synergist_insecticide_bioassays-1 {
+  &:before {
+    content: $hi-synergist_insecticide_bioassays-1; 
+  }
+}
+.hi-angry-1 {
+  &:before {
+    content: $hi-angry-1; 
+  }
+}
+.hi-bandaged-1 {
+  &:before {
+    content: $hi-bandaged-1; 
+  }
+}
+.hi-calm-1 {
+  &:before {
+    content: $hi-calm-1; 
+  }
+}
+.hi-confused-1 {
+  &:before {
+    content: $hi-confused-1; 
+  }
+}
+.hi-coughing-1 {
+  &:before {
+    content: $hi-coughing-1; 
+  }
+}
+.hi-crying-1 {
+  &:before {
+    content: $hi-crying-1; 
+  }
+}
+.hi-dizzy-1 {
+  &:before {
+    content: $hi-dizzy-1; 
+  }
+}
+.hi-expectorate-1 {
+  &:before {
+    content: $hi-expectorate-1; 
+  }
+}
+.hi-eyeglasses-3 {
+  &:before {
+    content: $hi-eyeglasses-3; 
+  }
+}
+.hi-fever-3 {
+  &:before {
+    content: $hi-fever-3; 
+  }
+}
+.hi-happy-1 {
+  &:before {
+    content: $hi-happy-1; 
+  }
+}
+.hi-loudly_crying-1 {
+  &:before {
+    content: $hi-loudly_crying-1; 
+  }
+}
+.hi-masked-1 {
+  &:before {
+    content: $hi-masked-1; 
+  }
+}
+.hi-measles-1 {
+  &:before {
+    content: $hi-measles-1; 
+  }
+}
+.hi-nauseous-1 {
+  &:before {
+    content: $hi-nauseous-1; 
+  }
+}
+.hi-nervous-1 {
+  &:before {
+    content: $hi-nervous-1; 
+  }
+}
+.hi-neutral-1 {
+  &:before {
+    content: $hi-neutral-1; 
+  }
+}
+.hi-not_ok-1 {
+  &:before {
+    content: $hi-not_ok-1; 
+  }
+}
+.hi-ok-1 {
+  &:before {
+    content: $hi-ok-1; 
+  }
+}
+.hi-sad-1 {
+  &:before {
+    content: $hi-sad-1; 
+  }
+}
+.hi-sleepy-1 {
+  &:before {
+    content: $hi-sleepy-1; 
+  }
+}
+.hi-sweating-3 {
+  &:before {
+    content: $hi-sweating-3; 
+  }
+}
+.hi-tongue-1 {
+  &:before {
+    content: $hi-tongue-1; 
+  }
+}
+.hi-vomitting-1 {
+  &:before {
+    content: $hi-vomitting-1; 
+  }
+}
+.hi-woozy-1 {
+  &:before {
+    content: $hi-woozy-1; 
+  }
+}
+.hi-contraceptive_diaphragm-1 {
+  &:before {
+    content: $hi-contraceptive_diaphragm-1; 
+  }
+}
+.hi-contraceptive_injection-1 {
+  &:before {
+    content: $hi-contraceptive_injection-1; 
+  }
+}
+.hi-contraceptive_patch-1 {
+  &:before {
+    content: $hi-contraceptive_patch-1; 
+  }
+}
+.hi-contraceptive_voucher-1 {
+  &:before {
+    content: $hi-contraceptive_voucher-1; 
+  }
+}
+.hi-copper_iud-1 {
+  &:before {
+    content: $hi-copper_iud-1; 
+  }
+}
+.hi-family_planning-1 {
+  &:before {
+    content: $hi-family_planning-1; 
+  }
+}
+.hi-female_condom-1 {
+  &:before {
+    content: $hi-female_condom-1; 
+  }
+}
+.hi-hormonal_ring-1 {
+  &:before {
+    content: $hi-hormonal_ring-1; 
+  }
+}
+.hi-implant-1 {
+  &:before {
+    content: $hi-implant-1; 
+  }
+}
+.hi-iud-1 {
+  &:before {
+    content: $hi-iud-1; 
+  }
+}
+.hi-male_condom-1 {
+  &:before {
+    content: $hi-male_condom-1; 
+  }
+}
+.hi-oral_contraception_pillsx21-1 {
+  &:before {
+    content: $hi-oral_contraception_pillsx21-1; 
+  }
+}
+.hi-oral_contraception_pillsx28-1 {
+  &:before {
+    content: $hi-oral_contraception_pillsx28-1; 
+  }
+}
+.hi-sayana_press-1 {
+  &:before {
+    content: $hi-sayana_press-1; 
+  }
+}
+.hi-sperm-1 {
+  &:before {
+    content: $hi-sperm-1; 
+  }
+}
+.hi-blister_pills_oval_x1-1 {
+  &:before {
+    content: $hi-blister_pills_oval_x1-1; 
+  }
+}
+.hi-blister_pills_oval_x4-1 {
+  &:before {
+    content: $hi-blister_pills_oval_x4-1; 
+  }
+}
+.hi-blister_pills_oval_x14-1 {
+  &:before {
+    content: $hi-blister_pills_oval_x14-1; 
+  }
+}
+.hi-blister_pills_oval_x16-1 {
+  &:before {
+    content: $hi-blister_pills_oval_x16-1; 
+  }
+}
+.hi-blister_pills_round_x1-1 {
+  &:before {
+    content: $hi-blister_pills_round_x1-1; 
+  }
+}
+.hi-blister_pills_round_x4-1 {
+  &:before {
+    content: $hi-blister_pills_round_x4-1; 
+  }
+}
+.hi-blister_pills_round_x14-1 {
+  &:before {
+    content: $hi-blister_pills_round_x14-1; 
+  }
+}
+.hi-blister_pills_round_x16-1 {
+  &:before {
+    content: $hi-blister_pills_round_x16-1; 
+  }
+}
+.hi-medicines-1 {
+  &:before {
+    content: $hi-medicines-1; 
+  }
+}
+.hi-pill_1-1 {
+  &:before {
+    content: $hi-pill_1-1; 
+  }
+}
+.hi-pills_2-1 {
+  &:before {
+    content: $hi-pills_2-1; 
+  }
+}
+.hi-pills_3-1 {
+  &:before {
+    content: $hi-pills_3-1; 
+  }
+}
+.hi-pills_4-1 {
+  &:before {
+    content: $hi-pills_4-1; 
+  }
+}
+.hi-bandage_adhesive-1 {
+  &:before {
+    content: $hi-bandage_adhesive-1; 
+  }
+}
+.hi-bills-1 {
+  &:before {
+    content: $hi-bills-1; 
+  }
+}
+.hi-cleaning-1 {
+  &:before {
+    content: $hi-cleaning-1; 
+  }
+}
+.hi-coins-1 {
+  &:before {
+    content: $hi-coins-1; 
+  }
+}
+.hi-construction-1 {
+  &:before {
+    content: $hi-construction-1; 
+  }
+}
+.hi-credit_card-1 {
+  &:before {
+    content: $hi-credit_card-1; 
+  }
+}
+.hi-desktop_app-1 {
+  &:before {
+    content: $hi-desktop_app-1; 
+  }
+}
+.hi-hot_meal-1 {
+  &:before {
+    content: $hi-hot_meal-1; 
+  }
+}
+.hi-i_utensils-1 {
+  &:before {
+    content: $hi-i_utensils-1; 
+  }
+}
+.hi-justice-1 {
+  &:before {
+    content: $hi-justice-1; 
+  }
+}
+.hi-money_bag-1 {
+  &:before {
+    content: $hi-money_bag-1; 
+  }
+}
+.hi-phone-1 {
+  &:before {
+    content: $hi-phone-1; 
+  }
+}
+.hi-rdt_result_out_stock-1 {
+  &:before {
+    content: $hi-rdt_result_out_stock-1; 
+  }
+}
+.hi-running_water-1 {
+  &:before {
+    content: $hi-running_water-1; 
+  }
+}
+.hi-spreadsheets-1 {
+  &:before {
+    content: $hi-spreadsheets-1; 
+  }
+}
+.hi-stock_out-1 {
+  &:before {
+    content: $hi-stock_out-1; 
+  }
+}
+.hi-umbrella-1 {
+  &:before {
+    content: $hi-umbrella-1; 
+  }
+}
+.hi-unhealthy_food-1 {
+  &:before {
+    content: $hi-unhealthy_food-1; 
+  }
+}
+.hi-agriculture-1 {
+  &:before {
+    content: $hi-agriculture-1; 
+  }
+}
+.hi-agriculture_worker-1 {
+  &:before {
+    content: $hi-agriculture_worker-1; 
+  }
+}
+.hi-agriculture_worker_alt-1 {
+  &:before {
+    content: $hi-agriculture_worker_alt-1; 
+  }
+}
+.hi-ancv-1 {
+  &:before {
+    content: $hi-ancv-1; 
+  }
+}
+.hi-asthma-1 {
+  &:before {
+    content: $hi-asthma-1; 
+  }
+}
+.hi-baby_0203_alt-1 {
+  &:before {
+    content: $hi-baby_0203_alt-1; 
+  }
+}
+.hi-baby_0203m-1 {
+  &:before {
+    content: $hi-baby_0203m-1; 
+  }
+}
+.hi-baby_0306m-1 {
+  &:before {
+    content: $hi-baby_0306m-1; 
+  }
+}
+.hi-baby_female_0203m_alt-1 {
+  &:before {
+    content: $hi-baby_female_0203m_alt-1; 
+  }
+}
+.hi-baby_female_0306m-1 {
+  &:before {
+    content: $hi-baby_female_0306m-1; 
+  }
+}
+.hi-baby_female_0609m-1 {
+  &:before {
+    content: $hi-baby_female_0609m-1; 
+  }
+}
+.hi-baby_male_0203m_alt-1 {
+  &:before {
+    content: $hi-baby_male_0203m_alt-1; 
+  }
+}
+.hi-baby_male_0306m-1 {
+  &:before {
+    content: $hi-baby_male_0306m-1; 
+  }
+}
+.hi-baby_male_0609m-1 {
+  &:before {
+    content: $hi-baby_male_0609m-1; 
+  }
+}
+.hi-boy_0105y-1 {
+  &:before {
+    content: $hi-boy_0105y-1; 
+  }
+}
+.hi-boy_1015y-1 {
+  &:before {
+    content: $hi-boy_1015y-1; 
+  }
+}
+.hi-call_centre-1 {
+  &:before {
+    content: $hi-call_centre-1; 
+  }
+}
+.hi-child_care-1 {
+  &:before {
+    content: $hi-child_care-1; 
+  }
+}
+.hi-child_cognition-1 {
+  &:before {
+    content: $hi-child_cognition-1; 
+  }
+}
+.hi-child_program-1 {
+  &:before {
+    content: $hi-child_program-1; 
+  }
+}
+.hi-city_worker-1 {
+  &:before {
+    content: $hi-city_worker-1; 
+  }
+}
+.hi-clean_hands-1 {
+  &:before {
+    content: $hi-clean_hands-1; 
+  }
+}
+.hi-community_healthworker-1 {
+  &:before {
+    content: $hi-community_healthworker-1; 
+  }
+}
+.hi-construction_worker-1 {
+  &:before {
+    content: $hi-construction_worker-1; 
+  }
+}
+.hi-diabetes-2 {
+  &:before {
+    content: $hi-diabetes-2; 
+  }
+}
+.hi-doctor-1 {
+  &:before {
+    content: $hi-doctor-1; 
+  }
+}
+.hi-doctor_female-1 {
+  &:before {
+    content: $hi-doctor_female-1; 
+  }
+}
+.hi-doctor_male-1 {
+  &:before {
+    content: $hi-doctor_male-1; 
+  }
+}
+.hi-domestic_worker-1 {
+  &:before {
+    content: $hi-domestic_worker-1; 
+  }
+}
+.hi-domestic_worker_alt-1 {
+  &:before {
+    content: $hi-domestic_worker_alt-1; 
+  }
+}
+.hi-elderly-1 {
+  &:before {
+    content: $hi-elderly-1; 
+  }
+}
+.hi-exercise_running-1 {
+  &:before {
+    content: $hi-exercise_running-1; 
+  }
+}
+.hi-exercise_walk_supported-1 {
+  &:before {
+    content: $hi-exercise_walk_supported-1; 
+  }
+}
+.hi-exercise_walking-1 {
+  &:before {
+    content: $hi-exercise_walking-1; 
+  }
+}
+.hi-exercise_weights-1 {
+  &:before {
+    content: $hi-exercise_weights-1; 
+  }
+}
+.hi-factory_worker-1 {
+  &:before {
+    content: $hi-factory_worker-1; 
+  }
+}
+.hi-female_and_male-1 {
+  &:before {
+    content: $hi-female_and_male-1; 
+  }
+}
+.hi-female_sex_worker-1 {
+  &:before {
+    content: $hi-female_sex_worker-1; 
+  }
+}
+.hi-fetus-1 {
+  &:before {
+    content: $hi-fetus-1; 
+  }
+}
+.hi-forum-1 {
+  &:before {
+    content: $hi-forum-1; 
+  }
+}
+.hi-girl_0105y-1 {
+  &:before {
+    content: $hi-girl_0105y-1; 
+  }
+}
+.hi-girl_1015y-1 {
+  &:before {
+    content: $hi-girl_1015y-1; 
+  }
+}
+.hi-group_discussion_meeting-1 {
+  &:before {
+    content: $hi-group_discussion_meeting-1; 
+  }
+}
+.hi-group_discussion_meetingx3-1 {
+  &:before {
+    content: $hi-group_discussion_meetingx3-1; 
+  }
+}
+.hi-health_worker-1 {
+  &:before {
+    content: $hi-health_worker-1; 
+  }
+}
+.hi-i_groups_perspective_crowd-1 {
+  &:before {
+    content: $hi-i_groups_perspective_crowd-1; 
+  }
+}
+.hi-i_training_class-1 {
+  &:before {
+    content: $hi-i_training_class-1; 
+  }
+}
+.hi-lactation-1 {
+  &:before {
+    content: $hi-lactation-1; 
+  }
+}
+.hi-male_and_female-1 {
+  &:before {
+    content: $hi-male_and_female-1; 
+  }
+}
+.hi-male_sex_worker-1 {
+  &:before {
+    content: $hi-male_sex_worker-1; 
+  }
+}
+.hi-man-1 {
+  &:before {
+    content: $hi-man-1; 
+  }
+}
+.hi-mental_disorders-1 {
+  &:before {
+    content: $hi-mental_disorders-1; 
+  }
+}
+.hi-military_worker-1 {
+  &:before {
+    content: $hi-military_worker-1; 
+  }
+}
+.hi-miner_worker-1 {
+  &:before {
+    content: $hi-miner_worker-1; 
+  }
+}
+.hi-miner_worker_alt-1 {
+  &:before {
+    content: $hi-miner_worker_alt-1; 
+  }
+}
+.hi-msm-1 {
+  &:before {
+    content: $hi-msm-1; 
+  }
+}
+.hi-neuro_surgery-1 {
+  &:before {
+    content: $hi-neuro_surgery-1; 
+  }
+}
+.hi-nurse-1 {
+  &:before {
+    content: $hi-nurse-1; 
+  }
+}
+.hi-officer-1 {
+  &:before {
+    content: $hi-officer-1; 
+  }
+}
+.hi-old_man-1 {
+  &:before {
+    content: $hi-old_man-1; 
+  }
+}
+.hi-old_woman-1 {
+  &:before {
+    content: $hi-old_woman-1; 
+  }
+}
+.hi-outpatient-1 {
+  &:before {
+    content: $hi-outpatient-1; 
+  }
+}
+.hi-pediatric_surgery-1 {
+  &:before {
+    content: $hi-pediatric_surgery-1; 
+  }
+}
+.hi-people-1 {
+  &:before {
+    content: $hi-people-1; 
+  }
+}
+.hi-person-1 {
+  &:before {
+    content: $hi-person-1; 
+  }
+}
+.hi-plantation_worker-1 {
+  &:before {
+    content: $hi-plantation_worker-1; 
+  }
+}
+.hi-plantation_worker_alt-1 {
+  &:before {
+    content: $hi-plantation_worker_alt-1; 
+  }
+}
+.hi-pregnant-1 {
+  &:before {
+    content: $hi-pregnant-1; 
+  }
+}
+.hi-pregnant_32w-1 {
+  &:before {
+    content: $hi-pregnant_32w-1; 
+  }
+}
+.hi-pregnant_0812w-1 {
+  &:before {
+    content: $hi-pregnant_0812w-1; 
+  }
+}
+.hi-pregnant_2426w-1 {
+  &:before {
+    content: $hi-pregnant_2426w-1; 
+  }
+}
+.hi-pregnant_3638w-1 {
+  &:before {
+    content: $hi-pregnant_3638w-1; 
+  }
+}
+.hi-prisoner-1 {
+  &:before {
+    content: $hi-prisoner-1; 
+  }
+}
+.hi-pwid-1 {
+  &:before {
+    content: $hi-pwid-1; 
+  }
+}
+.hi-refused-1 {
+  &:before {
+    content: $hi-refused-1; 
+  }
+}
+.hi-rmnh-1 {
+  &:before {
+    content: $hi-rmnh-1; 
+  }
+}
+.hi-security_worker-1 {
+  &:before {
+    content: $hi-security_worker-1; 
+  }
+}
+.hi-speech_language_therapy-2 {
+  &:before {
+    content: $hi-speech_language_therapy-2; 
+  }
+}
+.hi-spraying-1 {
+  &:before {
+    content: $hi-spraying-1; 
+  }
+}
+.hi-symptom-1 {
+  &:before {
+    content: $hi-symptom-1; 
+  }
+}
+.hi-traumatism-1 {
+  &:before {
+    content: $hi-traumatism-1; 
+  }
+}
+.hi-travel-1 {
+  &:before {
+    content: $hi-travel-1; 
+  }
+}
+.hi-travel_alt-1 {
+  &:before {
+    content: $hi-travel_alt-1; 
+  }
+}
+.hi-truck_driver-1 {
+  &:before {
+    content: $hi-truck_driver-1; 
+  }
+}
+.hi-wash_hands-1 {
+  &:before {
+    content: $hi-wash_hands-1; 
+  }
+}
+.hi-water_sanitation-1 {
+  &:before {
+    content: $hi-water_sanitation-1; 
+  }
+}
+.hi-woman-1 {
+  &:before {
+    content: $hi-woman-1; 
+  }
+}
+.hi-world_care-1 {
+  &:before {
+    content: $hi-world_care-1; 
+  }
+}
+.hi-young_people-1 {
+  &:before {
+    content: $hi-young_people-1; 
+  }
+}
+.hi-ambulatory_clinic-1 {
+  &:before {
+    content: $hi-ambulatory_clinic-1; 
+  }
+}
+.hi-church-1 {
+  &:before {
+    content: $hi-church-1; 
+  }
+}
+.hi-city-1 {
+  &:before {
+    content: $hi-city-1; 
+  }
+}
+.hi-emergency_post-1 {
+  &:before {
+    content: $hi-emergency_post-1; 
+  }
+}
+.hi-forest-1 {
+  &:before {
+    content: $hi-forest-1; 
+  }
+}
+.hi-forest_persons-1 {
+  &:before {
+    content: $hi-forest_persons-1; 
+  }
+}
+.hi-home-1 {
+  &:before {
+    content: $hi-home-1; 
+  }
+}
+.hi-home_alt-1 {
+  &:before {
+    content: $hi-home_alt-1; 
+  }
+}
+.hi-hospital-1 {
+  &:before {
+    content: $hi-hospital-1; 
+  }
+}
+.hi-letrina-1 {
+  &:before {
+    content: $hi-letrina-1; 
+  }
+}
+.hi-letrina_alt-1 {
+  &:before {
+    content: $hi-letrina_alt-1; 
+  }
+}
+.hi-market_stall-1 {
+  &:before {
+    content: $hi-market_stall-1; 
+  }
+}
+.hi-ministry_of_health-1 {
+  &:before {
+    content: $hi-ministry_of_health-1; 
+  }
+}
+.hi-mosque-1 {
+  &:before {
+    content: $hi-mosque-1; 
+  }
+}
+.hi-palm_branches_roof-1 {
+  &:before {
+    content: $hi-palm_branches_roof-1; 
+  }
+}
+.hi-proper_roof-1 {
+  &:before {
+    content: $hi-proper_roof-1; 
+  }
+}
+.hi-rural_post-1 {
+  &:before {
+    content: $hi-rural_post-1; 
+  }
+}
+.hi-rural_post_alt-1 {
+  &:before {
+    content: $hi-rural_post_alt-1; 
+  }
+}
+.hi-temple-1 {
+  &:before {
+    content: $hi-temple-1; 
+  }
+}
+.hi-temple_alt-1 {
+  &:before {
+    content: $hi-temple_alt-1; 
+  }
+}
+.hi-village-1 {
+  &:before {
+    content: $hi-village-1; 
+  }
+}
+.hi-circle_large-1 {
+  &:before {
+    content: $hi-circle_large-1; 
+  }
+}
+.hi-circle_medium-1 {
+  &:before {
+    content: $hi-circle_medium-1; 
+  }
+}
+.hi-circle_small-1 {
+  &:before {
+    content: $hi-circle_small-1; 
+  }
+}
+.hi-information_campaign-1 {
+  &:before {
+    content: $hi-information_campaign-1; 
+  }
+}
+.hi-square_large-1 {
+  &:before {
+    content: $hi-square_large-1; 
+  }
+}
+.hi-square_medium-1 {
+  &:before {
+    content: $hi-square_medium-1; 
+  }
+}
+.hi-square_small-1 {
+  &:before {
+    content: $hi-square_small-1; 
+  }
+}
+.hi-star_large-1 {
+  &:before {
+    content: $hi-star_large-1; 
+  }
+}
+.hi-star_medium-1 {
+  &:before {
+    content: $hi-star_medium-1; 
+  }
+}
+.hi-star_small-1 {
+  &:before {
+    content: $hi-star_small-1; 
+  }
+}
+.hi-triangle_large-1 {
+  &:before {
+    content: $hi-triangle_large-1; 
+  }
+}
+.hi-triangle_medium-1 {
+  &:before {
+    content: $hi-triangle_medium-1; 
+  }
+}
+.hi-triangle_small-1 {
+  &:before {
+    content: $hi-triangle_small-1; 
+  }
+}
+.hi-accident_and_emergency-1 {
+  &:before {
+    content: $hi-accident_and_emergency-1; 
+  }
+}
+.hi-admissions-1 {
+  &:before {
+    content: $hi-admissions-1; 
+  }
+}
+.hi-biochemistry_laboratory-1 {
+  &:before {
+    content: $hi-biochemistry_laboratory-1; 
+  }
+}
+.hi-cardiology-1 {
+  &:before {
+    content: $hi-cardiology-1; 
+  }
+}
+.hi-chaplaincy-1 {
+  &:before {
+    content: $hi-chaplaincy-1; 
+  }
+}
+.hi-coronary_care_unit-1 {
+  &:before {
+    content: $hi-coronary_care_unit-1; 
+  }
+}
+.hi-critical_care-1 {
+  &:before {
+    content: $hi-critical_care-1; 
+  }
+}
+.hi-discharge_lounge-1 {
+  &:before {
+    content: $hi-discharge_lounge-1; 
+  }
+}
+.hi-ears_nose_and_throat-1 {
+  &:before {
+    content: $hi-ears_nose_and_throat-1; 
+  }
+}
+.hi-endocrinology-1 {
+  &:before {
+    content: $hi-endocrinology-1; 
+  }
+}
+.hi-finance_dept-1 {
+  &:before {
+    content: $hi-finance_dept-1; 
+  }
+}
+.hi-gastroenterology-1 {
+  &:before {
+    content: $hi-gastroenterology-1; 
+  }
+}
+.hi-geriatrics-1 {
+  &:before {
+    content: $hi-geriatrics-1; 
+  }
+}
+.hi-gym-1 {
+  &:before {
+    content: $hi-gym-1; 
+  }
+}
+.hi-gynecology-1 {
+  &:before {
+    content: $hi-gynecology-1; 
+  }
+}
+.hi-hematology-1 {
+  &:before {
+    content: $hi-hematology-1; 
+  }
+}
+.hi-hematology_laboratory-1 {
+  &:before {
+    content: $hi-hematology_laboratory-1; 
+  }
+}
+.hi-hepatology-1 {
+  &:before {
+    content: $hi-hepatology-1; 
+  }
+}
+.hi-human_resoruces-1 {
+  &:before {
+    content: $hi-human_resoruces-1; 
+  }
+}
+.hi-intensive_care_unit-1 {
+  &:before {
+    content: $hi-intensive_care_unit-1; 
+  }
+}
+.hi-medical_records-1 {
+  &:before {
+    content: $hi-medical_records-1; 
+  }
+}
+.hi-nephrology-1 {
+  &:before {
+    content: $hi-nephrology-1; 
+  }
+}
+.hi-obstetricsmonia-1 {
+  &:before {
+    content: $hi-obstetricsmonia-1; 
+  }
+}
+.hi-oncology-1 {
+  &:before {
+    content: $hi-oncology-1; 
+  }
+}
+.hi-opthalmology-1 {
+  &:before {
+    content: $hi-opthalmology-1; 
+  }
+}
+.hi-orthopaedics-1 {
+  &:before {
+    content: $hi-orthopaedics-1; 
+  }
+}
+.hi-outpatient_department-1 {
+  &:before {
+    content: $hi-outpatient_department-1; 
+  }
+}
+.hi-pediatrics-1 {
+  &:before {
+    content: $hi-pediatrics-1; 
+  }
+}
+.hi-pharmacy-2 {
+  &:before {
+    content: $hi-pharmacy-2; 
+  }
+}
+.hi-physical_therapy-1 {
+  &:before {
+    content: $hi-physical_therapy-1; 
+  }
+}
+.hi-psychology-1 {
+  &:before {
+    content: $hi-psychology-1; 
+  }
+}
+.hi-radiology-1 {
+  &:before {
+    content: $hi-radiology-1; 
+  }
+}
+.hi-respirology-1 {
+  &:before {
+    content: $hi-respirology-1; 
+  }
+}
+.hi-rheumatology-1 {
+  &:before {
+    content: $hi-rheumatology-1; 
+  }
+}
+.hi-social_work-1 {
+  &:before {
+    content: $hi-social_work-1; 
+  }
+}
+.hi-sonography-1 {
+  &:before {
+    content: $hi-sonography-1; 
+  }
+}
+.hi-speech_language_therapy-3 {
+  &:before {
+    content: $hi-speech_language_therapy-3; 
+  }
+}
+.hi-urology-1 {
+  &:before {
+    content: $hi-urology-1; 
+  }
+}
+.hi-g-1 {
+  &:before {
+    content: $hi-g-1; 
+  }
+}
+.hi-g-11 {
+  &:before {
+    content: $hi-g-11; 
+  }
+}
+.hi-alcohol-1 {
+  &:before {
+    content: $hi-alcohol-1; 
+  }
+}
+.hi-alert-1 {
+  &:before {
+    content: $hi-alert-1; 
+  }
+}
+.hi-alert_circle-1 {
+  &:before {
+    content: $hi-alert_circle-1; 
+  }
+}
+.hi-alert_triangle-1 {
+  &:before {
+    content: $hi-alert_triangle-1; 
+  }
+}
+.hi-animal_chicken-1 {
+  &:before {
+    content: $hi-animal_chicken-1; 
+  }
+}
+.hi-animal_cow-1 {
+  &:before {
+    content: $hi-animal_cow-1; 
+  }
+}
+.hi-animal_donkey-1 {
+  &:before {
+    content: $hi-animal_donkey-1; 
+  }
+}
+.hi-animal_spider-1 {
+  &:before {
+    content: $hi-animal_spider-1; 
+  }
+}
+.hi-animal_tick-1 {
+  &:before {
+    content: $hi-animal_tick-1; 
+  }
+}
+.hi-assembly_point-1 {
+  &:before {
+    content: $hi-assembly_point-1; 
+  }
+}
+.hi-award_ribbon-1 {
+  &:before {
+    content: $hi-award_ribbon-1; 
+  }
+}
+.hi-award_trophy-1 {
+  &:before {
+    content: $hi-award_trophy-1; 
+  }
+}
+.hi-book-1 {
+  &:before {
+    content: $hi-book-1; 
+  }
+}
+.hi-breeding_sites-1 {
+  &:before {
+    content: $hi-breeding_sites-1; 
+  }
+}
+.hi-calendar-1 {
+  &:before {
+    content: $hi-calendar-1; 
+  }
+}
+.hi-calendar-quarantine-1 {
+  &:before {
+    content: $hi-calendar-quarantine-1; 
+  }
+}
+.hi-cannabis-1 {
+  &:before {
+    content: $hi-cannabis-1; 
+  }
+}
+.hi-cardiogram-1 {
+  &:before {
+    content: $hi-cardiogram-1; 
+  }
+}
+.hi-cardiogram_e-1 {
+  &:before {
+    content: $hi-cardiogram_e-1; 
+  }
+}
+.hi-chart_bar-1 {
+  &:before {
+    content: $hi-chart_bar-1; 
+  }
+}
+.hi-chart_bar_stacked-1 {
+  &:before {
+    content: $hi-chart_bar_stacked-1; 
+  }
+}
+.hi-chart_line-1 {
+  &:before {
+    content: $hi-chart_line-1; 
+  }
+}
+.hi-chart_line_stacked-1 {
+  &:before {
+    content: $hi-chart_line_stacked-1; 
+  }
+}
+.hi-chart_pie-1 {
+  &:before {
+    content: $hi-chart_pie-1; 
+  }
+}
+.hi-chart-cured-decreasing-1 {
+  &:before {
+    content: $hi-chart-cured-decreasing-1; 
+  }
+}
+.hi-chart-cured-increasing-1 {
+  &:before {
+    content: $hi-chart-cured-increasing-1; 
+  }
+}
+.hi-chart-death-rate-decreasing-1 {
+  &:before {
+    content: $hi-chart-death-rate-decreasing-1; 
+  }
+}
+.hi-chart-death-rate-increasing-1 {
+  &:before {
+    content: $hi-chart-death-rate-increasing-1; 
+  }
+}
+.hi-chart-death-rate-stable-1 {
+  &:before {
+    content: $hi-chart-death-rate-stable-1; 
+  }
+}
+.hi-chart-infected-decreasing-1 {
+  &:before {
+    content: $hi-chart-infected-decreasing-1; 
+  }
+}
+.hi-chart-infected-increasing-1 {
+  &:before {
+    content: $hi-chart-infected-increasing-1; 
+  }
+}
+.hi-chart-infected-stable-1 {
+  &:before {
+    content: $hi-chart-infected-stable-1; 
+  }
+}
+.hi-cholera-1 {
+  &:before {
+    content: $hi-cholera-1; 
+  }
+}
+.hi-clinical_f-1 {
+  &:before {
+    content: $hi-clinical_f-1; 
+  }
+}
+.hi-clinical_fe-1 {
+  &:before {
+    content: $hi-clinical_fe-1; 
+  }
+}
+.hi-communication-1 {
+  &:before {
+    content: $hi-communication-1; 
+  }
+}
+.hi-community_meeting-1 {
+  &:before {
+    content: $hi-community_meeting-1; 
+  }
+}
+.hi-contact_support-1 {
+  &:before {
+    content: $hi-contact_support-1; 
+  }
+}
+.hi-database-1 {
+  &:before {
+    content: $hi-database-1; 
+  }
+}
+.hi-death-1 {
+  &:before {
+    content: $hi-death-1; 
+  }
+}
+.hi-death_alt-1 {
+  &:before {
+    content: $hi-death_alt-1; 
+  }
+}
+.hi-death_alt2-1 {
+  &:before {
+    content: $hi-death_alt2-1; 
+  }
+}
+.hi-default-1 {
+  &:before {
+    content: $hi-default-1; 
+  }
+}
+.hi-dhis2_logo-1 {
+  &:before {
+    content: $hi-dhis2_logo-1; 
+  }
+}
+.hi-diabetes-3 {
+  &:before {
+    content: $hi-diabetes-3; 
+  }
+}
+.hi-diabetes_measure-1 {
+  &:before {
+    content: $hi-diabetes_measure-1; 
+  }
+}
+.hi-discharge-1 {
+  &:before {
+    content: $hi-discharge-1; 
+  }
+}
+.hi-eco_care-1 {
+  &:before {
+    content: $hi-eco_care-1; 
+  }
+}
+.hi-electricity-1 {
+  &:before {
+    content: $hi-electricity-1; 
+  }
+}
+.hi-entry-1 {
+  &:before {
+    content: $hi-entry-1; 
+  }
+}
+.hi-excel_logo-1 {
+  &:before {
+    content: $hi-excel_logo-1; 
+  }
+}
+.hi-exercise-1 {
+  &:before {
+    content: $hi-exercise-1; 
+  }
+}
+.hi-FHIR_logo-1 {
+  &:before {
+    content: $hi-FHIR_logo-1; 
+  }
+}
+.hi-fingerprint-1 {
+  &:before {
+    content: $hi-fingerprint-1; 
+  }
+}
+.hi-fruits-1 {
+  &:before {
+    content: $hi-fruits-1; 
+  }
+}
+.hi-geo_location-1 {
+  &:before {
+    content: $hi-geo_location-1; 
+  }
+}
+.hi-global-pandemic-1 {
+  &:before {
+    content: $hi-global-pandemic-1; 
+  }
+}
+.hi-globe-1 {
+  &:before {
+    content: $hi-globe-1; 
+  }
+}
+.hi-guide_dog-1 {
+  &:before {
+    content: $hi-guide_dog-1; 
+  }
+}
+.hi-hazardous-1 {
+  &:before {
+    content: $hi-hazardous-1; 
+  }
+}
+.hi-health-1 {
+  &:before {
+    content: $hi-health-1; 
+  }
+}
+.hi-health_alt-1 {
+  &:before {
+    content: $hi-health_alt-1; 
+  }
+}
+.hi-health_data_security-1 {
+  &:before {
+    content: $hi-health_data_security-1; 
+  }
+}
+.hi-health_data_sync-1 {
+  &:before {
+    content: $hi-health_data_sync-1; 
+  }
+}
+.hi-health_literacy-1 {
+  &:before {
+    content: $hi-health_literacy-1; 
+  }
+}
+.hi-health_worker_form-1 {
+  &:before {
+    content: $hi-health_worker_form-1; 
+  }
+}
+.hi-heart-3 {
+  &:before {
+    content: $hi-heart-3; 
+  }
+}
+.hi-heart_cardiogram-1 {
+  &:before {
+    content: $hi-heart_cardiogram-1; 
+  }
+}
+.hi-high_bars-1 {
+  &:before {
+    content: $hi-high_bars-1; 
+  }
+}
+.hi-high_level-1 {
+  &:before {
+    content: $hi-high_level-1; 
+  }
+}
+.hi-home-quarantine-1 {
+  &:before {
+    content: $hi-home-quarantine-1; 
+  }
+}
+.hi-hospice-1 {
+  &:before {
+    content: $hi-hospice-1; 
+  }
+}
+.hi-hospital_symbol-1 {
+  &:before {
+    content: $hi-hospital_symbol-1; 
+  }
+}
+.hi-i_certificate_paper-1 {
+  &:before {
+    content: $hi-i_certificate_paper-1; 
+  }
+}
+.hi-i_documents_accepted-1 {
+  &:before {
+    content: $hi-i_documents_accepted-1; 
+  }
+}
+.hi-i_documents_denied-1 {
+  &:before {
+    content: $hi-i_documents_denied-1; 
+  }
+}
+.hi-i_exam_multiple_choice-1 {
+  &:before {
+    content: $hi-i_exam_multiple_choice-1; 
+  }
+}
+.hi-i_exam_qualification-1 {
+  &:before {
+    content: $hi-i_exam_qualification-1; 
+  }
+}
+.hi-i_note_action-1 {
+  &:before {
+    content: $hi-i_note_action-1; 
+  }
+}
+.hi-i_schedule_school_date_time-1 {
+  &:before {
+    content: $hi-i_schedule_school_date_time-1; 
+  }
+}
+.hi-imm-1 {
+  &:before {
+    content: $hi-imm-1; 
+  }
+}
+.hi-info-1 {
+  &:before {
+    content: $hi-info-1; 
+  }
+}
+.hi-insecticide_resistance-1 {
+  &:before {
+    content: $hi-insecticide_resistance-1; 
+  }
+}
+.hi-low_bars-1 {
+  &:before {
+    content: $hi-low_bars-1; 
+  }
+}
+.hi-low_level-1 {
+  &:before {
+    content: $hi-low_level-1; 
+  }
+}
+.hi-magnifying_glass-1 {
+  &:before {
+    content: $hi-magnifying_glass-1; 
+  }
+}
+.hi-malaria_outbreak-1 {
+  &:before {
+    content: $hi-malaria_outbreak-1; 
+  }
+}
+.hi-medical_advice-1 {
+  &:before {
+    content: $hi-medical_advice-1; 
+  }
+}
+.hi-medium_bars-1 {
+  &:before {
+    content: $hi-medium_bars-1; 
+  }
+}
+.hi-medium_level-1 {
+  &:before {
+    content: $hi-medium_level-1; 
+  }
+}
+.hi-megaphone-1 {
+  &:before {
+    content: $hi-megaphone-1; 
+  }
+}
+.hi-mosquito-1 {
+  &:before {
+    content: $hi-mosquito-1; 
+  }
+}
+.hi-negative-1 {
+  &:before {
+    content: $hi-negative-1; 
+  }
+}
+.hi-network_4g-1 {
+  &:before {
+    content: $hi-network_4g-1; 
+  }
+}
+.hi-network_5g-1 {
+  &:before {
+    content: $hi-network_5g-1; 
+  }
+}
+.hi-no-1 {
+  &:before {
+    content: $hi-no-1; 
+  }
+}
+.hi-nutrition-1 {
+  &:before {
+    content: $hi-nutrition-1; 
+  }
+}
+.hi-openMRS_logo-1 {
+  &:before {
+    content: $hi-openMRS_logo-1; 
+  }
+}
+.hi-outbreak-1 {
+  &:before {
+    content: $hi-outbreak-1; 
+  }
+}
+.hi-palliative-care-1 {
+  &:before {
+    content: $hi-palliative-care-1; 
+  }
+}
+.hi-paved_road-1 {
+  &:before {
+    content: $hi-paved_road-1; 
+  }
+}
+.hi-paved_road_alt-1 {
+  &:before {
+    content: $hi-paved_road_alt-1; 
+  }
+}
+.hi-peace-1 {
+  &:before {
+    content: $hi-peace-1; 
+  }
+}
+.hi-pharmacy-3 {
+  &:before {
+    content: $hi-pharmacy-3; 
+  }
+}
+.hi-pharmacy_alt-1 {
+  &:before {
+    content: $hi-pharmacy_alt-1; 
+  }
+}
+.hi-poison-1 {
+  &:before {
+    content: $hi-poison-1; 
+  }
+}
+.hi-polygon-1 {
+  &:before {
+    content: $hi-polygon-1; 
+  }
+}
+.hi-positive-1 {
+  &:before {
+    content: $hi-positive-1; 
+  }
+}
+.hi-prescription_document-1 {
+  &:before {
+    content: $hi-prescription_document-1; 
+  }
+}
+.hi-provider_fst-1 {
+  &:before {
+    content: $hi-provider_fst-1; 
+  }
+}
+.hi-question-1 {
+  &:before {
+    content: $hi-question-1; 
+  }
+}
+.hi-question_circle-1 {
+  &:before {
+    content: $hi-question_circle-1; 
+  }
+}
+.hi-question_triangle-1 {
+  &:before {
+    content: $hi-question_triangle-1; 
+  }
+}
+.hi-referral-1 {
+  &:before {
+    content: $hi-referral-1; 
+  }
+}
+.hi-register_book-1 {
+  &:before {
+    content: $hi-register_book-1; 
+  }
+}
+.hi-running_water_alt-1 {
+  &:before {
+    content: $hi-running_water_alt-1; 
+  }
+}
+.hi-rx-1 {
+  &:before {
+    content: $hi-rx-1; 
+  }
+}
+.hi-sexual_reproductive_health-1 {
+  &:before {
+    content: $hi-sexual_reproductive_health-1; 
+  }
+}
+.hi-simple_logo-1 {
+  &:before {
+    content: $hi-simple_logo-1; 
+  }
+}
+.hi-smoking-1 {
+  &:before {
+    content: $hi-smoking-1; 
+  }
+}
+.hi-smoking_cessation-1 {
+  &:before {
+    content: $hi-smoking_cessation-1; 
+  }
+}
+.hi-social_distancing-1 {
+  &:before {
+    content: $hi-social_distancing-1; 
+  }
+}
+.hi-social_distancing_alt-1 {
+  &:before {
+    content: $hi-social_distancing_alt-1; 
+  }
+}
+.hi-stop-1 {
+  &:before {
+    content: $hi-stop-1; 
+  }
+}
+.hi-tally-1 {
+  &:before {
+    content: $hi-tally-1; 
+  }
+}
+.hi-transgender-1 {
+  &:before {
+    content: $hi-transgender-1; 
+  }
+}
+.hi-ui_folder-1 {
+  &:before {
+    content: $hi-ui_folder-1; 
+  }
+}
+.hi-ui_folder_family-1 {
+  &:before {
+    content: $hi-ui_folder_family-1; 
+  }
+}
+.hi-ui_menu-1 {
+  &:before {
+    content: $hi-ui_menu-1; 
+  }
+}
+.hi-ui_menu_grid-1 {
+  &:before {
+    content: $hi-ui_menu_grid-1; 
+  }
+}
+.hi-ui_preferences-1 {
+  &:before {
+    content: $hi-ui_preferences-1; 
+  }
+}
+.hi-ui_secure-1 {
+  &:before {
+    content: $hi-ui_secure-1; 
+  }
+}
+.hi-ui_settings-1 {
+  &:before {
+    content: $hi-ui_settings-1; 
+  }
+}
+.hi-ui_user_profile-1 {
+  &:before {
+    content: $hi-ui_user_profile-1; 
+  }
+}
+.hi-ui_zoom-1 {
+  &:before {
+    content: $hi-ui_zoom-1; 
+  }
+}
+.hi-ui_zoom_in-1 {
+  &:before {
+    content: $hi-ui_zoom_in-1; 
+  }
+}
+.hi-ui_zoom_out-1 {
+  &:before {
+    content: $hi-ui_zoom_out-1; 
+  }
+}
+.hi-un_paved_road-1 {
+  &:before {
+    content: $hi-un_paved_road-1; 
+  }
+}
+.hi-virus-1 {
+  &:before {
+    content: $hi-virus-1; 
+  }
+}
+.hi-virus_alt-1 {
+  &:before {
+    content: $hi-virus_alt-1; 
+  }
+}
+.hi-virus_patient-1 {
+  &:before {
+    content: $hi-virus_patient-1; 
+  }
+}
+.hi-virus_research_alt-1 {
+  &:before {
+    content: $hi-virus_research_alt-1; 
+  }
+}
+.hi-virus-mutation-1 {
+  &:before {
+    content: $hi-virus-mutation-1; 
+  }
+}
+.hi-virus-research-1 {
+  &:before {
+    content: $hi-virus-research-1; 
+  }
+}
+.hi-virus-shield-1 {
+  &:before {
+    content: $hi-virus-shield-1; 
+  }
+}
+.hi-water_treatment-1 {
+  &:before {
+    content: $hi-water_treatment-1; 
+  }
+}
+.hi-yes-1 {
+  &:before {
+    content: $hi-yes-1; 
+  }
+}
+.hi--1 {
+  &:before {
+    content: $hi--1; 
+  }
+}
+.hi-11 {
+  &:before {
+    content: $hi-11; 
+  }
+}
+.hi-12 {
+  &:before {
+    content: $hi-12; 
+  }
+}
+.hi-13 {
+  &:before {
+    content: $hi-13; 
+  }
+}
+.hi-14 {
+  &:before {
+    content: $hi-14; 
+  }
+}
+.hi-15 {
+  &:before {
+    content: $hi-15; 
+  }
+}
+.hi-16 {
+  &:before {
+    content: $hi-16; 
+  }
+}
+.hi-17 {
+  &:before {
+    content: $hi-17; 
+  }
+}
+.hi-18 {
+  &:before {
+    content: $hi-18; 
+  }
+}
+.hi-19 {
+  &:before {
+    content: $hi-19; 
+  }
+}
+.hi-110 {
+  &:before {
+    content: $hi-110; 
+  }
+}
+.hi-A-1 {
+  &:before {
+    content: $hi-A-1; 
+  }
+}
+.hi-B-1 {
+  &:before {
+    content: $hi-B-1; 
+  }
+}
+.hi-C-1 {
+  &:before {
+    content: $hi-C-1; 
+  }
+}
+.hi-D-1 {
+  &:before {
+    content: $hi-D-1; 
+  }
+}
+.hi-dollar-1 {
+  &:before {
+    content: $hi-dollar-1; 
+  }
+}
+.hi-E-1 {
+  &:before {
+    content: $hi-E-1; 
+  }
+}
+.hi-F-1 {
+  &:before {
+    content: $hi-F-1; 
+  }
+}
+.hi-G-1 {
+  &:before {
+    content: $hi-G-1; 
+  }
+}
+.hi-ghana-1 {
+  &:before {
+    content: $hi-ghana-1; 
+  }
+}
+.hi-H-1 {
+  &:before {
+    content: $hi-H-1; 
+  }
+}
+.hi-I-1 {
+  &:before {
+    content: $hi-I-1; 
+  }
+}
+.hi-J-1 {
+  &:before {
+    content: $hi-J-1; 
+  }
+}
+.hi-K-1 {
+  &:before {
+    content: $hi-K-1; 
+  }
+}
+.hi-L-1 {
+  &:before {
+    content: $hi-L-1; 
+  }
+}
+.hi-M-1 {
+  &:before {
+    content: $hi-M-1; 
+  }
+}
+.hi-N-1 {
+  &:before {
+    content: $hi-N-1; 
+  }
+}
+.hi-O-1 {
+  &:before {
+    content: $hi-O-1; 
+  }
+}
+.hi-P-1 {
+  &:before {
+    content: $hi-P-1; 
+  }
+}
+.hi-Q-1 {
+  &:before {
+    content: $hi-Q-1; 
+  }
+}
+.hi-question_mark-1 {
+  &:before {
+    content: $hi-question_mark-1; 
+  }
+}
+.hi-R-1 {
+  &:before {
+    content: $hi-R-1; 
+  }
+}
+.hi-rupee-1 {
+  &:before {
+    content: $hi-rupee-1; 
+  }
+}
+.hi-S-1 {
+  &:before {
+    content: $hi-S-1; 
+  }
+}
+.hi-T-1 {
+  &:before {
+    content: $hi-T-1; 
+  }
+}
+.hi-U-1 {
+  &:before {
+    content: $hi-U-1; 
+  }
+}
+.hi-V-1 {
+  &:before {
+    content: $hi-V-1; 
+  }
+}
+.hi-W-1 {
+  &:before {
+    content: $hi-W-1; 
+  }
+}
+.hi-X-1 {
+  &:before {
+    content: $hi-X-1; 
+  }
+}
+.hi-Y-1 {
+  &:before {
+    content: $hi-Y-1; 
+  }
+}
+.hi-yen-1 {
+  &:before {
+    content: $hi-yen-1; 
+  }
+}
+.hi-Z-1 {
+  &:before {
+    content: $hi-Z-1; 
+  }
+}
+.hi-x4-1 {
+  &:before {
+    content: $hi-x4-1; 
+  }
+}
+.hi-ambulance-1 {
+  &:before {
+    content: $hi-ambulance-1; 
+  }
+}
+.hi-basic_motorcycle-1 {
+  &:before {
+    content: $hi-basic_motorcycle-1; 
+  }
+}
+.hi-bike-1 {
+  &:before {
+    content: $hi-bike-1; 
+  }
+}
+.hi-cross_country_motorcycle-1 {
+  &:before {
+    content: $hi-cross_country_motorcycle-1; 
+  }
+}
+.hi-drone-1 {
+  &:before {
+    content: $hi-drone-1; 
+  }
+}
+.hi-helicopter-1 {
+  &:before {
+    content: $hi-helicopter-1; 
+  }
+}
+.hi-machinery-1 {
+  &:before {
+    content: $hi-machinery-1; 
+  }
+}
+.hi-mobile_clinic-1 {
+  &:before {
+    content: $hi-mobile_clinic-1; 
+  }
+}
+.hi-small_plane-1 {
+  &:before {
+    content: $hi-small_plane-1; 
+  }
+}
+.hi-vespa_motorcycle-1 {
+  &:before {
+    content: $hi-vespa_motorcycle-1; 
+  }
+}
+.hi-war-1 {
+  &:before {
+    content: $hi-war-1; 
+  }
+}
+.hi-blood_a_n-2 {
+  &:before {
+    content: $hi-blood_a_n-2; 
+  }
+}
+.hi-blood_a_p-2 {
+  &:before {
+    content: $hi-blood_a_p-2; 
+  }
+}
+.hi-blood_ab_n-2 {
+  &:before {
+    content: $hi-blood_ab_n-2; 
+  }
+}
+.hi-blood_ab_p-2 {
+  &:before {
+    content: $hi-blood_ab_p-2; 
+  }
+}
+.hi-blood_b_n-2 {
+  &:before {
+    content: $hi-blood_b_n-2; 
+  }
+}
+.hi-blood_b_p-2 {
+  &:before {
+    content: $hi-blood_b_p-2; 
+  }
+}
+.hi-blood_bag-2 {
+  &:before {
+    content: $hi-blood_bag-2; 
+  }
+}
+.hi-blood_o_n-2 {
+  &:before {
+    content: $hi-blood_o_n-2; 
+  }
+}
+.hi-blood_o_p-2 {
+  &:before {
+    content: $hi-blood_o_p-2; 
+  }
+}
+.hi-blood_rh_n-2 {
+  &:before {
+    content: $hi-blood_rh_n-2; 
+  }
+}
+.hi-blood_rh_p-2 {
+  &:before {
+    content: $hi-blood_rh_p-2; 
+  }
+}
+.hi-arm-2 {
+  &:before {
+    content: $hi-arm-2; 
+  }
+}
+.hi-bacteria-2 {
+  &:before {
+    content: $hi-bacteria-2; 
+  }
+}
+.hi-bladder-2 {
+  &:before {
+    content: $hi-bladder-2; 
+  }
+}
+.hi-blood_cells-2 {
+  &:before {
+    content: $hi-blood_cells-2; 
+  }
+}
+.hi-blood_drop-2 {
+  &:before {
+    content: $hi-blood_drop-2; 
+  }
+}
+.hi-blood_vessel-2 {
+  &:before {
+    content: $hi-blood_vessel-2; 
+  }
+}
+.hi-body-2 {
+  &:before {
+    content: $hi-body-2; 
+  }
+}
+.hi-dna-2 {
+  &:before {
+    content: $hi-dna-2; 
+  }
+}
+.hi-ear-2 {
+  &:before {
+    content: $hi-ear-2; 
+  }
+}
+.hi-enzyme-2 {
+  &:before {
+    content: $hi-enzyme-2; 
+  }
+}
+.hi-eye-2 {
+  &:before {
+    content: $hi-eye-2; 
+  }
+}
+.hi-female_reproductive_system-2 {
+  &:before {
+    content: $hi-female_reproductive_system-2; 
+  }
+}
+.hi-foot-2 {
+  &:before {
+    content: $hi-foot-2; 
+  }
+}
+.hi-gallbladder-2 {
+  &:before {
+    content: $hi-gallbladder-2; 
+  }
+}
+.hi-heart-4 {
+  &:before {
+    content: $hi-heart-4; 
+  }
+}
+.hi-intestine-2 {
+  &:before {
+    content: $hi-intestine-2; 
+  }
+}
+.hi-joints-2 {
+  &:before {
+    content: $hi-joints-2; 
+  }
+}
+.hi-kidneys-2 {
+  &:before {
+    content: $hi-kidneys-2; 
+  }
+}
+.hi-leg-2 {
+  &:before {
+    content: $hi-leg-2; 
+  }
+}
+.hi-liver-2 {
+  &:before {
+    content: $hi-liver-2; 
+  }
+}
+.hi-liver-alt-2 {
+  &:before {
+    content: $hi-liver-alt-2; 
+  }
+}
+.hi-lungs-2 {
+  &:before {
+    content: $hi-lungs-2; 
+  }
+}
+.hi-lymph_nodes-2 {
+  &:before {
+    content: $hi-lymph_nodes-2; 
+  }
+}
+.hi-mouth-2 {
+  &:before {
+    content: $hi-mouth-2; 
+  }
+}
+.hi-nerve-2 {
+  &:before {
+    content: $hi-nerve-2; 
+  }
+}
+.hi-neurology-2 {
+  &:before {
+    content: $hi-neurology-2; 
+  }
+}
+.hi-nose-2 {
+  &:before {
+    content: $hi-nose-2; 
+  }
+}
+.hi-pancreas-2 {
+  &:before {
+    content: $hi-pancreas-2; 
+  }
+}
+.hi-skeleton-2 {
+  &:before {
+    content: $hi-skeleton-2; 
+  }
+}
+.hi-skull-2 {
+  &:before {
+    content: $hi-skull-2; 
+  }
+}
+.hi-spine-2 {
+  &:before {
+    content: $hi-spine-2; 
+  }
+}
+.hi-spleen-2 {
+  &:before {
+    content: $hi-spleen-2; 
+  }
+}
+.hi-stomach-2 {
+  &:before {
+    content: $hi-stomach-2; 
+  }
+}
+.hi-tooth-2 {
+  &:before {
+    content: $hi-tooth-2; 
+  }
+}
+.hi-allergies-2 {
+  &:before {
+    content: $hi-allergies-2; 
+  }
+}
+.hi-back_pain-2 {
+  &:before {
+    content: $hi-back_pain-2; 
+  }
+}
+.hi-cervical_cancer-2 {
+  &:before {
+    content: $hi-cervical_cancer-2; 
+  }
+}
+.hi-chills-2 {
+  &:before {
+    content: $hi-chills-2; 
+  }
+}
+.hi-chills_fever-2 {
+  &:before {
+    content: $hi-chills_fever-2; 
+  }
+}
+.hi-coughing_alt-2 {
+  &:before {
+    content: $hi-coughing_alt-2; 
+  }
+}
+.hi-deaf-2 {
+  &:before {
+    content: $hi-deaf-2; 
+  }
+}
+.hi-diarrhea-2 {
+  &:before {
+    content: $hi-diarrhea-2; 
+  }
+}
+.hi-headache-2 {
+  &:before {
+    content: $hi-headache-2; 
+  }
+}
+.hi-hiv_ind-2 {
+  &:before {
+    content: $hi-hiv_ind-2; 
+  }
+}
+.hi-hiv_neg-2 {
+  &:before {
+    content: $hi-hiv_neg-2; 
+  }
+}
+.hi-hiv_pos-2 {
+  &:before {
+    content: $hi-hiv_pos-2; 
+  }
+}
+.hi-hpv-2 {
+  &:before {
+    content: $hi-hpv-2; 
+  }
+}
+.hi-intestinal-pain-2 {
+  &:before {
+    content: $hi-intestinal-pain-2; 
+  }
+}
+.hi-loss-smell-2 {
+  &:before {
+    content: $hi-loss-smell-2; 
+  }
+}
+.hi-low_vision-2 {
+  &:before {
+    content: $hi-low_vision-2; 
+  }
+}
+.hi-nausea-2 {
+  &:before {
+    content: $hi-nausea-2; 
+  }
+}
+.hi-overweight-2 {
+  &:before {
+    content: $hi-overweight-2; 
+  }
+}
+.hi-pneumonia-2 {
+  &:before {
+    content: $hi-pneumonia-2; 
+  }
+}
+.hi-ribbon-2 {
+  &:before {
+    content: $hi-ribbon-2; 
+  }
+}
+.hi-sti-2 {
+  &:before {
+    content: $hi-sti-2; 
+  }
+}
+.hi-sweating-4 {
+  &:before {
+    content: $hi-sweating-4; 
+  }
+}
+.hi-tb-2 {
+  &:before {
+    content: $hi-tb-2; 
+  }
+}
+.hi-underweight-2 {
+  &:before {
+    content: $hi-underweight-2; 
+  }
+}
+.hi-varicose_vein-2 {
+  &:before {
+    content: $hi-varicose_vein-2; 
+  }
+}
+.hi-vih-2 {
+  &:before {
+    content: $hi-vih-2; 
+  }
+}
+.hi-viral_lung_infection-2 {
+  &:before {
+    content: $hi-viral_lung_infection-2; 
+  }
+}
+.hi-vomiting-2 {
+  &:before {
+    content: $hi-vomiting-2; 
+  }
+}
+.hi-blood_pressure-2 {
+  &:before {
+    content: $hi-blood_pressure-2; 
+  }
+}
+.hi-blood_pressure_2-2 {
+  &:before {
+    content: $hi-blood_pressure_2-2; 
+  }
+}
+.hi-blood_pressure_monitor-2 {
+  &:before {
+    content: $hi-blood_pressure_monitor-2; 
+  }
+}
+.hi-cast-2 {
+  &:before {
+    content: $hi-cast-2; 
+  }
+}
+.hi-clinical_a-2 {
+  &:before {
+    content: $hi-clinical_a-2; 
+  }
+}
+.hi-cold_chain-2 {
+  &:before {
+    content: $hi-cold_chain-2; 
+  }
+}
+.hi-contact_lenses-2 {
+  &:before {
+    content: $hi-contact_lenses-2; 
+  }
+}
+.hi-defibrilator-2 {
+  &:before {
+    content: $hi-defibrilator-2; 
+  }
+}
+.hi-dental_hygiene-2 {
+  &:before {
+    content: $hi-dental_hygiene-2; 
+  }
+}
+.hi-discriminating_concentration_bioassays-2 {
+  &:before {
+    content: $hi-discriminating_concentration_bioassays-2; 
+  }
+}
+.hi-disinfecting_wipes-2 {
+  &:before {
+    content: $hi-disinfecting_wipes-2; 
+  }
+}
+.hi-exercise_bicycle-2 {
+  &:before {
+    content: $hi-exercise_bicycle-2; 
+  }
+}
+.hi-eyeglasses-4 {
+  &:before {
+    content: $hi-eyeglasses-4; 
+  }
+}
+.hi-fever-4 {
+  &:before {
+    content: $hi-fever-4; 
+  }
+}
+.hi-hospitalized-2 {
+  &:before {
+    content: $hi-hospitalized-2; 
+  }
+}
+.hi-inpatient-2 {
+  &:before {
+    content: $hi-inpatient-2; 
+  }
+}
+.hi-intravenous_bag-2 {
+  &:before {
+    content: $hi-intravenous_bag-2; 
+  }
+}
+.hi-llin-2 {
+  &:before {
+    content: $hi-llin-2; 
+  }
+}
+.hi-microscope-2 {
+  &:before {
+    content: $hi-microscope-2; 
+  }
+}
+.hi-mobile-2 {
+  &:before {
+    content: $hi-mobile-2; 
+  }
+}
+.hi-observation-2 {
+  &:before {
+    content: $hi-observation-2; 
+  }
+}
+.hi-odontology-2 {
+  &:before {
+    content: $hi-odontology-2; 
+  }
+}
+.hi-odontology_implant-2 {
+  &:before {
+    content: $hi-odontology_implant-2; 
+  }
+}
+.hi-oxygen_tank-2 {
+  &:before {
+    content: $hi-oxygen_tank-2; 
+  }
+}
+.hi-patient_band-2 {
+  &:before {
+    content: $hi-patient_band-2; 
+  }
+}
+.hi-patient_band_alt-2 {
+  &:before {
+    content: $hi-patient_band_alt-2; 
+  }
+}
+.hi-ppe_apron-2 {
+  &:before {
+    content: $hi-ppe_apron-2; 
+  }
+}
+.hi-ppe_face_mask-2 {
+  &:before {
+    content: $hi-ppe_face_mask-2; 
+  }
+}
+.hi-ppe_face_shield-2 {
+  &:before {
+    content: $hi-ppe_face_shield-2; 
+  }
+}
+.hi-ppe_gloves-2 {
+  &:before {
+    content: $hi-ppe_gloves-2; 
+  }
+}
+.hi-ppe_goggles-2 {
+  &:before {
+    content: $hi-ppe_goggles-2; 
+  }
+}
+.hi-ppe_gown-2 {
+  &:before {
+    content: $hi-ppe_gown-2; 
+  }
+}
+.hi-ppe_mask_n95-2 {
+  &:before {
+    content: $hi-ppe_mask_n95-2; 
+  }
+}
+.hi-ppe_sanitizer-2 {
+  &:before {
+    content: $hi-ppe_sanitizer-2; 
+  }
+}
+.hi-ppe_santizer_alt-2 {
+  &:before {
+    content: $hi-ppe_santizer_alt-2; 
+  }
+}
+.hi-ppe_suit-2 {
+  &:before {
+    content: $hi-ppe_suit-2; 
+  }
+}
+.hi-ppe-face-shield-alt-2 {
+  &:before {
+    content: $hi-ppe-face-shield-alt-2; 
+  }
+}
+.hi-ppe-mask-2 {
+  &:before {
+    content: $hi-ppe-mask-2; 
+  }
+}
+.hi-respirator-2 {
+  &:before {
+    content: $hi-respirator-2; 
+  }
+}
+.hi-sling-2 {
+  &:before {
+    content: $hi-sling-2; 
+  }
+}
+.hi-stethoscope-2 {
+  &:before {
+    content: $hi-stethoscope-2; 
+  }
+}
+.hi-surgical_sterilization-2 {
+  &:before {
+    content: $hi-surgical_sterilization-2; 
+  }
+}
+.hi-syringe-2 {
+  &:before {
+    content: $hi-syringe-2; 
+  }
+}
+.hi-syringe-vaccine-2 {
+  &:before {
+    content: $hi-syringe-vaccine-2; 
+  }
+}
+.hi-tac-2 {
+  &:before {
+    content: $hi-tac-2; 
+  }
+}
+.hi-thermometer-2 {
+  &:before {
+    content: $hi-thermometer-2; 
+  }
+}
+.hi-thermometer_digital-2 {
+  &:before {
+    content: $hi-thermometer_digital-2; 
+  }
+}
+.hi-treated_water-2 {
+  &:before {
+    content: $hi-treated_water-2; 
+  }
+}
+.hi-ventilator-2 {
+  &:before {
+    content: $hi-ventilator-2; 
+  }
+}
+.hi-ventilator_alt-2 {
+  &:before {
+    content: $hi-ventilator_alt-2; 
+  }
+}
+.hi-virus_lab_research_syringe-2 {
+  &:before {
+    content: $hi-virus_lab_research_syringe-2; 
+  }
+}
+.hi-virus_lab_research_test_tube-2 {
+  &:before {
+    content: $hi-virus_lab_research_test_tube-2; 
+  }
+}
+.hi-virus-sanitizer-spray-2 {
+  &:before {
+    content: $hi-virus-sanitizer-spray-2; 
+  }
+}
+.hi-weight-2 {
+  &:before {
+    content: $hi-weight-2; 
+  }
+}
+.hi-wheelchair-2 {
+  &:before {
+    content: $hi-wheelchair-2; 
+  }
+}
+.hi-wheelchair_alt-2 {
+  &:before {
+    content: $hi-wheelchair_alt-2; 
+  }
+}
+.hi-xray-2 {
+  &:before {
+    content: $hi-xray-2; 
+  }
+}
+.hi-cone_test_on_nets-2 {
+  &:before {
+    content: $hi-cone_test_on_nets-2; 
+  }
+}
+.hi-cone_test_on_walls-2 {
+  &:before {
+    content: $hi-cone_test_on_walls-2; 
+  }
+}
+.hi-hiv_self_test-2 {
+  &:before {
+    content: $hi-hiv_self_test-2; 
+  }
+}
+.hi-intensity_concentration_bioassays-2 {
+  &:before {
+    content: $hi-intensity_concentration_bioassays-2; 
+  }
+}
+.hi-malaria_microscope-2 {
+  &:before {
+    content: $hi-malaria_microscope-2; 
+  }
+}
+.hi-malaria_mixed_microscope-2 {
+  &:before {
+    content: $hi-malaria_mixed_microscope-2; 
+  }
+}
+.hi-malaria_pf_microscope-2 {
+  &:before {
+    content: $hi-malaria_pf_microscope-2; 
+  }
+}
+.hi-malaria_pv_microscope-2 {
+  &:before {
+    content: $hi-malaria_pv_microscope-2; 
+  }
+}
+.hi-malaria_testing-2 {
+  &:before {
+    content: $hi-malaria_testing-2; 
+  }
+}
+.hi-mosquito_collection-2 {
+  &:before {
+    content: $hi-mosquito_collection-2; 
+  }
+}
+.hi-rdt_result-2 {
+  &:before {
+    content: $hi-rdt_result-2; 
+  }
+}
+.hi-rdt_result_invalid-2 {
+  &:before {
+    content: $hi-rdt_result_invalid-2; 
+  }
+}
+.hi-rdt_result_mixed-2 {
+  &:before {
+    content: $hi-rdt_result_mixed-2; 
+  }
+}
+.hi-rdt_result_mixed_invalid-2 {
+  &:before {
+    content: $hi-rdt_result_mixed_invalid-2; 
+  }
+}
+.hi-rdt_result_mixed_invalid_rectangular-2 {
+  &:before {
+    content: $hi-rdt_result_mixed_invalid_rectangular-2; 
+  }
+}
+.hi-rdt_result_mixed_rectangular-2 {
+  &:before {
+    content: $hi-rdt_result_mixed_rectangular-2; 
+  }
+}
+.hi-rdt_result_neg-2 {
+  &:before {
+    content: $hi-rdt_result_neg-2; 
+  }
+}
+.hi-rdt_result_neg_invalid-2 {
+  &:before {
+    content: $hi-rdt_result_neg_invalid-2; 
+  }
+}
+.hi-rdt_result_neg_invalid_rectangular-2 {
+  &:before {
+    content: $hi-rdt_result_neg_invalid_rectangular-2; 
+  }
+}
+.hi-rdt_result_neg_rectangular-2 {
+  &:before {
+    content: $hi-rdt_result_neg_rectangular-2; 
+  }
+}
+.hi-rdt_result_no_test-2 {
+  &:before {
+    content: $hi-rdt_result_no_test-2; 
+  }
+}
+.hi-rdt_result_pf-2 {
+  &:before {
+    content: $hi-rdt_result_pf-2; 
+  }
+}
+.hi-rdt_result_pf_invalid-2 {
+  &:before {
+    content: $hi-rdt_result_pf_invalid-2; 
+  }
+}
+.hi-rdt_result_pf_invalid_rectangular-2 {
+  &:before {
+    content: $hi-rdt_result_pf_invalid_rectangular-2; 
+  }
+}
+.hi-rdt_result_pf_rectangular-2 {
+  &:before {
+    content: $hi-rdt_result_pf_rectangular-2; 
+  }
+}
+.hi-rdt_result_positive-2 {
+  &:before {
+    content: $hi-rdt_result_positive-2; 
+  }
+}
+.hi-rdt_result_pv-2 {
+  &:before {
+    content: $hi-rdt_result_pv-2; 
+  }
+}
+.hi-rdt_result_pv_invalid-2 {
+  &:before {
+    content: $hi-rdt_result_pv_invalid-2; 
+  }
+}
+.hi-rdt_result_pv_invalid_rectangular-2 {
+  &:before {
+    content: $hi-rdt_result_pv_invalid_rectangular-2; 
+  }
+}
+.hi-rdt_result_pv_rectangular-2 {
+  &:before {
+    content: $hi-rdt_result_pv_rectangular-2; 
+  }
+}
+.hi-synergist_insecticide_bioassays-2 {
+  &:before {
+    content: $hi-synergist_insecticide_bioassays-2; 
+  }
+}
+.hi-angry-2 {
+  &:before {
+    content: $hi-angry-2; 
+  }
+}
+.hi-bandaged-2 {
+  &:before {
+    content: $hi-bandaged-2; 
+  }
+}
+.hi-calm-2 {
+  &:before {
+    content: $hi-calm-2; 
+  }
+}
+.hi-confused-2 {
+  &:before {
+    content: $hi-confused-2; 
+  }
+}
+.hi-coughing-2 {
+  &:before {
+    content: $hi-coughing-2; 
+  }
+}
+.hi-crying-2 {
+  &:before {
+    content: $hi-crying-2; 
+  }
+}
+.hi-dizzy-2 {
+  &:before {
+    content: $hi-dizzy-2; 
+  }
+}
+.hi-expectorate-2 {
+  &:before {
+    content: $hi-expectorate-2; 
+  }
+}
+.hi-eyeglasses-5 {
+  &:before {
+    content: $hi-eyeglasses-5; 
+  }
+}
+.hi-fever-5 {
+  &:before {
+    content: $hi-fever-5; 
+  }
+}
+.hi-happy-2 {
+  &:before {
+    content: $hi-happy-2; 
+  }
+}
+.hi-loudly_crying-2 {
+  &:before {
+    content: $hi-loudly_crying-2; 
+  }
+}
+.hi-masked-2 {
+  &:before {
+    content: $hi-masked-2; 
+  }
+}
+.hi-measles-2 {
+  &:before {
+    content: $hi-measles-2; 
+  }
+}
+.hi-nauseous-2 {
+  &:before {
+    content: $hi-nauseous-2; 
+  }
+}
+.hi-nervous-2 {
+  &:before {
+    content: $hi-nervous-2; 
+  }
+}
+.hi-neutral-2 {
+  &:before {
+    content: $hi-neutral-2; 
+  }
+}
+.hi-not_ok-2 {
+  &:before {
+    content: $hi-not_ok-2; 
+  }
+}
+.hi-ok-2 {
+  &:before {
+    content: $hi-ok-2; 
+  }
+}
+.hi-sad-2 {
+  &:before {
+    content: $hi-sad-2; 
+  }
+}
+.hi-sleepy-2 {
+  &:before {
+    content: $hi-sleepy-2; 
+  }
+}
+.hi-sweating-5 {
+  &:before {
+    content: $hi-sweating-5; 
+  }
+}
+.hi-tongue-2 {
+  &:before {
+    content: $hi-tongue-2; 
+  }
+}
+.hi-vomitting-2 {
+  &:before {
+    content: $hi-vomitting-2; 
+  }
+}
+.hi-woozy-2 {
+  &:before {
+    content: $hi-woozy-2; 
+  }
+}
+.hi-contraceptive_diaphragm-2 {
+  &:before {
+    content: $hi-contraceptive_diaphragm-2; 
+  }
+}
+.hi-contraceptive_injection-2 {
+  &:before {
+    content: $hi-contraceptive_injection-2; 
+  }
+}
+.hi-contraceptive_patch-2 {
+  &:before {
+    content: $hi-contraceptive_patch-2; 
+  }
+}
+.hi-contraceptive_voucher-2 {
+  &:before {
+    content: $hi-contraceptive_voucher-2; 
+  }
+}
+.hi-copper_iud-2 {
+  &:before {
+    content: $hi-copper_iud-2; 
+  }
+}
+.hi-family_planning-2 {
+  &:before {
+    content: $hi-family_planning-2; 
+  }
+}
+.hi-female_condom-2 {
+  &:before {
+    content: $hi-female_condom-2; 
+  }
+}
+.hi-hormonal_ring-2 {
+  &:before {
+    content: $hi-hormonal_ring-2; 
+  }
+}
+.hi-implant-2 {
+  &:before {
+    content: $hi-implant-2; 
+  }
+}
+.hi-iud-2 {
+  &:before {
+    content: $hi-iud-2; 
+  }
+}
+.hi-male_condom-2 {
+  &:before {
+    content: $hi-male_condom-2; 
+  }
+}
+.hi-oral_contraception_pillsx21-2 {
+  &:before {
+    content: $hi-oral_contraception_pillsx21-2; 
+  }
+}
+.hi-oral_contraception_pillsx28-2 {
+  &:before {
+    content: $hi-oral_contraception_pillsx28-2; 
+  }
+}
+.hi-sayana_press-2 {
+  &:before {
+    content: $hi-sayana_press-2; 
+  }
+}
+.hi-sperm-2 {
+  &:before {
+    content: $hi-sperm-2; 
+  }
+}
+.hi-blister_pills_oval_x1-2 {
+  &:before {
+    content: $hi-blister_pills_oval_x1-2; 
+  }
+}
+.hi-blister_pills_oval_x4-2 {
+  &:before {
+    content: $hi-blister_pills_oval_x4-2; 
+  }
+}
+.hi-blister_pills_oval_x14-2 {
+  &:before {
+    content: $hi-blister_pills_oval_x14-2; 
+  }
+}
+.hi-blister_pills_oval_x16-2 {
+  &:before {
+    content: $hi-blister_pills_oval_x16-2; 
+  }
+}
+.hi-blister_pills_round_x1-2 {
+  &:before {
+    content: $hi-blister_pills_round_x1-2; 
+  }
+}
+.hi-blister_pills_round_x4-2 {
+  &:before {
+    content: $hi-blister_pills_round_x4-2; 
+  }
+}
+.hi-blister_pills_round_x14-2 {
+  &:before {
+    content: $hi-blister_pills_round_x14-2; 
+  }
+}
+.hi-blister_pills_round_x16-2 {
+  &:before {
+    content: $hi-blister_pills_round_x16-2; 
+  }
+}
+.hi-medicines-2 {
+  &:before {
+    content: $hi-medicines-2; 
+  }
+}
+.hi-pill_1-2 {
+  &:before {
+    content: $hi-pill_1-2; 
+  }
+}
+.hi-pills_2-2 {
+  &:before {
+    content: $hi-pills_2-2; 
+  }
+}
+.hi-pills_3-2 {
+  &:before {
+    content: $hi-pills_3-2; 
+  }
+}
+.hi-pills_4-2 {
+  &:before {
+    content: $hi-pills_4-2; 
+  }
+}
+.hi-bandage_adhesive-2 {
+  &:before {
+    content: $hi-bandage_adhesive-2; 
+  }
+}
+.hi-bills-2 {
+  &:before {
+    content: $hi-bills-2; 
+  }
+}
+.hi-cleaning-2 {
+  &:before {
+    content: $hi-cleaning-2; 
+  }
+}
+.hi-coins-2 {
+  &:before {
+    content: $hi-coins-2; 
+  }
+}
+.hi-construction-2 {
+  &:before {
+    content: $hi-construction-2; 
+  }
+}
+.hi-credit_card-2 {
+  &:before {
+    content: $hi-credit_card-2; 
+  }
+}
+.hi-desktop_app-2 {
+  &:before {
+    content: $hi-desktop_app-2; 
+  }
+}
+.hi-hot_meal-2 {
+  &:before {
+    content: $hi-hot_meal-2; 
+  }
+}
+.hi-i_utensils-2 {
+  &:before {
+    content: $hi-i_utensils-2; 
+  }
+}
+.hi-justice-2 {
+  &:before {
+    content: $hi-justice-2; 
+  }
+}
+.hi-money_bag-2 {
+  &:before {
+    content: $hi-money_bag-2; 
+  }
+}
+.hi-phone-2 {
+  &:before {
+    content: $hi-phone-2; 
+  }
+}
+.hi-rdt_result_out_stock-2 {
+  &:before {
+    content: $hi-rdt_result_out_stock-2; 
+  }
+}
+.hi-running_water-2 {
+  &:before {
+    content: $hi-running_water-2; 
+  }
+}
+.hi-spreadsheets-2 {
+  &:before {
+    content: $hi-spreadsheets-2; 
+  }
+}
+.hi-stock_out-2 {
+  &:before {
+    content: $hi-stock_out-2; 
+  }
+}
+.hi-umbrella-2 {
+  &:before {
+    content: $hi-umbrella-2; 
+  }
+}
+.hi-unhealthy_food-2 {
+  &:before {
+    content: $hi-unhealthy_food-2; 
+  }
+}
+.hi-agriculture-2 {
+  &:before {
+    content: $hi-agriculture-2; 
+  }
+}
+.hi-agriculture_worker-2 {
+  &:before {
+    content: $hi-agriculture_worker-2; 
+  }
+}
+.hi-agriculture_worker_alt-2 {
+  &:before {
+    content: $hi-agriculture_worker_alt-2; 
+  }
+}
+.hi-ancv-2 {
+  &:before {
+    content: $hi-ancv-2; 
+  }
+}
+.hi-asthma-2 {
+  &:before {
+    content: $hi-asthma-2; 
+  }
+}
+.hi-baby_0203_alt-2 {
+  &:before {
+    content: $hi-baby_0203_alt-2; 
+  }
+}
+.hi-baby_0203m-2 {
+  &:before {
+    content: $hi-baby_0203m-2; 
+  }
+}
+.hi-baby_0306m-2 {
+  &:before {
+    content: $hi-baby_0306m-2; 
+  }
+}
+.hi-baby_female_0203m_alt-2 {
+  &:before {
+    content: $hi-baby_female_0203m_alt-2; 
+  }
+}
+.hi-baby_female_0306m-2 {
+  &:before {
+    content: $hi-baby_female_0306m-2; 
+  }
+}
+.hi-baby_female_0609m-2 {
+  &:before {
+    content: $hi-baby_female_0609m-2; 
+  }
+}
+.hi-baby_male_0203m_alt-2 {
+  &:before {
+    content: $hi-baby_male_0203m_alt-2; 
+  }
+}
+.hi-baby_male_0306m-2 {
+  &:before {
+    content: $hi-baby_male_0306m-2; 
+  }
+}
+.hi-baby_male_0609m-2 {
+  &:before {
+    content: $hi-baby_male_0609m-2; 
+  }
+}
+.hi-boy_0105y-2 {
+  &:before {
+    content: $hi-boy_0105y-2; 
+  }
+}
+.hi-boy_1015y-2 {
+  &:before {
+    content: $hi-boy_1015y-2; 
+  }
+}
+.hi-call_centre-2 {
+  &:before {
+    content: $hi-call_centre-2; 
+  }
+}
+.hi-child_care-2 {
+  &:before {
+    content: $hi-child_care-2; 
+  }
+}
+.hi-child_cognition-2 {
+  &:before {
+    content: $hi-child_cognition-2; 
+  }
+}
+.hi-child_program-2 {
+  &:before {
+    content: $hi-child_program-2; 
+  }
+}
+.hi-city_worker-2 {
+  &:before {
+    content: $hi-city_worker-2; 
+  }
+}
+.hi-clean_hands-2 {
+  &:before {
+    content: $hi-clean_hands-2; 
+  }
+}
+.hi-community_healthworker-2 {
+  &:before {
+    content: $hi-community_healthworker-2; 
+  }
+}
+.hi-construction_worker-2 {
+  &:before {
+    content: $hi-construction_worker-2; 
+  }
+}
+.hi-diabetes-4 {
+  &:before {
+    content: $hi-diabetes-4; 
+  }
+}
+.hi-doctor-2 {
+  &:before {
+    content: $hi-doctor-2; 
+  }
+}
+.hi-doctor_female-2 {
+  &:before {
+    content: $hi-doctor_female-2; 
+  }
+}
+.hi-doctor_male-2 {
+  &:before {
+    content: $hi-doctor_male-2; 
+  }
+}
+.hi-domestic_worker-2 {
+  &:before {
+    content: $hi-domestic_worker-2; 
+  }
+}
+.hi-domestic_worker_alt-2 {
+  &:before {
+    content: $hi-domestic_worker_alt-2; 
+  }
+}
+.hi-elderly-2 {
+  &:before {
+    content: $hi-elderly-2; 
+  }
+}
+.hi-exercise_running-2 {
+  &:before {
+    content: $hi-exercise_running-2; 
+  }
+}
+.hi-exercise_walk_supported-2 {
+  &:before {
+    content: $hi-exercise_walk_supported-2; 
+  }
+}
+.hi-exercise_walking-2 {
+  &:before {
+    content: $hi-exercise_walking-2; 
+  }
+}
+.hi-exercise_weights-2 {
+  &:before {
+    content: $hi-exercise_weights-2; 
+  }
+}
+.hi-factory_worker-2 {
+  &:before {
+    content: $hi-factory_worker-2; 
+  }
+}
+.hi-female_and_male-2 {
+  &:before {
+    content: $hi-female_and_male-2; 
+  }
+}
+.hi-female_sex_worker-2 {
+  &:before {
+    content: $hi-female_sex_worker-2; 
+  }
+}
+.hi-fetus-2 {
+  &:before {
+    content: $hi-fetus-2; 
+  }
+}
+.hi-forum-2 {
+  &:before {
+    content: $hi-forum-2; 
+  }
+}
+.hi-girl_0105y-2 {
+  &:before {
+    content: $hi-girl_0105y-2; 
+  }
+}
+.hi-girl_1015y-2 {
+  &:before {
+    content: $hi-girl_1015y-2; 
+  }
+}
+.hi-group_discussion_meeting-2 {
+  &:before {
+    content: $hi-group_discussion_meeting-2; 
+  }
+}
+.hi-group_discussion_meetingx3-2 {
+  &:before {
+    content: $hi-group_discussion_meetingx3-2; 
+  }
+}
+.hi-health_worker-2 {
+  &:before {
+    content: $hi-health_worker-2; 
+  }
+}
+.hi-i_groups_perspective_crowd-2 {
+  &:before {
+    content: $hi-i_groups_perspective_crowd-2; 
+  }
+}
+.hi-i_training_class-2 {
+  &:before {
+    content: $hi-i_training_class-2; 
+  }
+}
+.hi-lactation-2 {
+  &:before {
+    content: $hi-lactation-2; 
+  }
+}
+.hi-male_and_female-2 {
+  &:before {
+    content: $hi-male_and_female-2; 
+  }
+}
+.hi-male_sex_worker-2 {
+  &:before {
+    content: $hi-male_sex_worker-2; 
+  }
+}
+.hi-man-2 {
+  &:before {
+    content: $hi-man-2; 
+  }
+}
+.hi-mental_disorders-2 {
+  &:before {
+    content: $hi-mental_disorders-2; 
+  }
+}
+.hi-military_worker-2 {
+  &:before {
+    content: $hi-military_worker-2; 
+  }
+}
+.hi-miner_worker-2 {
+  &:before {
+    content: $hi-miner_worker-2; 
+  }
+}
+.hi-miner_worker_alt-2 {
+  &:before {
+    content: $hi-miner_worker_alt-2; 
+  }
+}
+.hi-msm-2 {
+  &:before {
+    content: $hi-msm-2; 
+  }
+}
+.hi-neuro_surgery-2 {
+  &:before {
+    content: $hi-neuro_surgery-2; 
+  }
+}
+.hi-nurse-2 {
+  &:before {
+    content: $hi-nurse-2; 
+  }
+}
+.hi-officer-2 {
+  &:before {
+    content: $hi-officer-2; 
+  }
+}
+.hi-old_man-2 {
+  &:before {
+    content: $hi-old_man-2; 
+  }
+}
+.hi-old_woman-2 {
+  &:before {
+    content: $hi-old_woman-2; 
+  }
+}
+.hi-outpatient-2 {
+  &:before {
+    content: $hi-outpatient-2; 
+  }
+}
+.hi-pediatric_surgery-2 {
+  &:before {
+    content: $hi-pediatric_surgery-2; 
+  }
+}
+.hi-people-2 {
+  &:before {
+    content: $hi-people-2; 
+  }
+}
+.hi-person-2 {
+  &:before {
+    content: $hi-person-2; 
+  }
+}
+.hi-plantation_worker-2 {
+  &:before {
+    content: $hi-plantation_worker-2; 
+  }
+}
+.hi-plantation_worker_alt-2 {
+  &:before {
+    content: $hi-plantation_worker_alt-2; 
+  }
+}
+.hi-pregnant-2 {
+  &:before {
+    content: $hi-pregnant-2; 
+  }
+}
+.hi-pregnant_32w-2 {
+  &:before {
+    content: $hi-pregnant_32w-2; 
+  }
+}
+.hi-pregnant_0812w-2 {
+  &:before {
+    content: $hi-pregnant_0812w-2; 
+  }
+}
+.hi-pregnant_2426w-2 {
+  &:before {
+    content: $hi-pregnant_2426w-2; 
+  }
+}
+.hi-pregnant_3638w-2 {
+  &:before {
+    content: $hi-pregnant_3638w-2; 
+  }
+}
+.hi-prisoner-2 {
+  &:before {
+    content: $hi-prisoner-2; 
+  }
+}
+.hi-pwid-2 {
+  &:before {
+    content: $hi-pwid-2; 
+  }
+}
+.hi-refused-2 {
+  &:before {
+    content: $hi-refused-2; 
+  }
+}
+.hi-rmnh-2 {
+  &:before {
+    content: $hi-rmnh-2; 
+  }
+}
+.hi-security_worker-2 {
+  &:before {
+    content: $hi-security_worker-2; 
+  }
+}
+.hi-speech_language_therapy-4 {
+  &:before {
+    content: $hi-speech_language_therapy-4; 
+  }
+}
+.hi-spraying-2 {
+  &:before {
+    content: $hi-spraying-2; 
+  }
+}
+.hi-symptom-2 {
+  &:before {
+    content: $hi-symptom-2; 
+  }
+}
+.hi-traumatism-2 {
+  &:before {
+    content: $hi-traumatism-2; 
+  }
+}
+.hi-travel-2 {
+  &:before {
+    content: $hi-travel-2; 
+  }
+}
+.hi-travel_alt-2 {
+  &:before {
+    content: $hi-travel_alt-2; 
+  }
+}
+.hi-truck_driver-2 {
+  &:before {
+    content: $hi-truck_driver-2; 
+  }
+}
+.hi-wash_hands-2 {
+  &:before {
+    content: $hi-wash_hands-2; 
+  }
+}
+.hi-water_sanitation-2 {
+  &:before {
+    content: $hi-water_sanitation-2; 
+  }
+}
+.hi-woman-2 {
+  &:before {
+    content: $hi-woman-2; 
+  }
+}
+.hi-world_care-2 {
+  &:before {
+    content: $hi-world_care-2; 
+  }
+}
+.hi-young_people-2 {
+  &:before {
+    content: $hi-young_people-2; 
+  }
+}
+.hi-ambulatory_clinic-2 {
+  &:before {
+    content: $hi-ambulatory_clinic-2; 
+  }
+}
+.hi-church-2 {
+  &:before {
+    content: $hi-church-2; 
+  }
+}
+.hi-city-2 {
+  &:before {
+    content: $hi-city-2; 
+  }
+}
+.hi-emergency_post-2 {
+  &:before {
+    content: $hi-emergency_post-2; 
+  }
+}
+.hi-forest-2 {
+  &:before {
+    content: $hi-forest-2; 
+  }
+}
+.hi-forest_persons-2 {
+  &:before {
+    content: $hi-forest_persons-2; 
+  }
+}
+.hi-home-2 {
+  &:before {
+    content: $hi-home-2; 
+  }
+}
+.hi-home_alt-2 {
+  &:before {
+    content: $hi-home_alt-2; 
+  }
+}
+.hi-hospital-2 {
+  &:before {
+    content: $hi-hospital-2; 
+  }
+}
+.hi-letrina-2 {
+  &:before {
+    content: $hi-letrina-2; 
+  }
+}
+.hi-letrina_alt-2 {
+  &:before {
+    content: $hi-letrina_alt-2; 
+  }
+}
+.hi-market_stall-2 {
+  &:before {
+    content: $hi-market_stall-2; 
+  }
+}
+.hi-ministry_of_health-2 {
+  &:before {
+    content: $hi-ministry_of_health-2; 
+  }
+}
+.hi-mosque-2 {
+  &:before {
+    content: $hi-mosque-2; 
+  }
+}
+.hi-palm_branches_roof-2 {
+  &:before {
+    content: $hi-palm_branches_roof-2; 
+  }
+}
+.hi-proper_roof-2 {
+  &:before {
+    content: $hi-proper_roof-2; 
+  }
+}
+.hi-rural_post-2 {
+  &:before {
+    content: $hi-rural_post-2; 
+  }
+}
+.hi-rural_post_alt-2 {
+  &:before {
+    content: $hi-rural_post_alt-2; 
+  }
+}
+.hi-temple-2 {
+  &:before {
+    content: $hi-temple-2; 
+  }
+}
+.hi-temple_alt-2 {
+  &:before {
+    content: $hi-temple_alt-2; 
+  }
+}
+.hi-village-2 {
+  &:before {
+    content: $hi-village-2; 
+  }
+}
+.hi-circle_large-2 {
+  &:before {
+    content: $hi-circle_large-2; 
+  }
+}
+.hi-circle_medium-2 {
+  &:before {
+    content: $hi-circle_medium-2; 
+  }
+}
+.hi-circle_small-2 {
+  &:before {
+    content: $hi-circle_small-2; 
+  }
+}
+.hi-information_campaign-2 {
+  &:before {
+    content: $hi-information_campaign-2; 
+  }
+}
+.hi-square_large-2 {
+  &:before {
+    content: $hi-square_large-2; 
+  }
+}
+.hi-square_medium-2 {
+  &:before {
+    content: $hi-square_medium-2; 
+  }
+}
+.hi-square_small-2 {
+  &:before {
+    content: $hi-square_small-2; 
+  }
+}
+.hi-star_large-2 {
+  &:before {
+    content: $hi-star_large-2; 
+  }
+}
+.hi-star_medium-2 {
+  &:before {
+    content: $hi-star_medium-2; 
+  }
+}
+.hi-star_small-2 {
+  &:before {
+    content: $hi-star_small-2; 
+  }
+}
+.hi-triangle_large-2 {
+  &:before {
+    content: $hi-triangle_large-2; 
+  }
+}
+.hi-triangle_medium-2 {
+  &:before {
+    content: $hi-triangle_medium-2; 
+  }
+}
+.hi-triangle_small-2 {
+  &:before {
+    content: $hi-triangle_small-2; 
+  }
+}
+.hi-accident_and_emergency-2 {
+  &:before {
+    content: $hi-accident_and_emergency-2; 
+  }
+}
+.hi-admissions-2 {
+  &:before {
+    content: $hi-admissions-2; 
+  }
+}
+.hi-biochemistry_laboratory-2 {
+  &:before {
+    content: $hi-biochemistry_laboratory-2; 
+  }
+}
+.hi-cardiology-2 {
+  &:before {
+    content: $hi-cardiology-2; 
+  }
+}
+.hi-chaplaincy-2 {
+  &:before {
+    content: $hi-chaplaincy-2; 
+  }
+}
+.hi-coronary_care_unit-2 {
+  &:before {
+    content: $hi-coronary_care_unit-2; 
+  }
+}
+.hi-critical_care-2 {
+  &:before {
+    content: $hi-critical_care-2; 
+  }
+}
+.hi-discharge_lounge-2 {
+  &:before {
+    content: $hi-discharge_lounge-2; 
+  }
+}
+.hi-ears_nose_and_throat-2 {
+  &:before {
+    content: $hi-ears_nose_and_throat-2; 
+  }
+}
+.hi-endocrinology-2 {
+  &:before {
+    content: $hi-endocrinology-2; 
+  }
+}
+.hi-finance_dept-2 {
+  &:before {
+    content: $hi-finance_dept-2; 
+  }
+}
+.hi-gastroenterology-2 {
+  &:before {
+    content: $hi-gastroenterology-2; 
+  }
+}
+.hi-geriatrics-2 {
+  &:before {
+    content: $hi-geriatrics-2; 
+  }
+}
+.hi-gym-2 {
+  &:before {
+    content: $hi-gym-2; 
+  }
+}
+.hi-gynecology-2 {
+  &:before {
+    content: $hi-gynecology-2; 
+  }
+}
+.hi-hematology-2 {
+  &:before {
+    content: $hi-hematology-2; 
+  }
+}
+.hi-hematology_laboratory-2 {
+  &:before {
+    content: $hi-hematology_laboratory-2; 
+  }
+}
+.hi-hepatology-2 {
+  &:before {
+    content: $hi-hepatology-2; 
+  }
+}
+.hi-human_resoruces-2 {
+  &:before {
+    content: $hi-human_resoruces-2; 
+  }
+}
+.hi-intensive_care_unit-2 {
+  &:before {
+    content: $hi-intensive_care_unit-2; 
+  }
+}
+.hi-medical_records-2 {
+  &:before {
+    content: $hi-medical_records-2; 
+  }
+}
+.hi-nephrology-2 {
+  &:before {
+    content: $hi-nephrology-2; 
+  }
+}
+.hi-obstetricsmonia-2 {
+  &:before {
+    content: $hi-obstetricsmonia-2; 
+  }
+}
+.hi-oncology-2 {
+  &:before {
+    content: $hi-oncology-2; 
+  }
+}
+.hi-opthalmology-2 {
+  &:before {
+    content: $hi-opthalmology-2; 
+  }
+}
+.hi-orthopaedics-2 {
+  &:before {
+    content: $hi-orthopaedics-2; 
+  }
+}
+.hi-outpatient_department-2 {
+  &:before {
+    content: $hi-outpatient_department-2; 
+  }
+}
+.hi-pediatrics-2 {
+  &:before {
+    content: $hi-pediatrics-2; 
+  }
+}
+.hi-pharmacy-4 {
+  &:before {
+    content: $hi-pharmacy-4; 
+  }
+}
+.hi-physical_therapy-2 {
+  &:before {
+    content: $hi-physical_therapy-2; 
+  }
+}
+.hi-psychology-2 {
+  &:before {
+    content: $hi-psychology-2; 
+  }
+}
+.hi-radiology-2 {
+  &:before {
+    content: $hi-radiology-2; 
+  }
+}
+.hi-respirology-2 {
+  &:before {
+    content: $hi-respirology-2; 
+  }
+}
+.hi-rheumatology-2 {
+  &:before {
+    content: $hi-rheumatology-2; 
+  }
+}
+.hi-social_work-2 {
+  &:before {
+    content: $hi-social_work-2; 
+  }
+}
+.hi-sonography-2 {
+  &:before {
+    content: $hi-sonography-2; 
+  }
+}
+.hi-speech_language_therapy-5 {
+  &:before {
+    content: $hi-speech_language_therapy-5; 
+  }
+}
+.hi-urology-2 {
+  &:before {
+    content: $hi-urology-2; 
+  }
+}
+.hi-g-2 {
+  &:before {
+    content: $hi-g-2; 
+  }
+}
+.hi-g-21 {
+  &:before {
+    content: $hi-g-21; 
+  }
+}
+.hi-alcohol-2 {
+  &:before {
+    content: $hi-alcohol-2; 
+  }
+}
+.hi-alert-2 {
+  &:before {
+    content: $hi-alert-2; 
+  }
+}
+.hi-alert_circle-2 {
+  &:before {
+    content: $hi-alert_circle-2; 
+  }
+}
+.hi-alert_triangle-2 {
+  &:before {
+    content: $hi-alert_triangle-2; 
+  }
+}
+.hi-animal_chicken-2 {
+  &:before {
+    content: $hi-animal_chicken-2; 
+  }
+}
+.hi-animal_cow-2 {
+  &:before {
+    content: $hi-animal_cow-2; 
+  }
+}
+.hi-animal_donkey-2 {
+  &:before {
+    content: $hi-animal_donkey-2; 
+  }
+}
+.hi-animal_spider-2 {
+  &:before {
+    content: $hi-animal_spider-2; 
+  }
+}
+.hi-animal_tick-2 {
+  &:before {
+    content: $hi-animal_tick-2; 
+  }
+}
+.hi-assembly_point-2 {
+  &:before {
+    content: $hi-assembly_point-2; 
+  }
+}
+.hi-award_ribbon-2 {
+  &:before {
+    content: $hi-award_ribbon-2; 
+  }
+}
+.hi-award_trophy-2 {
+  &:before {
+    content: $hi-award_trophy-2; 
+  }
+}
+.hi-book-2 {
+  &:before {
+    content: $hi-book-2; 
+  }
+}
+.hi-breeding_sites-2 {
+  &:before {
+    content: $hi-breeding_sites-2; 
+  }
+}
+.hi-calendar-2 {
+  &:before {
+    content: $hi-calendar-2; 
+  }
+}
+.hi-calendar-quarantine-2 {
+  &:before {
+    content: $hi-calendar-quarantine-2; 
+  }
+}
+.hi-cannabis-2 {
+  &:before {
+    content: $hi-cannabis-2; 
+  }
+}
+.hi-cardiogram-2 {
+  &:before {
+    content: $hi-cardiogram-2; 
+  }
+}
+.hi-cardiogram_e-2 {
+  &:before {
+    content: $hi-cardiogram_e-2; 
+  }
+}
+.hi-chart_bar-2 {
+  &:before {
+    content: $hi-chart_bar-2; 
+  }
+}
+.hi-chart_bar_stacked-2 {
+  &:before {
+    content: $hi-chart_bar_stacked-2; 
+  }
+}
+.hi-chart_line-2 {
+  &:before {
+    content: $hi-chart_line-2; 
+  }
+}
+.hi-chart_line_stacked-2 {
+  &:before {
+    content: $hi-chart_line_stacked-2; 
+  }
+}
+.hi-chart_pie-2 {
+  &:before {
+    content: $hi-chart_pie-2; 
+  }
+}
+.hi-chart-cured-decreasing-2 {
+  &:before {
+    content: $hi-chart-cured-decreasing-2; 
+  }
+}
+.hi-chart-cured-increasing-2 {
+  &:before {
+    content: $hi-chart-cured-increasing-2; 
+  }
+}
+.hi-chart-death-rate-decreasing-2 {
+  &:before {
+    content: $hi-chart-death-rate-decreasing-2; 
+  }
+}
+.hi-chart-death-rate-increasing-2 {
+  &:before {
+    content: $hi-chart-death-rate-increasing-2; 
+  }
+}
+.hi-chart-death-rate-stable-2 {
+  &:before {
+    content: $hi-chart-death-rate-stable-2; 
+  }
+}
+.hi-chart-infected-decreasing-2 {
+  &:before {
+    content: $hi-chart-infected-decreasing-2; 
+  }
+}
+.hi-chart-infected-increasing-2 {
+  &:before {
+    content: $hi-chart-infected-increasing-2; 
+  }
+}
+.hi-chart-infected-stable-2 {
+  &:before {
+    content: $hi-chart-infected-stable-2; 
+  }
+}
+.hi-cholera-2 {
+  &:before {
+    content: $hi-cholera-2; 
+  }
+}
+.hi-clinical_f-2 {
+  &:before {
+    content: $hi-clinical_f-2; 
+  }
+}
+.hi-clinical_fe-2 {
+  &:before {
+    content: $hi-clinical_fe-2; 
+  }
+}
+.hi-communication-2 {
+  &:before {
+    content: $hi-communication-2; 
+  }
+}
+.hi-community_meeting-2 {
+  &:before {
+    content: $hi-community_meeting-2; 
+  }
+}
+.hi-contact_support-2 {
+  &:before {
+    content: $hi-contact_support-2; 
+  }
+}
+.hi-database-2 {
+  &:before {
+    content: $hi-database-2; 
+  }
+}
+.hi-death-2 {
+  &:before {
+    content: $hi-death-2; 
+  }
+}
+.hi-death_alt-2 {
+  &:before {
+    content: $hi-death_alt-2; 
+  }
+}
+.hi-death_alt2-2 {
+  &:before {
+    content: $hi-death_alt2-2; 
+  }
+}
+.hi-default-2 {
+  &:before {
+    content: $hi-default-2; 
+  }
+}
+.hi-dhis2_logo-2 {
+  &:before {
+    content: $hi-dhis2_logo-2; 
+  }
+}
+.hi-diabetes-5 {
+  &:before {
+    content: $hi-diabetes-5; 
+  }
+}
+.hi-diabetes_measure-2 {
+  &:before {
+    content: $hi-diabetes_measure-2; 
+  }
+}
+.hi-discharge-2 {
+  &:before {
+    content: $hi-discharge-2; 
+  }
+}
+.hi-eco_care-2 {
+  &:before {
+    content: $hi-eco_care-2; 
+  }
+}
+.hi-electricity-2 {
+  &:before {
+    content: $hi-electricity-2; 
+  }
+}
+.hi-entry-2 {
+  &:before {
+    content: $hi-entry-2; 
+  }
+}
+.hi-excel_logo-2 {
+  &:before {
+    content: $hi-excel_logo-2; 
+  }
+}
+.hi-exercise-2 {
+  &:before {
+    content: $hi-exercise-2; 
+  }
+}
+.hi-FHIR_logo-2 {
+  &:before {
+    content: $hi-FHIR_logo-2; 
+  }
+}
+.hi-fingerprint-2 {
+  &:before {
+    content: $hi-fingerprint-2; 
+  }
+}
+.hi-fruits-2 {
+  &:before {
+    content: $hi-fruits-2; 
+  }
+}
+.hi-geo_location-2 {
+  &:before {
+    content: $hi-geo_location-2; 
+  }
+}
+.hi-global-pandemic-2 {
+  &:before {
+    content: $hi-global-pandemic-2; 
+  }
+}
+.hi-globe-2 {
+  &:before {
+    content: $hi-globe-2; 
+  }
+}
+.hi-guide_dog-2 {
+  &:before {
+    content: $hi-guide_dog-2; 
+  }
+}
+.hi-hazardous-2 {
+  &:before {
+    content: $hi-hazardous-2; 
+  }
+}
+.hi-health-2 {
+  &:before {
+    content: $hi-health-2; 
+  }
+}
+.hi-health_alt-2 {
+  &:before {
+    content: $hi-health_alt-2; 
+  }
+}
+.hi-health_data_security-2 {
+  &:before {
+    content: $hi-health_data_security-2; 
+  }
+}
+.hi-health_data_sync-2 {
+  &:before {
+    content: $hi-health_data_sync-2; 
+  }
+}
+.hi-health_literacy-2 {
+  &:before {
+    content: $hi-health_literacy-2; 
+  }
+}
+.hi-health_worker_form-2 {
+  &:before {
+    content: $hi-health_worker_form-2; 
+  }
+}
+.hi-heart-5 {
+  &:before {
+    content: $hi-heart-5; 
+  }
+}
+.hi-heart_cardiogram-2 {
+  &:before {
+    content: $hi-heart_cardiogram-2; 
+  }
+}
+.hi-high_bars-2 {
+  &:before {
+    content: $hi-high_bars-2; 
+  }
+}
+.hi-high_level-2 {
+  &:before {
+    content: $hi-high_level-2; 
+  }
+}
+.hi-home-quarantine-2 {
+  &:before {
+    content: $hi-home-quarantine-2; 
+  }
+}
+.hi-hospice-2 {
+  &:before {
+    content: $hi-hospice-2; 
+  }
+}
+.hi-hospital_symbol-2 {
+  &:before {
+    content: $hi-hospital_symbol-2; 
+  }
+}
+.hi-i_certificate_paper-2 {
+  &:before {
+    content: $hi-i_certificate_paper-2; 
+  }
+}
+.hi-i_documents_accepted-2 {
+  &:before {
+    content: $hi-i_documents_accepted-2; 
+  }
+}
+.hi-i_documents_denied-2 {
+  &:before {
+    content: $hi-i_documents_denied-2; 
+  }
+}
+.hi-i_exam_multiple_choice-2 {
+  &:before {
+    content: $hi-i_exam_multiple_choice-2; 
+  }
+}
+.hi-i_exam_qualification-2 {
+  &:before {
+    content: $hi-i_exam_qualification-2; 
+  }
+}
+.hi-i_note_action-2 {
+  &:before {
+    content: $hi-i_note_action-2; 
+  }
+}
+.hi-i_schedule_school_date_time-2 {
+  &:before {
+    content: $hi-i_schedule_school_date_time-2; 
+  }
+}
+.hi-imm-2 {
+  &:before {
+    content: $hi-imm-2; 
+  }
+}
+.hi-info-2 {
+  &:before {
+    content: $hi-info-2; 
+  }
+}
+.hi-insecticide_resistance-2 {
+  &:before {
+    content: $hi-insecticide_resistance-2; 
+  }
+}
+.hi-low_bars-2 {
+  &:before {
+    content: $hi-low_bars-2; 
+  }
+}
+.hi-low_level-2 {
+  &:before {
+    content: $hi-low_level-2; 
+  }
+}
+.hi-magnifying_glass-2 {
+  &:before {
+    content: $hi-magnifying_glass-2; 
+  }
+}
+.hi-malaria_outbreak-2 {
+  &:before {
+    content: $hi-malaria_outbreak-2; 
+  }
+}
+.hi-medical_advice-2 {
+  &:before {
+    content: $hi-medical_advice-2; 
+  }
+}
+.hi-medium_bars-2 {
+  &:before {
+    content: $hi-medium_bars-2; 
+  }
+}
+.hi-medium_level-2 {
+  &:before {
+    content: $hi-medium_level-2; 
+  }
+}
+.hi-megaphone-2 {
+  &:before {
+    content: $hi-megaphone-2; 
+  }
+}
+.hi-mosquito-2 {
+  &:before {
+    content: $hi-mosquito-2; 
+  }
+}
+.hi-negative-2 {
+  &:before {
+    content: $hi-negative-2; 
+  }
+}
+.hi-network_4g-2 {
+  &:before {
+    content: $hi-network_4g-2; 
+  }
+}
+.hi-network_5g-2 {
+  &:before {
+    content: $hi-network_5g-2; 
+  }
+}
+.hi-no-2 {
+  &:before {
+    content: $hi-no-2; 
+  }
+}
+.hi-nutrition-2 {
+  &:before {
+    content: $hi-nutrition-2; 
+  }
+}
+.hi-openMRS_logo-2 {
+  &:before {
+    content: $hi-openMRS_logo-2; 
+  }
+}
+.hi-outbreak-2 {
+  &:before {
+    content: $hi-outbreak-2; 
+  }
+}
+.hi-palliative-care-2 {
+  &:before {
+    content: $hi-palliative-care-2; 
+  }
+}
+.hi-paved_road-2 {
+  &:before {
+    content: $hi-paved_road-2; 
+  }
+}
+.hi-paved_road_alt-2 {
+  &:before {
+    content: $hi-paved_road_alt-2; 
+  }
+}
+.hi-peace-2 {
+  &:before {
+    content: $hi-peace-2; 
+  }
+}
+.hi-pharmacy-5 {
+  &:before {
+    content: $hi-pharmacy-5; 
+  }
+}
+.hi-pharmacy_alt-2 {
+  &:before {
+    content: $hi-pharmacy_alt-2; 
+  }
+}
+.hi-poison-2 {
+  &:before {
+    content: $hi-poison-2; 
+  }
+}
+.hi-polygon-2 {
+  &:before {
+    content: $hi-polygon-2; 
+  }
+}
+.hi-positive-2 {
+  &:before {
+    content: $hi-positive-2; 
+  }
+}
+.hi-prescription_document-2 {
+  &:before {
+    content: $hi-prescription_document-2; 
+  }
+}
+.hi-provider_fst-2 {
+  &:before {
+    content: $hi-provider_fst-2; 
+  }
+}
+.hi-question-2 {
+  &:before {
+    content: $hi-question-2; 
+  }
+}
+.hi-question_circle-2 {
+  &:before {
+    content: $hi-question_circle-2; 
+  }
+}
+.hi-question_triangle-2 {
+  &:before {
+    content: $hi-question_triangle-2; 
+  }
+}
+.hi-referral-2 {
+  &:before {
+    content: $hi-referral-2; 
+  }
+}
+.hi-register_book-2 {
+  &:before {
+    content: $hi-register_book-2; 
+  }
+}
+.hi-running_water_alt-2 {
+  &:before {
+    content: $hi-running_water_alt-2; 
+  }
+}
+.hi-rx-2 {
+  &:before {
+    content: $hi-rx-2; 
+  }
+}
+.hi-sexual_reproductive_health-2 {
+  &:before {
+    content: $hi-sexual_reproductive_health-2; 
+  }
+}
+.hi-simple_logo-2 {
+  &:before {
+    content: $hi-simple_logo-2; 
+  }
+}
+.hi-smoking-2 {
+  &:before {
+    content: $hi-smoking-2; 
+  }
+}
+.hi-smoking_cessation-2 {
+  &:before {
+    content: $hi-smoking_cessation-2; 
+  }
+}
+.hi-social_distancing-2 {
+  &:before {
+    content: $hi-social_distancing-2; 
+  }
+}
+.hi-social_distancing_alt-2 {
+  &:before {
+    content: $hi-social_distancing_alt-2; 
+  }
+}
+.hi-stop-2 {
+  &:before {
+    content: $hi-stop-2; 
+  }
+}
+.hi-tally-2 {
+  &:before {
+    content: $hi-tally-2; 
+  }
+}
+.hi-transgender-2 {
+  &:before {
+    content: $hi-transgender-2; 
+  }
+}
+.hi-ui_folder-2 {
+  &:before {
+    content: $hi-ui_folder-2; 
+  }
+}
+.hi-ui_folder_family-2 {
+  &:before {
+    content: $hi-ui_folder_family-2; 
+  }
+}
+.hi-ui_menu-2 {
+  &:before {
+    content: $hi-ui_menu-2; 
+  }
+}
+.hi-ui_menu_grid-2 {
+  &:before {
+    content: $hi-ui_menu_grid-2; 
+  }
+}
+.hi-ui_preferences-2 {
+  &:before {
+    content: $hi-ui_preferences-2; 
+  }
+}
+.hi-ui_secure-2 {
+  &:before {
+    content: $hi-ui_secure-2; 
+  }
+}
+.hi-ui_settings-2 {
+  &:before {
+    content: $hi-ui_settings-2; 
+  }
+}
+.hi-ui_user_profile-2 {
+  &:before {
+    content: $hi-ui_user_profile-2; 
+  }
+}
+.hi-ui_zoom-2 {
+  &:before {
+    content: $hi-ui_zoom-2; 
+  }
+}
+.hi-ui_zoom_in-2 {
+  &:before {
+    content: $hi-ui_zoom_in-2; 
+  }
+}
+.hi-ui_zoom_out-2 {
+  &:before {
+    content: $hi-ui_zoom_out-2; 
+  }
+}
+.hi-un_paved_road-2 {
+  &:before {
+    content: $hi-un_paved_road-2; 
+  }
+}
+.hi-virus-2 {
+  &:before {
+    content: $hi-virus-2; 
+  }
+}
+.hi-virus_alt-2 {
+  &:before {
+    content: $hi-virus_alt-2; 
+  }
+}
+.hi-virus_patient-2 {
+  &:before {
+    content: $hi-virus_patient-2; 
+  }
+}
+.hi-virus_research_alt-2 {
+  &:before {
+    content: $hi-virus_research_alt-2; 
+  }
+}
+.hi-virus-mutation-2 {
+  &:before {
+    content: $hi-virus-mutation-2; 
+  }
+}
+.hi-virus-research-2 {
+  &:before {
+    content: $hi-virus-research-2; 
+  }
+}
+.hi-virus-shield-2 {
+  &:before {
+    content: $hi-virus-shield-2; 
+  }
+}
+.hi-water_treatment-2 {
+  &:before {
+    content: $hi-water_treatment-2; 
+  }
+}
+.hi-yes-2 {
+  &:before {
+    content: $hi-yes-2; 
+  }
+}
+.hi--2 {
+  &:before {
+    content: $hi--2; 
+  }
+}
+.hi-21 {
+  &:before {
+    content: $hi-21; 
+  }
+}
+.hi-22 {
+  &:before {
+    content: $hi-22; 
+  }
+}
+.hi-23 {
+  &:before {
+    content: $hi-23; 
+  }
+}
+.hi-24 {
+  &:before {
+    content: $hi-24; 
+  }
+}
+.hi-25 {
+  &:before {
+    content: $hi-25; 
+  }
+}
+.hi-26 {
+  &:before {
+    content: $hi-26; 
+  }
+}
+.hi-27 {
+  &:before {
+    content: $hi-27; 
+  }
+}
+.hi-28 {
+  &:before {
+    content: $hi-28; 
+  }
+}
+.hi-29 {
+  &:before {
+    content: $hi-29; 
+  }
+}
+.hi-210 {
+  &:before {
+    content: $hi-210; 
+  }
+}
+.hi-A-2 {
+  &:before {
+    content: $hi-A-2; 
+  }
+}
+.hi-B-2 {
+  &:before {
+    content: $hi-B-2; 
+  }
+}
+.hi-C-2 {
+  &:before {
+    content: $hi-C-2; 
+  }
+}
+.hi-D-2 {
+  &:before {
+    content: $hi-D-2; 
+  }
+}
+.hi-dollar-2 {
+  &:before {
+    content: $hi-dollar-2; 
+  }
+}
+.hi-E-2 {
+  &:before {
+    content: $hi-E-2; 
+  }
+}
+.hi-F-2 {
+  &:before {
+    content: $hi-F-2; 
+  }
+}
+.hi-G-2 {
+  &:before {
+    content: $hi-G-2; 
+  }
+}
+.hi-ghana-2 {
+  &:before {
+    content: $hi-ghana-2; 
+  }
+}
+.hi-H-2 {
+  &:before {
+    content: $hi-H-2; 
+  }
+}
+.hi-I-2 {
+  &:before {
+    content: $hi-I-2; 
+  }
+}
+.hi-J-2 {
+  &:before {
+    content: $hi-J-2; 
+  }
+}
+.hi-K-2 {
+  &:before {
+    content: $hi-K-2; 
+  }
+}
+.hi-L-2 {
+  &:before {
+    content: $hi-L-2; 
+  }
+}
+.hi-M-2 {
+  &:before {
+    content: $hi-M-2; 
+  }
+}
+.hi-N-2 {
+  &:before {
+    content: $hi-N-2; 
+  }
+}
+.hi-O-2 {
+  &:before {
+    content: $hi-O-2; 
+  }
+}
+.hi-P-2 {
+  &:before {
+    content: $hi-P-2; 
+  }
+}
+.hi-Q-2 {
+  &:before {
+    content: $hi-Q-2; 
+  }
+}
+.hi-question_mark-2 {
+  &:before {
+    content: $hi-question_mark-2; 
+  }
+}
+.hi-R-2 {
+  &:before {
+    content: $hi-R-2; 
+  }
+}
+.hi-rupee-2 {
+  &:before {
+    content: $hi-rupee-2; 
+  }
+}
+.hi-S-2 {
+  &:before {
+    content: $hi-S-2; 
+  }
+}
+.hi-T-2 {
+  &:before {
+    content: $hi-T-2; 
+  }
+}
+.hi-U-2 {
+  &:before {
+    content: $hi-U-2; 
+  }
+}
+.hi-V-2 {
+  &:before {
+    content: $hi-V-2; 
+  }
+}
+.hi-W-2 {
+  &:before {
+    content: $hi-W-2; 
+  }
+}
+.hi-X-2 {
+  &:before {
+    content: $hi-X-2; 
+  }
+}
+.hi-Y-2 {
+  &:before {
+    content: $hi-Y-2; 
+  }
+}
+.hi-yen-2 {
+  &:before {
+    content: $hi-yen-2; 
+  }
+}
+.hi-Z-2 {
+  &:before {
+    content: $hi-Z-2; 
+  }
+}
+.hi-x4-2 {
+  &:before {
+    content: $hi-x4-2; 
+  }
+}
+.hi-ambulance-2 {
+  &:before {
+    content: $hi-ambulance-2; 
+  }
+}
+.hi-basic_motorcycle-2 {
+  &:before {
+    content: $hi-basic_motorcycle-2; 
+  }
+}
+.hi-bike-2 {
+  &:before {
+    content: $hi-bike-2; 
+  }
+}
+.hi-cross_country_motorcycle-2 {
+  &:before {
+    content: $hi-cross_country_motorcycle-2; 
+  }
+}
+.hi-drone-2 {
+  &:before {
+    content: $hi-drone-2; 
+  }
+}
+.hi-helicopter-2 {
+  &:before {
+    content: $hi-helicopter-2; 
+  }
+}
+.hi-machinery-2 {
+  &:before {
+    content: $hi-machinery-2; 
+  }
+}
+.hi-mobile_clinic-2 {
+  &:before {
+    content: $hi-mobile_clinic-2; 
+  }
+}
+.hi-small_plane-2 {
+  &:before {
+    content: $hi-small_plane-2; 
+  }
+}
+.hi-vespa_motorcycle-2 {
+  &:before {
+    content: $hi-vespa_motorcycle-2; 
+  }
+}
+.hi-war-2 {
+  &:before {
+    content: $hi-war-2; 
+  }
+}
+.hi-baby_female_0203m {
+  &:before {
+    content: $hi-baby_female_0203m; 
+  }
+}
+.hi-baby_male_0203m {
+  &:before {
+    content: $hi-baby_male_0203m; 
+  }
+}
+.hi-baby_female_0203m-1 {
+  &:before {
+    content: $hi-baby_female_0203m-1; 
+  }
+}
+.hi-baby_male_0203m-1 {
+  &:before {
+    content: $hi-baby_male_0203m-1; 
+  }
+}
+.hi-wold_care {
+  &:before {
+    content: $hi-wold_care; 
+  }
+}
+.hi-baby_female_0203m-2 {
+  &:before {
+    content: $hi-baby_female_0203m-2; 
+  }
+}
+.hi-baby_male_0203m-2 {
+  &:before {
+    content: $hi-baby_male_0203m-2; 
+  }
+}
+.hi-wold_care-1 {
+  &:before {
+    content: $hi-wold_care-1; 
+  }
+}
+.hi-wold_care-2 {
+  &:before {
+    content: $hi-wold_care-2; 
+  }
+}
+
