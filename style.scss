@@ -10,9 +10,10 @@ body {
 }
 
 .game {
-    background-color: #DBE0E7;
+    background-color: #dbe0e7;
 
-    .main, .footer{
+    .main,
+    .footer {
         background-color: white;
     }
 }
@@ -259,10 +260,9 @@ body {
         line-height: 1;
     }
 
-    svg{
+    svg {
         width: 64px;
     }
-    
 }
 
 .item_dashed {
@@ -427,7 +427,7 @@ body {
     width: 100%;
 }
 
-.row{
+.row {
     row-gap: 1em;
 }
 
@@ -465,7 +465,7 @@ body {
 }
 
 table {
-    label{
+    label {
         position: relative;
         width: 100%;
         height: 28px;
@@ -480,30 +480,31 @@ table {
         position: absolute;
     }
 
-    input, .btn-radio{
+    input,
+    .btn-radio {
         width: 28px;
         height: 28px;
         left: calc(50% - 14px);
     }
 
-    thead{
+    thead {
         text-align: center;
     }
 }
 
-.texto_e_imagem{
-    p{
+.texto_e_imagem {
+    p {
         text-align: justify;
     }
     gap: 1em;
 }
 
-.temperatura{
+.temperatura {
     width: 60%;
-    p{
+    p {
         font-size: 26px;
     }
-    select{
+    select {
         width: 80px;
         height: 40px;
         border: 2px solid #262626;
@@ -511,14 +512,15 @@ table {
     }
 }
 
-.freq_respira{
-    thead{
-        background-color: #426D6F2E;
+.freq_respira {
+    thead {
+        background-color: #426d6f2e;
     }
 
-    th, td{
-        padding: .5em;
+    th,
+    td {
+        padding: 0.5em;
         text-align: center;
-        border: 1px solid #789F8C;
+        border: 1px solid #789f8c;
     }
 }
