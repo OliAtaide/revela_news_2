@@ -6,47 +6,17 @@
 
 body {
   background-color: #f7f9fc;
-  display: flex;
 }
 
 .game {
-  margin-left: 1em;
-  margin-right: 1em;
+  background-color: #DBE0E7;
+}
+.game .main, .game .footer {
+  background-color: white;
 }
 
 .game-card {
   border: 2px solid black;
-  height: 100%;
-}
-
-.sidebar {
-  height: 100vh;
-  max-width: 240px;
-  padding: 1.5em;
-  position: sticky;
-  z-index: 99;
-  background-color: #f7f9fc;
-  top: 0;
-}
-.sidebar ul {
-  list-style-type: none;
-  padding: 0;
-}
-.sidebar ul h6 {
-  color: #5c6471;
-  font-size: 14px;
-  font-weight: 700;
-}
-.sidebar .btn-collapse {
-  background-color: #035c8c;
-  color: white;
-}
-.sidebar .btn-collapse::after {
-  font-family: "bootstrap-icons";
-  content: "\f284";
-}
-.sidebar .btn-collapse.collapsed::after {
-  content: "\f285";
 }
 
 .game {
@@ -252,6 +222,9 @@ body {
   font-size: 64px;
   line-height: 1;
 }
+.aviso svg {
+  width: 64px;
+}
 
 .item_dashed {
   font-weight: 700;
@@ -403,6 +376,10 @@ body {
   display: none;
   padding: 1em;
   width: 100%;
+}
+
+.row {
+  row-gap: 1em;
 }
 
 .row_nc button {

@@ -7,52 +7,18 @@
 
 body {
     background-color: #f7f9fc;
-    display: flex;
 }
 
 .game {
-    margin-left: 1em;
-    margin-right: 1em;
+    background-color: #DBE0E7;
+
+    .main, .footer{
+        background-color: white;
+    }
 }
 
 .game-card {
     border: 2px solid black;
-    height: 100%;
-}
-
-.sidebar {
-    height: 100vh;
-    max-width: 240px;
-    padding: 1.5em;
-    position: sticky;
-    z-index: 99;
-    background-color: #f7f9fc;
-    top: 0;
-
-    ul {
-        list-style-type: none;
-        padding: 0;
-
-        h6 {
-            color: #5c6471;
-            font-size: 14px;
-            font-weight: 700;
-        }
-    }
-
-    .btn-collapse {
-        background-color: #035c8c;
-        color: white;
-
-        &::after {
-            font-family: "bootstrap-icons";
-            content: "\F284";
-        }
-    }
-
-    .btn-collapse.collapsed::after {
-        content: "\F285";
-    }
 }
 
 .game {
@@ -292,6 +258,10 @@ body {
         font-size: 64px;
         line-height: 1;
     }
+
+    svg{
+        width: 64px;
+    }
     
 }
 
@@ -455,6 +425,10 @@ body {
     display: none;
     padding: 1em;
     width: 100%;
+}
+
+.row{
+    row-gap: 1em;
 }
 
 .row_nc {
