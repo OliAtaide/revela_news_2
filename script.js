@@ -56,7 +56,6 @@ $.ajax({
     dataType: "json",
     type: 'GET',
     success: function (_data) {
-        console.log(_data.parametros_fisiologicos)
         _data.parametros_fisiologicos.forEach(function (pf, i) {
             $('#parametrosFisiologicos').append(
                 `
@@ -141,7 +140,7 @@ $.ajax({
         });
 
         _data.table.forEach(function (t, i) {
-            $('tbody').append(
+            $('.pf_declaracoes tbody').append(
                 `
                 <tr>
                     <th scope="row">${t}</th>

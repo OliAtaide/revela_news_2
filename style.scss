@@ -285,12 +285,14 @@ body {
     margin-bottom: 2em;
     padding: 1em;
     display: flex;
+    align-items: center;
     gap: 1em;
 
     .mdi {
         font-size: 64px;
         line-height: 1;
     }
+    
 }
 
 .item_dashed {
@@ -512,5 +514,37 @@ table {
 
     thead{
         text-align: center;
+    }
+}
+
+.texto_e_imagem{
+    p{
+        text-align: justify;
+    }
+    gap: 1em;
+}
+
+.temperatura{
+    width: 60%;
+    p{
+        font-size: 26px;
+    }
+    select{
+        width: 80px;
+        height: 40px;
+        border: 2px solid #262626;
+        padding: 8px, 16px, 8px, 16px;
+    }
+}
+
+.freq_respira{
+    thead{
+        background-color: #426D6F2E;
+    }
+
+    th, td{
+        padding: .5em;
+        text-align: center;
+        border: 1px solid #789F8C;
     }
 }

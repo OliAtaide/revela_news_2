@@ -245,6 +245,7 @@ body {
   margin-bottom: 2em;
   padding: 1em;
   display: flex;
+  align-items: center;
   gap: 1em;
 }
 .aviso .mdi {
@@ -449,6 +450,35 @@ table input, table .btn-radio {
 }
 table thead {
   text-align: center;
+}
+
+.texto_e_imagem {
+  gap: 1em;
+}
+.texto_e_imagem p {
+  text-align: justify;
+}
+
+.temperatura {
+  width: 60%;
+}
+.temperatura p {
+  font-size: 26px;
+}
+.temperatura select {
+  width: 80px;
+  height: 40px;
+  border: 2px solid #262626;
+  padding: 8px, 16px, 8px, 16px;
+}
+
+.freq_respira thead {
+  background-color: rgba(66, 109, 111, 0.1803921569);
+}
+.freq_respira th, .freq_respira td {
+  padding: 0.5em;
+  text-align: center;
+  border: 1px solid #789F8C;
 }
 
 /*# sourceMappingURL=style.css.map */
