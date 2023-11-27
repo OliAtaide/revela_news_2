@@ -52,7 +52,7 @@ function createModal(modal) {
 }
 
 $.ajax({
-    url: 'slide2.json',
+    url: '../script/slide1.json',
     dataType: "json",
     type: 'GET',
     success: function (_data) {

@@ -9,9 +9,10 @@ body {
 }
 
 .game {
-  background-color: #DBE0E7;
+  background-color: #dbe0e7;
 }
-.game .main, .game .footer {
+.game .main,
+.game .footer {
   background-color: white;
 }
 
@@ -63,6 +64,20 @@ body {
   width: 100%;
   overflow: hidden;
   display: flex;
+}
+.main .form-control {
+  border: 1px solid #262626;
+  background-color: #EEC174;
+  border-radius: 0;
+  font-weight: 700;
+  width: auto !important;
+  font-size: 17px;
+}
+.main .form-control input {
+  width: 60px;
+  padding: 8px 0;
+  text-align: center;
+  font-weight: 700;
 }
 
 .footer {
@@ -420,7 +435,8 @@ table .btn-radio {
   border-radius: 50%;
   position: absolute;
 }
-table input, table .btn-radio {
+table input,
+table .btn-radio {
   width: 28px;
   height: 28px;
   left: calc(50% - 14px);
@@ -452,10 +468,11 @@ table thead {
 .freq_respira thead {
   background-color: rgba(66, 109, 111, 0.1803921569);
 }
-.freq_respira th, .freq_respira td {
+.freq_respira th,
+.freq_respira td {
   padding: 0.5em;
   text-align: center;
-  border: 1px solid #789F8C;
+  border: 1px solid #789f8c;
 }
 
 /*# sourceMappingURL=style.css.map */

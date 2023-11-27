@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RevELA NEWS 2 - National Early Warning Score – Módulo de cuidados agudos. Tradução e adaptação transcultural
         para o Brasil</title>
-    <link rel="icon" type="image/x-icon" href="favicon.svg">
-    <link rel="stylesheet" href="style.css">
-    <link href="/bootstrap-5.2.3-dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="health-icons-v1.0/style.css">
+    <link rel="icon" type="image/x-icon" href="../svg/favicon.svg">
+    <link rel="stylesheet" href="../style/style.css">
+
 </head>
 
 <body>
@@ -30,8 +29,8 @@
                     NATIONAL EARLY WARNING SCORE 2
                 </div>
                 <div class="col-sm-6">
-                    <strong>Aula 2: </strong>
-                    Medir
+                    <strong>Aula 1: </strong>
+                    Visão Geral
                 </div>
                 <div class="col-sm-6">
                     <strong>Conteudistas: </strong>
@@ -42,22 +41,23 @@
         </div>
     </header>
     <main>
-        <div class="game">
-            <div class="container py-3">
+        <div class="game py-3">
+            <div class="container">
                 <div class="game-card d-flex flex-column">
                     <nav class="navbar game-menu p-3">
                         <div class="navbar-brand">
                             <h1>
-                                Instruções do curso
+                                Calculando uma pontuação
                             </h1>
                         </div>
+
                         <div class="ms-auto navbar-nav nav-pagination d-flex flex-row">
                             <button class="nav-link">
                                 Visão
                                 <br>
                                 Geral
                             </button>
-                            <button class="nav-link active">
+                            <button class="nav-link">
                                 1
                                 <br>
                                 Medir
@@ -67,7 +67,7 @@
                                 <br>
                                 Gravar
                             </button>
-                            <button class="nav-link">
+                            <button class="nav-link active">
                                 3
                                 <br>
                                 Calcular
@@ -88,109 +88,57 @@
                         </div>
                     </nav>
                     <div class="main" id="main">
-                        <div class="swiper">
-                            <!-- Additional required wrapper -->
+                        <div class="swiper m-0">
                             <div class="swiper-wrapper">
-                                <!-- Slides -->
-                                <div class="swiper-slide slide-1">
-                                    <div class="aviso">
-                                        <span class="mdi mdi-head-lightbulb"></span>
-                                        Nesta unidade, você estudará os seis parâmetros fisiológicos que formam a base
-                                        do
-                                        NEWS 2. Agora, leia com atenção os 9 parâmetros mostrados abaixo, selecione
-                                        aqueles
-                                        que são associados como NEWS 2 e depois clique em enviar.
-                                    </div>
-                                    <div class="row row-cols-3">
-                                        <div class="col">
-                                            <div class="item_dashed">
-                                                Idade do paciente
+                                <div class="swiper-slide">
+                                    <div class="row">
+                                        <div class="col-sm-7">
+                                            <p>
+                                                Agora que todos os parametros foram gravados, as pontuações devem ser
+                                                somadas
+                                                para
+                                                calcular a pontuação total de NEWS 2.
+                                            </p>
+                                            <p>
+                                                Rola para baixo o gráfico já preenchido e calcule a pontuação total de
+                                                NEWS 2 na
+                                                quarta coluna.
+                                            </p>
+                                            <div class="form-control btn mb-3">
+                                                NEWS2 TOTAL
+                                                <input title="NEWS2 TOTAL" type="number">
+                                            </div>
+                                            <br>
+                                            <div class="btn btn-primary btn-enviar">
+                                                ENVIAR
                                             </div>
                                         </div>
-                                        <div class="col">
-                                            <div class="item_dashed">
-                                                Frequência respiratória
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="item_dashed">
-                                                Nível de consciência
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="item_dashed">
-                                                Volume de urinia
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="item_dashed">
-                                                Temperatura
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="item_dashed">
-                                                Nível de glicose no sangue
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="item_dashed">
-                                                Saturação de oxigênio
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="item_dashed">
-                                                Pulso
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="item_dashed">
-                                                Pressão sanguínea sistólica
-                                            </div>
+                                        <div class="col-sm-5">
+                                            <img src="imgs/table3.png" alt="" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide slide-2">
-                                    <div class="dica d-flex mb-3">
-                                        <span class="mdi mdi-cursor-default-click"></span>
-                                        Caro aluno, clique em cada um dos ícones abaixo para aprender mais sobre os
-                                        Parâmetros
-                                        Fisiológicos que estruturam o NEWS 2.
+                                <div class="swiper-slide">
+                                    <div class="row">
+                                        <div class="col-sm-7">
+                                            <p>
+                                                Caro aluno, além de calcular a pontuação total de NEWS 2, qualquer
+                                                pontuação vermelha única, ou seja, uma pontuação de 3 em um único
+                                                parâmetro, deve ser identificada.
+                                            </p>
+                                            <p>
+                                                Pontuações vermelhas podem determinar a resposta clínica, como será
+                                                estudado na próxima aula.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <img src="imgs/table4.png" alt="" class="img-fluid">
+                                        </div>
                                     </div>
-                                    <div class="row parametros_fisiologicos" id="parametrosFisiologicos">
-                                        <!-- Colunas são impressas aqui -->
-                                    </div>
-
-
-                                    <div class="dica d-flex mb-3">
-                                        <span class="mdi mdi-cursor-default-click"></span>
-                                        Clique no botão <strong>Próximo</strong> para continuar
-                                    </div>
-                                </div>
-                                <div class="swiper-slide slide-3">
-                                    <div class="aviso">
-                                        <span class="mdi mdi-head-lightbulb"></span>
-
-                                        Caro aluno, leia as declarações relacionadas aos parâmetros fisiológicos e
-                                        selecione
-                                        verdadeiro ou falso conforme os estudos realizados.
-
-                                    </div>
-                                    <table class="table pf_declaracoes">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col"></th>
-                                                <th scope="col">Verdadeiro</th>
-                                                <th scope="col">Falso</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                        </tbody>
-                                    </table>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div id="modals"></div>
                     <nav class="footer d-flex p-3 mt-auto">
                         <div class="navbar-nav d-flex flex-row">
                             <button class="nav-item btn">
@@ -240,7 +188,7 @@
     </main>
     <footer>
         <div class="container d-flex justify-content-between my-4">
-            <img src="imgs/cc.svg" alt="">
+            <img src="imgs/cc.svg" Falt="">
             <img class="" src="imgs/logos.svg" alt="">
         </div>
     </footer>
