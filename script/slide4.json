@@ -1,0 +1,50 @@
+{
+    "limites":[
+        {
+            "botao": "Total - 0",
+            "titulo": "0",
+            "tempo": "Mínimo de 12h",
+            "respostas":[
+                "Continuar com o monitoramento NEWS 2 de rotina."
+            ]
+        },
+        {
+            "botao": "Total 1-4",
+            "titulo": "Total 1-4",
+            "tempo": "Mínimo a cada 4-6 horas",
+            "respostas":[
+                "Informar o enfermenti que ele deve avaliar o paciente",
+                "O enfermeiro deve decidir se o aumento da frequência de monitoramento e/ou intensificação do cuidado é necessário"
+            ]
+        },
+        {
+            "botao": "3 em um único parâmetro",
+            "titulo": "3 em um único parâmetro",
+            "tempo": "Mínimo a cada 1 hora",
+            "respostas":[
+                "O enfermeiro deve informar à equipe médica que está cuidando do paciente, que revisará e decidirá se a intensificação dos cuidados é necessária."
+            ]
+        },
+        {
+            "botao": "Total 5 ou mais",
+            "titulo": "Total de 5 ou mais<br/>limite de resposta urgente",
+            "tempo": "Mínimo a cada 1 hora",
+            "respostas":[
+                "O enfermeito deve informar imediatamente à equipe médica que está cuidando do paciente.",
+                "O enfermeiro deve solicitar avaliação urgente de um médico ou de uma equipe com competências esseciais no cuidado de pacientes com uma doença aguda",
+                "Providenciar cuidado clínico em um ambiente com instalações de monitoramento."
+            ]
+        },
+        {
+            "botao": "Total de 7 ou mais",
+            "titulo": "Total de 7 ou mais<br/>limite de resposta de emergência",
+            "tempo": "Monitoramento contínuo dos sinais vitais",
+            "respostas":[
+                "O enfermeiro deve informar imediatamente à equipe médica que está cuidando do paciente - isso deve ser feito diretamente ao especialista.",
+                "Avaliação de emergência por uma equipe com competências em cuidado crítico, incluindo médico(s) com habilidades avançadas em vias aéreas.",
+                "Considerar a tranferência de cuidado para uma unidade de tratamento de nível 2 ou 3, ou se ja, uma unidade intermediária ou UTI.",
+                "Cuidado clínico em um ambinete com instalações de monitoramento."
+            ]
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -67,7 +68,7 @@ body {
 }
 .main .form-control {
   border: 1px solid #262626;
-  background-color: #EEC174;
+  background-color: #eec174;
   border-radius: 0;
   font-weight: 700;
   width: auto !important;
@@ -309,6 +310,7 @@ body {
 .swiper,
 .main {
   overflow-y: visible;
+  max-height: 5%;
 }
 
 .slide-7 img {
@@ -473,6 +475,82 @@ table thead {
   padding: 0.5em;
   text-align: center;
   border: 1px solid #789f8c;
+}
+
+.table-gatilhos {
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+.table-gatilhos th,
+.table-gatilhos td {
+  font-weight: 700;
+  font-family: "Atkinson Hyperlegible", sans-serif !important;
+}
+.table-gatilhos th:first-child,
+.table-gatilhos td:first-child {
+  width: 70%;
+}
+.table-gatilhos thead th {
+  background-color: #208ca5;
+  color: white;
+  text-align: start;
+}
+.table-gatilhos tbody tr:first-child td {
+  background-color: #d5d6d4;
+}
+.table-gatilhos tbody tr:nth-child(2) td {
+  background-color: #f7f39d;
+}
+.table-gatilhos tbody tr:nth-child(3) td {
+  background-color: #fbb874;
+}
+.table-gatilhos tbody tr:last-child td {
+  background-color: #f27662;
+}
+
+.table-urgencia {
+  border-collapse: separate;
+  border-spacing: 2px;
+  min-height: 180px;
+  background-color: black;
+}
+.table-urgencia th {
+  background-color: #eec174;
+  font-size: 17px;
+}
+.table-urgencia th,
+.table-urgencia td:not(:last-child) {
+  text-align: center;
+  width: 25%;
+}
+.table-urgencia td {
+  background-color: white;
+}
+
+.nav-resposta {
+  width: 100%;
+  justify-content: space-between;
+}
+.nav-resposta .nav-item:first-child .nav-link, .nav-resposta .nav-item:nth-child(2) .nav-link {
+  background-color: #d5d6d4 !important;
+}
+.nav-resposta .nav-item:nth-child(3) .nav-link {
+  background-color: #F7F39D;
+}
+.nav-resposta .nav-item:nth-child(4) .nav-link {
+  background-color: #FBB874;
+}
+.nav-resposta .nav-item:last-child .nav-link {
+  background-color: #f27662;
+}
+.nav-resposta .nav-link {
+  padding: 1em 0;
+  border-radius: 0;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-family: Atkinson Hyperlegible;
+  font-size: 17px;
 }
 
 /*# sourceMappingURL=style.css.map */
