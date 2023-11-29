@@ -191,3 +191,32 @@ $(".pf_button").click(function () {
   $(id).show();
   $(".btn-voltar").show();
 });
+
+function printMenu() {
+  $.ajax({
+    url: `../script/menu.json`,
+    dataType: "json",
+    type: "GET",
+    success: function (_data) {
+      _data.items.forEach(function (v, i) {
+        var active = false;
+
+        console.log(window.location.pathname);
+
+        if(window.location.pathname == v.slug){
+          active = true;
+        }
+
+        $('.nav-pagination').append(
+          `
+          <button class="nav-link ${active ? 'active' : ''}" onclick="window.location.href='${v.slug}'">
+              ${v.titulo}
+          </button>
+          `
+        )
+      });
+    },
+  });
+}
+
+printMenu()

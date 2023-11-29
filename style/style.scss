@@ -41,7 +41,7 @@ body {
         width: auto;
     }
 
-    button.nav-link {
+    .nav-link {
         background-color: transparent !important;
         opacity: 1;
         color: black;
@@ -604,33 +604,6 @@ table {
     width: 100%;
     justify-content: space-between;
 
-    .nav-item {
-        &:first-child,
-        &:nth-child(2) {
-            .nav-link {
-                background-color: #d5d6d4 !important;
-            }
-        }
-
-        &:nth-child(3){
-            .nav-link{
-                background-color: #F7F39D;
-            }
-        }
-
-        &:nth-child(4){
-            .nav-link{
-                background-color: #FBB874;
-            }
-        }
-
-        &:last-child {
-            .nav-link {
-                background-color: #f27662;
-            }
-        }
-    }
-
     .nav-link {
         padding: 1em 0;
         border-radius: 0;
@@ -640,4 +613,20 @@ table {
         font-family: Atkinson Hyperlegible;
         font-size: 17px;
     }
+}
+
+.obs{
+    .obs-title{
+        color: #265B88;
+        font-size: 22px;
+        margin-bottom: .5em;
+    }
+    ul{
+        margin: 0;
+    }
+    padding: 1em;
+    border: 2px dashed #262626;
+    border-top: none;
+    margin-top: -2em;
+    margin-bottom: 2em;
 }

@@ -37,7 +37,7 @@ body {
 .game-menu .swiper-pagination {
   width: auto;
 }
-.game-menu button.nav-link {
+.game-menu .nav-link {
   background-color: transparent !important;
   opacity: 1;
   color: black;
@@ -50,13 +50,13 @@ body {
   width: 104px;
   height: 104px;
 }
-.game-menu button.nav-link:last-child {
+.game-menu .nav-link:last-child {
   border-right: 2px solid black !important;
 }
-.game-menu button.nav-link:hover {
+.game-menu .nav-link:hover {
   background-color: rgba(38, 91, 136, 0.2509803922) !important;
 }
-.game-menu button.nav-link.active {
+.game-menu .nav-link.active {
   background-color: #265b88 !important;
   color: white;
 }
@@ -531,18 +531,6 @@ table thead {
   width: 100%;
   justify-content: space-between;
 }
-.nav-resposta .nav-item:first-child .nav-link, .nav-resposta .nav-item:nth-child(2) .nav-link {
-  background-color: #d5d6d4 !important;
-}
-.nav-resposta .nav-item:nth-child(3) .nav-link {
-  background-color: #F7F39D;
-}
-.nav-resposta .nav-item:nth-child(4) .nav-link {
-  background-color: #FBB874;
-}
-.nav-resposta .nav-item:last-child .nav-link {
-  background-color: #f27662;
-}
 .nav-resposta .nav-link {
   padding: 1em 0;
   border-radius: 0;
@@ -551,6 +539,22 @@ table thead {
   font-weight: 700;
   font-family: Atkinson Hyperlegible;
   font-size: 17px;
+}
+
+.obs {
+  padding: 1em;
+  border: 2px dashed #262626;
+  border-top: none;
+  margin-top: -2em;
+  margin-bottom: 2em;
+}
+.obs .obs-title {
+  color: #265B88;
+  font-size: 22px;
+  margin-bottom: 0.5em;
+}
+.obs ul {
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

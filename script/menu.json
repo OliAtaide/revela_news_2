@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "titulo": "Visão<br>Geral",
+      "slug": "/index.html"
+    },
+    {
+        "titulo": "1<br>Medir",
+        "slug":"/slides/slide1.html"
+    },
+    {
+        "titulo": "2<br>Gravar",
+        "slug":"/slides/slide2.html"
+    },
+    {
+        "titulo": "3<br>Calcular",
+        "slug":"/slides/slide3.html"
+    },
+    {
+        "titulo": "4<br>Identificar",
+        "slug":"/slides/slide4.html"
+    }
+  ]
+}
