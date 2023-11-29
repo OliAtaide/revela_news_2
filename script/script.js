@@ -194,7 +194,7 @@ $(".pf_button").click(function () {
 
 function printMenu() {
   $.ajax({
-    url: `../script/menu.json`,
+    url: `/script/menu.json`,
     dataType: "json",
     type: "GET",
     success: function (_data) {
