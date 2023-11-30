@@ -17,70 +17,7 @@
 
 <body>
     <header>
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Launch demo modal
-        </button>
 
-        <!-- Modal -->
-        <div class="modal fade modal-resposta" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Correto</h1>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            A resposta clínica corresponde ao limiar de gatilho 7 ou mais
-                        </p>
-                        <table class="table-urgencia">
-                            <tbody>
-                                <th>
-                                    Total de 5 ou mais
-                                    <br>
-                                    limite de resposta urgente
-                                    <br>
-                                    (Urgência da resposta)
-                                </th>
-                                <td>
-                                    Mínimo a cada 1 hora
-                                    <br>
-                                    (Frequência de monitoramento)
-                                </td>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            O enfermeito deve informar imediatamente a equipe médica
-                                            (experiencia da equipe para atender o paciente) que está
-                                            cuidando do paciente
-                                        </li>
-                                        <li>
-                                            O enfermeiro deve solicitar avaliação urgente de um médico ou de
-                                            uma equipe com competências essenciais no cuidado de pacientes
-                                            com uma doença aguda
-                                        </li>
-                                        <li>
-                                            Providenciar cuidado clínico em um ambiente (ambiente clínico)
-                                            com instalações de monitoramento
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">
-                            CONTINUAR
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <title>chevron-right</title>
-                                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="container py-3">
             <div class="row">
                 <div class="col-sm-6">
@@ -269,7 +206,184 @@
 
                                     </div>
                                 </div>
+                                <div class="swiper-slide">
+                                    <p>
+                                        Caro aluno, a sepse deve ser levada em consideração quando o paciente tem uma
+                                        infecção conhecida, quando há sinais ou sintomas de infecção em pessoas com alto
+                                        risco de infecção (ou seja, em quimioterapia); portanto, com uma pontuação de 5
+                                        ou mais no NEWS 2: Pense em sepse!
+                                    </p>
+                                    <p>
+                                        Pacientes com suspeita de infecção e uma pontuação NEWS 2 de 5 ou mais requerem
+                                        avaliação urgente e intervenção de uma equipe clínica competente no manejo da
+                                        sepse. A transferência urgente para o hospital ou caso ele esteja internado, a
+                                        transferência para área clínica com melhores dependências para atendimento
+                                        clínico contínuo deve ser considerada.
+                                    </p>
+                                    <p>
+                                        Considere sepse também, se houver evidência de infecção e uma pontuação de 3 em
+                                        um parâmetro de avaliação.
+                                    </p>
+                                    <img class="img-fluid" src="/imgs/diagram1.svg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="dica d-flex mb-3">
+                                        <span class="mdi mdi-cursor-default-click"></span>
+                                        Caro aluno, para ver as orientações adicionais do RCP (março de 2020) sobre
+                                        escalonamento e resposta, clique nos botões abaixo:
+                                    </div>
+                                    <ul class="nav nav-add nav-tabs" id="myTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                                data-bs-target="#home-tab-pane" type="button" role="tab"
+                                                aria-controls="home-tab-pane" aria-selected="true">
+                                                Pontuação NEWS 2
+                                                <br>
+                                                de 5 ou 6
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                                                data-bs-target="#profile-tab-pane" type="button" role="tab"
+                                                aria-controls="profile-tab-pane" aria-selected="false">
+                                                Pontuação NEWS 2
+                                                <br>
+                                                de 7 ou mais
+                                            </button>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
+                                            aria-labelledby="home-tab" tabindex="0">
+                                            <div class="oradd">
+                                                <p>
+                                                    Uma pontuação NEWS 2 de 5/6
+                                                    <strong>
+                                                        que é nova para o paciente a menos que um
+                                                        limite de escalonamento alternativo tenha sido anteriormente
+                                                        determinado
+                                                    </strong>
+                                                    indica que:
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        O paciente deve ser monitorado de hora em hora inicialmente;
+                                                    </li>
+                                                    <li>
 
+                                                        O médico responsável deve informar urgentemente a um clínico
+                                                        competente na avaliação de pacientes com doença aguda - isso
+                                                        será decidido localmente e pode ser a equipe de resposta de
+                                                        emergência (dependendo da combinação de habilidades), médico da
+                                                        enfermaria, etc;
+                                                    </li>
+                                                    <li>
+
+                                                        Avaliação é esperada dentro de 60 minutos;
+                                                    </li>
+                                                    <li>
+
+                                                        Mover o paciente para um ambiente com instalação de
+                                                        monitoramento deve ser considerado.
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel"
+                                            aria-labelledby="profile-tab" tabindex="0">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <div class="oradd">
+                                                        <p>
+                                                            Uma pontuação NEWS 2 de 7 ou mais
+                                                            <strong>
+                                                                que é nova para o paciente a
+                                                                menos que o limite de escalonamento alternativo tenha
+                                                                sido
+                                                                determinado previamente
+                                                            </strong>
+                                                            indica que:
+                                                        </p>
+                                                        <ul>
+                                                            <li>
+                                                                O paciente deve ser monitorado a cada 30 minutos
+                                                                inicialmente;
+                                                            </li>
+                                                            <li>
+
+                                                                Um médico responsável deve informar imediatamente ao
+                                                                clínico competente na avaliação de pacientes com doença
+                                                                aguda. Isso pode ser decidido localmente, pode ser a
+                                                                equipe de resposta de emergência (dependendo da
+                                                                combinação de habilidades), médico da enfermaria, etc;
+                                                            </li>
+                                                            <li>
+
+                                                                Avaliação esperada dentro de 30 minutos;
+                                                            </li>
+                                                            <li>
+
+                                                                Se não houver melhora, uma revisão deve ser feita por um
+                                                                médico com mais experiência (como definida localmente),
+                                                                e deve ocorrer em 60 minutos;
+                                                            </li>
+                                                            <li>
+
+                                                                Mover o paciente para um ambiente com monitoramento e
+                                                                melhores equipamentos deve ser considerado.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="oradd">
+                                                        <p>
+                                                            Uma avaliação clínica estruturada deve ser documentada
+                                                            incluindo:
+                                                        </p>
+                                                        <ul>
+                                                            <li>
+                                                                O tempo de escalada;
+                                                            </li>
+                                                            <li>
+                                                                Tempo e grau de resposta clínica;
+                                                            </li>
+                                                            <li>
+                                                                Avaliação clínica e plano, incluindo o plano de
+                                                                tratamento, o gatilho individualizado e o limite de
+                                                                pontuação para resposta posterior.
+                                                            </li>
+                                                        </ul>
+                                                        <p>
+                                                            Exemplos de documentos estruturado de resposta clínica à
+                                                            deterioração podem ser encontrados nas páginas do NEWS 2 no
+                                                            website do RCP.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="aviso">
+                                        <span class="mdi mdi-head-lightbulb"></span>
+                                        Caro aluno, após fazer a leitura das
+                                        declarações a seguir relacionadas ao parâmetros fisiológicos, considere as
+                                        informações como Verdadeiras ou Falsas
+                                    </div>
+                                    <table class="table pf_declaracoes">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col">Verdadeiro</th>
+                                                <th scope="col">Falso</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -334,6 +448,9 @@
         integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     <script src="../script/script.js"></script>
     <script src="../script/slide4.js"></script>
+    <script>
+        printDec(4);
+    </script>
 </body>
 
 </html>

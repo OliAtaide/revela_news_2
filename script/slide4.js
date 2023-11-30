@@ -75,7 +75,7 @@ $.ajax({
       limites.forEach(function (l, j) {
         botoes += `
             <li class="nav-item" role="presentation">
-                <button type="button" data-btn="#btnSend${i}"  class="nav-link" style="background-color:${l.color} !important;" value=${j}>
+                <button type="button" data-btn="#btnSend${i}"  class="nav-link" style="background-color:${l.color} !important;" value=${j} data-index="${i}">
                     ${l.botao}
                 </button>
             </li>
@@ -108,7 +108,7 @@ $.ajax({
                     depois clique em ‘Enviar’:
                 </div>
                 
-                <ul class="nav nav-tabs nav-resposta opcao-resposta nav-justified gap-3 border-0 mb-4" data-index=${i}>
+                <ul id="respostas${i}" class="nav nav-tabs nav-resposta opcao-resposta nav-justified gap-3 border-0 mb-4" data-index=${i}>
                     ${botoes}
                 </ul>
                 <div class="d-flex justify-content-end">
@@ -167,7 +167,11 @@ $.ajax({
 $(document).on("click", ".opcao-resposta .nav-link", function () {
   const val = $(this).val();
   const btn = $(this).data("btn");
+  const i = $(this).data("index");
   $(btn).val(val);
+
+  $(`#respostas${i} .nav-link`).removeClass('selected');
+  $(this).addClass('selected');
 });
 
 $(document).on("click", ".btn-submit", function () {

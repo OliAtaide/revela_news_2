@@ -102,12 +102,8 @@ body {
     border-radius: 0;
 }
 
-
-
 .footer {
     border-top: 2px solid black;
-
-    
 
     .navbar-nav {
         gap: 1em;
@@ -404,14 +400,26 @@ body {
     border: 2px solid #262626 !important;
     border-radius: 0 !important ;
 
+    svg {
+        fill: white !important;
+    }
 }
 
-.btn-primary, .btn-secondary{
-    
+.btn-secondary {
+    svg {
+        fill: #265b88 !important;
+    }
+}
+
+.btn-primary,
+.btn-secondary {
     svg {
         width: 24px;
-        fill: #265b88;
     }
+}
+
+.selected {
+    border: 2px solid #262626 !important;
 }
 
 .pf_menu .btn-primary {
@@ -440,11 +448,6 @@ body {
     .modal-header,
     .modal-content {
         border-radius: 0;
-    }
-
-    .chevron-right {
-        width: 24px;
-        fill: white;
     }
 }
 
@@ -612,8 +615,30 @@ table {
 .nav-resposta {
     width: 100%;
     justify-content: space-between;
+}
 
+.nav-add{
+    gap: 1em;
+    margin-bottom: 1em;
+    border: none;
+
+    .nav-link{
+        padding: 1em !important;
+    }
+
+    .nav-item:first-child .nav-link{
+        background-color: #FBB874;
+    }
+
+    .nav-item:last-child .nav-link{
+        background-color: #F27662;
+    }
+}
+
+.nav-resposta,
+.nav-add {
     .nav-link {
+        border: none;
         padding: 1em 0;
         border-radius: 0;
         text-decoration: none;
@@ -663,5 +688,14 @@ table {
                 border-top: none;
             }
         }
+    }
+}
+
+.oradd {
+    padding: 1em;
+    background-color: #f7f9fc;
+
+    ul {
+        margin: 0;
     }
 }
