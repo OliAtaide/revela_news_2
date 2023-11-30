@@ -91,23 +91,23 @@ body {
     }
 }
 
+.btn-secondary {
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+    color: #265b88;
+    align-items: center;
+    display: flex;
+    gap: 0.5em;
+    border-radius: 0;
+}
+
+
+
 .footer {
     border-top: 2px solid black;
 
-    svg {
-        width: 24px;
-        fill: #265b88;
-    }
-    button {
-        background-color: transparent;
-        border: none;
-        font-weight: 500;
-        color: #265b88;
-        align-items: center;
-        display: flex;
-        gap: 0.5em;
-        border-radius: 0;
-    }
+    
 
     .navbar-nav {
         gap: 1em;
@@ -403,6 +403,15 @@ body {
     background-color: #265b88 !important;
     border: 2px solid #262626 !important;
     border-radius: 0 !important ;
+
+}
+
+.btn-primary, .btn-secondary{
+    
+    svg {
+        width: 24px;
+        fill: #265b88;
+    }
 }
 
 .pf_menu .btn-primary {
@@ -615,13 +624,13 @@ table {
     }
 }
 
-.obs{
-    .obs-title{
-        color: #265B88;
+.obs {
+    .obs-title {
+        color: #265b88;
         font-size: 22px;
-        margin-bottom: .5em;
+        margin-bottom: 0.5em;
     }
-    ul{
+    ul {
         margin: 0;
     }
     padding: 1em;
@@ -629,4 +638,30 @@ table {
     border-top: none;
     margin-top: -2em;
     margin-bottom: 2em;
+}
+
+.modal-resposta {
+    .modal-dialog {
+        max-width: 900px;
+
+        .modal-content {
+            border-radius: 0;
+            border: 2px solid #262626;
+
+            .modal-header {
+                border-bottom: 2px solid #262626;
+                background-color: #eec174;
+                border-radius: 0;
+
+                .modal-title {
+                    font-size: 37px !important;
+                    font-weight: 400 !important;
+                }
+            }
+
+            .modal-footer {
+                border-top: none;
+            }
+        }
+    }
 }

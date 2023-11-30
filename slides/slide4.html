@@ -17,6 +17,70 @@
 
 <body>
     <header>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade modal-resposta" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Correto</h1>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            A resposta clínica corresponde ao limiar de gatilho 7 ou mais
+                        </p>
+                        <table class="table-urgencia">
+                            <tbody>
+                                <th>
+                                    Total de 5 ou mais
+                                    <br>
+                                    limite de resposta urgente
+                                    <br>
+                                    (Urgência da resposta)
+                                </th>
+                                <td>
+                                    Mínimo a cada 1 hora
+                                    <br>
+                                    (Frequência de monitoramento)
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            O enfermeito deve informar imediatamente a equipe médica
+                                            (experiencia da equipe para atender o paciente) que está
+                                            cuidando do paciente
+                                        </li>
+                                        <li>
+                                            O enfermeiro deve solicitar avaliação urgente de um médico ou de
+                                            uma equipe com competências essenciais no cuidado de pacientes
+                                            com uma doença aguda
+                                        </li>
+                                        <li>
+                                            Providenciar cuidado clínico em um ambiente (ambiente clínico)
+                                            com instalações de monitoramento
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">
+                            CONTINUAR
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <title>chevron-right</title>
+                                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container py-3">
             <div class="row">
                 <div class="col-sm-6">
@@ -205,13 +269,13 @@
 
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
                     <nav class="footer d-flex p-3 mt-auto">
                         <div class="navbar-nav d-flex flex-row">
-                            <button class="nav-item btn">
+                            <button class="nav-item btn btn-secondary">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                     <title>notebook</title>
                                     <path
@@ -219,7 +283,7 @@
                                 </svg>
                                 RECURSOS
                             </button>
-                            <button class="nav-item btn">
+                            <button class="nav-item btn btn-secondary">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                     <title>close-circle</title>
                                     <path
@@ -229,14 +293,14 @@
                             </button>
                         </div>
                         <div class="ms-auto navbar-nav d-flex flex-row">
-                            <button class="nav-item btn btn-anterior">
+                            <button class="nav-item btn btn-primary btn-anterior">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                     <title>chevron-left</title>
                                     <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
                                 </svg>
                                 ANTERIOR
                             </button>
-                            <button class="nav-item btn btn-proximo">
+                            <button class="nav-item btn btn-primary btn-proximo">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                     <title>chevron-right</title>
                                     <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />

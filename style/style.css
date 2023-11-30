@@ -81,14 +81,7 @@ body {
   font-weight: 700;
 }
 
-.footer {
-  border-top: 2px solid black;
-}
-.footer svg {
-  width: 24px;
-  fill: #265b88;
-}
-.footer button {
+.btn-secondary {
   background-color: transparent;
   border: none;
   font-weight: 500;
@@ -97,6 +90,10 @@ body {
   display: flex;
   gap: 0.5em;
   border-radius: 0;
+}
+
+.footer {
+  border-top: 2px solid black;
 }
 .footer .navbar-nav {
   gap: 1em;
@@ -360,6 +357,11 @@ body {
   border-radius: 0 !important;
 }
 
+.btn-primary svg, .btn-secondary svg {
+  width: 24px;
+  fill: #265b88;
+}
+
 .pf_menu .btn-primary {
   padding-top: 1em;
   padding-bottom: 1em;
@@ -549,12 +551,32 @@ table thead {
   margin-bottom: 2em;
 }
 .obs .obs-title {
-  color: #265B88;
+  color: #265b88;
   font-size: 22px;
   margin-bottom: 0.5em;
 }
 .obs ul {
   margin: 0;
+}
+
+.modal-resposta .modal-dialog {
+  max-width: 900px;
+}
+.modal-resposta .modal-dialog .modal-content {
+  border-radius: 0;
+  border: 2px solid #262626;
+}
+.modal-resposta .modal-dialog .modal-content .modal-header {
+  border-bottom: 2px solid #262626;
+  background-color: #eec174;
+  border-radius: 0;
+}
+.modal-resposta .modal-dialog .modal-content .modal-header .modal-title {
+  font-size: 37px !important;
+  font-weight: 400 !important;
+}
+.modal-resposta .modal-dialog .modal-content .modal-footer {
+  border-top: none;
 }
 
 /*# sourceMappingURL=style.css.map */

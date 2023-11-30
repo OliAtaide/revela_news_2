@@ -1,10 +1,13 @@
+let limites = [];
+let questoes = [];
+
 $.ajax({
   url: `../script/slide4.json`,
   dataType: "json",
   type: "GET",
   success: function (_data) {
-    let limites = _data.limites;
-    var botoes = "";
+    limites = _data.limites;
+    questoes = _data.questoes;
 
     limites.forEach(function (l, i) {
       var botao = `
@@ -20,14 +23,6 @@ $.ajax({
         `;
 
       $(".nav-resposta").append(botao);
-
-      botoes += `
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" style="background-color:${l.color} !important;">
-                    ${l.botao}
-                </button>
-            </li>
-        `;
 
       let respostas = "";
 
@@ -65,8 +60,9 @@ $.ajax({
 
     $(".nav-item:first-child .nav-link").tab("show");
 
-    _data.questoes.forEach(function (q, i) {
+    questoes.forEach(function (q, i) {
       let respostas = [];
+      var botoes = "";
 
       limites[q].respostas.forEach(function (r) {
         respostas += `
@@ -74,6 +70,16 @@ $.ajax({
                         ${r}
                     </li>
                 `;
+      });
+
+      limites.forEach(function (l, j) {
+        botoes += `
+            <li class="nav-item" role="presentation">
+                <button type="button" data-btn="#btnSend${i}"  class="nav-link" style="background-color:${l.color} !important;" value=${j}>
+                    ${l.botao}
+                </button>
+            </li>
+        `;
       });
 
       $(".swiper-wrapper").append(
@@ -103,11 +109,77 @@ $.ajax({
                 </div>
                 
                 <ul class="nav nav-tabs nav-resposta opcao-resposta nav-justified gap-3 border-0 mb-4" data-index=${i}>
-                    ${botoes};
+                    ${botoes}
                 </ul>
+                <div class="d-flex justify-content-end">
+                    <button class="btn btn-primary btn-submit" data-index=${i} id="btnSend${i}" data-modal="#modalResposta${i}">ENVIAR</button>
+                </div>
+            </div>
+        `
+      );
+      $("body").append(
+        `
+        <div class="modal fade modal-resposta" id="modalResposta${i}" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">
+                            </h1>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                A resposta clínica corresponde ao limiar de ${limites[q].botao}
+                            </p>
+                            <table class="table-urgencia">
+                                <tbody>
+                                    <th style="background-color:${limites[q].color} !important;">
+                                        ${limites[q].titulo}
+                                    </th>
+                                    <td>
+                                        ${limites[q].tempo}
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            ${respostas}
+                                        </ul>
+                                    </td>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-proximo">
+                                CONTINUAR
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>chevron-right</title>
+                                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         `
       );
     });
   },
+});
+
+$(document).on("click", ".opcao-resposta .nav-link", function () {
+  const val = $(this).val();
+  const btn = $(this).data("btn");
+  $(btn).val(val);
+});
+
+$(document).on("click", ".btn-submit", function () {
+  const modal = $(this).data("modal");
+  const val = $(this).val();
+  const i = $(this).data("index");
+
+  if (questoes[i] == val) {
+    $(modal + " .modal-title").html("Correto");
+  } else {
+    $(modal + " .modal-title").html("Incorreto");
+  }
+
+  $(modal).modal("show");
 });

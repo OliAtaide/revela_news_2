@@ -1,5 +1,5 @@
 const swiper = new Swiper(".swiper", {
-  loop: true,
+  loop: false,
 
   direction: "horizontal",
 
@@ -14,6 +14,11 @@ $(".btn-voltar").click(function () {
   $(".btn-anterior, .btn-proximo").show();
   $(".pf_menu").hide();
   $(this).hide();
+});
+
+$(document).on("click", ".modal-resposta .btn-proximo", function () {
+    $('.modal').modal("hide");
+    swiper.slideNext();
 });
 
 function createModal(modal) {
