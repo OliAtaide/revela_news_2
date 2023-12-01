@@ -81,8 +81,7 @@ $.ajax({
             </li>
         `;
       });
-
-      $(".swiper-wrapper").append(
+      $(".swiper-wrapper .here").append(
         `
             <div class="swiper-slide">
 
@@ -161,6 +160,8 @@ $.ajax({
         `
       );
     });
+    $('.swiper-wrapper .here').after($('.here .swiper-slide'));
+    $('.swiper-wrapper .here').remove();
   },
 });
 
