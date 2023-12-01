@@ -616,21 +616,21 @@ table {
     justify-content: space-between;
 }
 
-.nav-add{
+.nav-add {
     gap: 1em;
     margin-bottom: 1em;
     border: none;
 
-    .nav-link{
+    .nav-link {
         padding: 1em !important;
     }
 
-    .nav-item:first-child .nav-link{
-        background-color: #FBB874;
+    .nav-item:first-child .nav-link {
+        background-color: #fbb874;
     }
 
-    .nav-item:last-child .nav-link{
-        background-color: #F27662;
+    .nav-item:last-child .nav-link {
+        background-color: #f27662;
     }
 }
 
@@ -696,5 +696,36 @@ table {
 
     ul {
         margin: 0;
+    }
+}
+
+.resumo-lista {
+    list-style: none;
+    gap: 1.5em;
+    padding: 2em;
+    border: 2px solid #262626;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    //list-style-image: url("/imgs/check-circle-outline.svg");
+
+    li:not(li li){
+        position: relative;
+        margin-left: 2em;
+        padding-left: 1em;
+
+        &::before {
+            content: "";
+            background-image: url("/imgs/check-circle-outline.svg");
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            font-size: 1.2rem;
+            top: -4px;
+            left: -32px;
+        }
+    }
+    li li{
+        list-style-type: disc;
     }
 }

@@ -19,6 +19,10 @@
     {
         "titulo": "4<br>Identificar",
         "slug":"/slides/slide4.html"
+    },
+    {
+        "titulo": "Resumo",
+        "slug":"/resumo.html"
     }
   ]
 }
