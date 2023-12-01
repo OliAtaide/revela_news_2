@@ -21,6 +21,10 @@
         "slug":"/slides/slide4.html"
     },
     {
+        "titulo": "Estudo<br>de Caso",
+        "slug":"/estudo.html"
+    },
+    {
         "titulo": "Resumo",
         "slug":"/resumo.html"
     }

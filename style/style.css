@@ -432,26 +432,26 @@ body {
   font-size: 24px;
 }
 
-table label {
+table:not(.estudo-tabela) label {
   position: relative;
   width: 100%;
   height: 28px;
 }
-table input {
+table:not(.estudo-tabela) input {
   position: absolute;
 }
-table .btn-radio {
+table:not(.estudo-tabela) .btn-radio {
   border: 3px solid gray !important;
   border-radius: 50%;
   position: absolute;
 }
-table input,
-table .btn-radio {
+table:not(.estudo-tabela) input,
+table:not(.estudo-tabela) .btn-radio {
   width: 28px;
   height: 28px;
   left: calc(50% - 14px);
 }
-table thead {
+table:not(.estudo-tabela) thead {
   text-align: center;
 }
 
@@ -637,6 +637,38 @@ table thead {
 }
 .resumo-lista li li {
   list-style-type: disc;
+}
+
+.estudo-tabela {
+  width: 100%;
+}
+
+.estudo-tabela {
+  border-collapse: separate;
+  border-spacing: 0 0.5em;
+}
+.estudo-tabela tr {
+  background-color: #dbe0e7;
+}
+.estudo-tabela input {
+  width: 52px;
+  height: 36px;
+  border: 1px solid #262626;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+}
+.estudo-tabela td {
+  display: flex;
+  padding-right: 2em;
+}
+.estudo-tabela th {
+  width: 40%;
+  height: 100%;
+  vertical-align: middle;
+}
+.estudo-tabela th:first-child {
+  padding-left: 2em;
 }
 
 /*# sourceMappingURL=style.css.map */

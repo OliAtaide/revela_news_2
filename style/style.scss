@@ -493,7 +493,7 @@ body {
     font-size: 24px;
 }
 
-table {
+table:not(.estudo-tabela) {
     label {
         position: relative;
         width: 100%;
@@ -709,7 +709,7 @@ table {
     font-size: 22px;
     //list-style-image: url("/imgs/check-circle-outline.svg");
 
-    li:not(li li){
+    li:not(li li) {
         position: relative;
         margin-left: 2em;
         padding-left: 1em;
@@ -725,7 +725,43 @@ table {
             left: -32px;
         }
     }
-    li li{
+    li li {
         list-style-type: disc;
     }
+}
+
+.estudo-tabela {
+    width: 100%;
+}
+
+.estudo-tabela {
+    border-collapse: separate;
+    border-spacing: 0 0.5em;
+
+    tr {
+        background-color: #dbe0e7;
+    }
+    input {
+        width: 52px;
+        height: 36px;
+        border: 1px solid #262626;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 700;
+    }
+    td {
+        display: flex;
+        padding-right: 2em;
+    }
+
+    th{
+        width: 40%;
+        height: 100%;
+        vertical-align: middle;
+
+        &:first-child{
+            padding-left: 2em;
+        }
+    }
+
 }
