@@ -670,5 +670,17 @@ table:not(.estudo-tabela) thead {
 .estudo-tabela th:first-child {
   padding-left: 2em;
 }
+.estudo-tabela th:last-child {
+  padding-right: 2em;
+}
+
+.estudo-descricao {
+  border: 2px solid #262626;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+}
+.estudo-descricao p:last-child {
+  margin: 0;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,12 +1,27 @@
 [
-    {
-        "freq_card": 3,
-        "sat_o2": 3, 
-        "o2_sup": 2,
-        "pas": 0,
-        "pulso": 2,
-        "consciencia": 3,
-        "temperatura": 0,
-        "resposta": 4
-    }
+  {
+    "texto": "O caso é uma admissão de emergência na UTI (Unidade de Tratamento Intensivo). O paciente tem 60 anos com hipercapnia e insuficiência respiratória (tipo 2) com alto fluxo de oxigênio.",
+    "dados": [8, "97%", "15L/min", 170, 128, "V", "31.1oc"],
+    "respostas": [3, 3, 2, 0, 2, 3, 0]
+  },
+  {
+    "texto": "O caso 2 é uma mulher de 55 já internada na enfermaria médica com possível pneumonia adquirida em comunidade.",
+    "dados": [26, "95%", "No", 111, 104, "A", "38oc"],
+    "respostas": [3, 1, 0, 0, 2, 3, 0]
+  },
+  {
+    "texto": "O caso 3 é um homem de 75 anos que recebeu alta de uma unidade nível 2 para o centro cirúrgico ontem, após uma coleta.",
+    "dados": [19, "98%", "2L/min", 120, 82, "C", "36.8oc"],
+    "respostas": [0, 0, 2, 0, 0, 3, 0]
+  },
+  {
+    "texto": "O caso 4 é de uma senhora de 88 anos internada em um lar de idosos com suspeita de infecção do trato urinário e desidratação.",
+    "dados": [19, "97%", "No", 108, 120, "A", "36.2oc"],
+    "respostas": [0, 0, 0, 1, 2, 0, 0]
+  },
+  {
+    "texto": "O caso 5 é um homem de 24 anos, internado após um acidente de trânsito com dor esternal.",
+    "dados": [20, "91%", "No", 112, 72, "A", "36.8oc"],
+    "respostas": [0, 3, 0, 0, 0, 0, 0]
+  }
 ]

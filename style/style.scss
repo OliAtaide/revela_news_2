@@ -762,6 +762,19 @@ table:not(.estudo-tabela) {
         &:first-child{
             padding-left: 2em;
         }
+        &:last-child{
+            padding-right: 2em;
+        }
     }
 
+}
+
+.estudo-descricao{
+    border: 2px solid #262626;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+
+    p:last-child{
+        margin: 0;
+    }
 }
