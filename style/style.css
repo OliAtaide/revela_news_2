@@ -643,6 +643,11 @@ table:not(.estudo-tabela) thead {
   width: 100%;
 }
 
+.estudo-de-caso input {
+  width: 52px;
+  height: 36px;
+}
+
 .estudo-tabela {
   border-collapse: separate;
   border-spacing: 0 0.5em;
@@ -651,10 +656,7 @@ table:not(.estudo-tabela) thead {
   background-color: #dbe0e7;
 }
 .estudo-tabela input {
-  width: 52px;
-  height: 36px;
   border: 1px solid #262626;
-  margin: 0 auto;
   text-align: center;
   font-weight: 700;
 }
@@ -663,7 +665,6 @@ table:not(.estudo-tabela) thead {
   padding-right: 2em;
 }
 .estudo-tabela th {
-  width: 40%;
   height: 100%;
   vertical-align: middle;
 }
@@ -681,6 +682,13 @@ table:not(.estudo-tabela) thead {
 }
 .estudo-descricao p:last-child {
   margin: 0;
+}
+
+.row-escolhas .col:first-child .btn {
+  background-color: #426D6F !important;
+}
+.row-escolhas .col:last-child .btn {
+  background-color: #C56E53 !important;
 }
 
 /*# sourceMappingURL=style.css.map */

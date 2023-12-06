@@ -28,7 +28,7 @@ function printMenu() {
                         ${v.dados[j]}
                     </th>
                     <td>
-                        <input type="number" min="0">
+                        <input class="ms-auto" type="number" min="0">
                     </td>
                 </tr>
             `;
@@ -72,6 +72,16 @@ function printMenu() {
                             <div class="col">
                                 <table class="table estudo-tabela">
                                     ${rows}
+                                    <tr>
+                                        <th class="bg-white">
+                                        </th>
+                                        <th class="bg-white">
+                                        </th>
+                                        <td class="btn-primary">
+                                            <h6 class="my-auto text-white">Cálculo</h6>
+                                            <input class="ms-auto" type="number" min="0">
+                                        </td>
+                                    </tr>
                                 </table>
                             </div>
                         </div>
@@ -94,18 +104,98 @@ function printMenu() {
                                 </ul>
                                 <div class="tab-content nav-content-resposta" id="myTabContent">
 
-
                                 </div>
                             </div>
                             <div class="col">
                                 <table class="table estudo-tabela">
                                     ${rows2}
+                                    <tr>
+                                        <th class="bg-white">
+                                        </th>
+                                        <td class="btn-primary">
+                                            <h6 class="my-auto text-white">NEWS 2 Total</h6>
+                                            <input class="ms-auto" type="number" min="0">
+                                        </td>
+                                    </tr>
                                 </table>
                             </div>
                         </div>
                     </div>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#respostaModal${i}">
+                        Launch demo modal
+                    </button>
+                    
                 </div>
+                
             `
+        );
+        $("body").append(
+          `
+            <div class="modal fade modal-resposta estudo-de-caso" id="respostaModal${i}" tabindex="-1" aria-labelledby="respostaModal${i}Label"
+                        aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="respostaModal${i}Label">
+                                            Pense em Sepse
+                                        </h1>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-sm-5">
+                                                <table class="table estudo-tabela">
+                                                    ${rows2}
+                                                    <tr>
+                                                        <th class="bg-white">
+                                                        </th>
+                                                        <td class="btn-primary">
+                                                            <h6 class="my-auto text-white">NEWS 2 Total</h6>
+                                                            <input class="ms-auto" type="number" min="0">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <p>
+                                                    Baseada na pontuação individual e total do NEWS 2, sepse deveria ser considerada?
+                                                </p>
+                                                <h6>
+                                                    Faça a escolha abaixo
+                                                </h6>
+                                                <div class="row row-escolhas my-3">
+                                                    <div class="col">
+                                                        <button class="btn btn-primary text-center w-100">
+                                                            Sim
+                                                        </button>
+                                                    </div>
+                                                    <div class="col">
+                                                        <button class="btn btn-primary text-center w-100">
+                                                            Não
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <p>
+                                                    Sim, pense em sepse!
+                                                </p>
+                                                <p>
+                                                    Para uma pontuação total de 5 ou mais, sepse deve ser considerada
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="nav-item btn btn-primary btn-proximo">
+                                            PRÓXIMO
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <title>chevron-right</title>
+                                                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+`
         );
       });
     },
