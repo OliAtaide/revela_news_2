@@ -722,11 +722,27 @@ table:not(.estudo-tabela) thead {
 }
 
 .bi-check-circle {
-  color: #789F8C;
+  color: #789f8c;
 }
 
 .bi-x-circle {
   color: #c56e53;
+}
+
+.btn-anterior-defined.swiper-button-disabled {
+  display: none;
+}
+
+.navbar-nav:has(.btn-anterior:not(.swiper-button-disabled)) .link-anterior {
+  display: none;
+}
+
+.btn-proximo-defined.swiper-button-disabled {
+  display: none;
+}
+
+.navbar-nav:has(.btn-proximo:not(.swiper-button-disabled)) .link-proximo {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

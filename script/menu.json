@@ -5,28 +5,28 @@
       "slug": "/"
     },
     {
-        "titulo": "1<br>Medir",
-        "slug":"/slides/slide1.html"
+      "titulo": "1<br>Medir",
+      "slug": "/slides/slide1.html"
     },
     {
-        "titulo": "2<br>Gravar",
-        "slug":"/slides/slide2.html"
+      "titulo": "2<br>Gravar",
+      "slug": "/slides/slide2.html"
     },
     {
-        "titulo": "3<br>Calcular",
-        "slug":"/slides/slide3.html"
+      "titulo": "3<br>Calcular",
+      "slug": "/slides/slide3.html"
     },
     {
-        "titulo": "4<br>Identificar",
-        "slug":"/slides/slide4.html"
+      "titulo": "4<br>Identificar",
+      "slug": "/slides/slide4.html"
     },
     {
-        "titulo": "Estudo<br>de Caso",
-        "slug":"/estudos.html"
+      "titulo": "Estudo<br>de Caso",
+      "slug": "/estudos.html"
     },
     {
-        "titulo": "Resumo",
-        "slug":"/resumo.html"
+      "titulo": "Resumo",
+      "slug": "/resumo.html"
     }
   ]
 }

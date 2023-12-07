@@ -17,8 +17,8 @@ $(".btn-voltar").click(function () {
 });
 
 $(document).on("click", ".modal-resposta .btn-proximo", function () {
-    $('.modal').modal("hide");
-    swiper.slideNext();
+  $(".modal").modal("hide");
+  swiper.slideNext();
 });
 
 function createModal(modal) {
@@ -203,25 +203,37 @@ function printMenu() {
     dataType: "json",
     type: "GET",
     success: function (_data) {
-      _data.items.forEach(function (v, i) {
+      let items = _data.items;
+      items.forEach(function (v, i) {
         var active = false;
 
         console.log(window.location.pathname);
 
-        if(window.location.pathname == v.slug){
+        if (window.location.pathname == v.slug) {
           active = true;
+
+          if (items[i - 1] != undefined) {
+            $(".link-anterior").attr("href", items[i - 1].slug);
+            $(".btn-anterior").addClass("btn-anterior-defined");
+          }
+          if (items[i + 1] != undefined) {
+            $(".link-proximo").attr("href", items[i + 1].slug);
+            $(".btn-proximo").addClass("btn-proximo-defined");
+          }
         }
 
-        $('.nav-pagination').append(
+        $(".nav-pagination").append(
           `
-          <button class="nav-link ${active ? 'active' : ''}" onclick="window.location.href='${v.slug}'">
+          <button class="nav-link ${
+            active ? "active" : ""
+          }" onclick="window.location.href='${v.slug}'">
               ${v.titulo}
           </button>
           `
-        )
+        );
       });
     },
   });
 }
 
-printMenu()
+printMenu();

@@ -1,167 +1,167 @@
 {
-    "parametros_fisiologicos": [
+  "parametros_fisiologicos": [
+    {
+      "titulo": "Frequência Respiratória",
+      "icone": "lungs",
+      "texto": [
+        "Você verá que uma frequência respiratória elevada é um sinal forte de doença aguda ou geradora de angústia nos pacientes. A frequência respiratória também pode estar elevada como consequência de do e angústia generalizada, sepse de origem pulmonar, distúrbios no sistema nervoso central (SNC) e distúrbios metabólicos, tais como acidose metabólica.",
+        "Uma frequência respiratória reduzida é um indicador importante de depressão e narcose do SNC."
+      ]
+    },
+    {
+      "titulo": "Saturação de Oxigênio (SpO2)",
+      "icone": "oxygen_tank",
+      "texto": [
+        "Caro aluno, aqui você observará que o quadro NEWS2 traz duas pontuações pata documentar as saturações de oxigênio. A escala 1 deve ser usada para a maioria dos pacientes, entretanto, para pacientes com insuficiência respiratória hipercápnica a Escala 2 deve ser usada."
+      ],
+      "dica": "Para prosseguir e ter mais informações sobre cada uma das escolas, clique nos botões abaixo:",
+      "modais": [
         {
-            "titulo": "Frequência Respiratória",
-            "icone": "lungs",
-            "texto": [
-                "Você verá que uma frequência respiratória elevada é um sinal forte de doença aguda ou geradora de angústia nos pacientes. A frequência respiratória também pode estar elevada como consequência de do e angústia generalizada, sepse de origem pulmonar, distúrbios no sistema nervoso central (SNC) e distúrbios metabólicos, tais como acidose metabólica.",
-                "Uma frequência respiratória reduzida é um indicador importante de depressão e narcose do SNC."
-            ]
+          "titulo": "Escala 1",
+          "id": "escala1Modal",
+          "texto": [
+            "Caro aluno, o sistema de pontuação SpO2 se aplica à maioria dos pacientes.",
+            "A medição da saturação de oxigênio não invasiva pela oximetria do pulso é rotineiramente usada em avaliações clínicas de quadros agudos."
+          ]
         },
         {
-            "titulo": "Saturação de Oxigênio (SpO2)",
-            "icone": "oxygen_tank",
-            "texto": [
-                "Caro aluno, aqui você observará que o quadro NEWS2 traz duas pontuações pata documentar as saturações de oxigênio. A escala 1 deve ser usada para a maioria dos pacientes, entretanto, para pacientes com insuficiência respiratória hipercápnica a Escala 2 deve ser usada."
-            ],
-            "dica": "Para prosseguir e ter mais informações sobre cada uma das escolas, clique nos botões abaixo:",
-            "modais": [
-                {
-                    "titulo": "Escala 1",
-                    "id": "escala1Modal",
-                    "texto": [
-                        "Caro aluno, o sistema de pontuação SpO2 se aplica à maioria dos pacientes.",
-                        "A medição da saturação de oxigênio não invasiva pela oximetria do pulso é rotineiramente usada em avaliações clínicas de quadros agudos."
-                    ]
-                },
-                {
-                    "titulo": "Escala 2",
-                    "id": "escala2Modal",
-                    "texto": [
-                        "Caro aluno, a ecala 2 é um sistema de pontuação dedicado aos pacientes com insuficiência respiratória hipercápnica, cuja saturação de oxigência ideal é definida em um nível inferior (88-92%) com o sistema de pontuação NEWS 2 ajustado adequadamente.",
-                        "Observe que esta escala de pontuação SpO2 é para pacientes com uma necessidade de oxigenação prescrita entre 88-92%, por exemplo, em pacientes com insuficiencia respiratória hipercápnica, confirmada através da análise de gases sanguíneos em um hospital prévio ou naquele em que ocorreu sua internação.",
-                        "É importante ressaltar que a decisão de usar a nova SpO2, pontuando com base na escala 2, deve ser tomada através de uma decisão clínica competente, que precisa ser documentada na ficha clínica/prontuário do paciente.",
-                        "Fique atento, pois em todas as outras circunstâncias, a ecala normal de pontuação NEWS2 SpO2 (escala 1) deve ser usada.",
-                        "A fim de evitar dúvidas, a escala de pontuação SpO2 que não está sendo usada, deve ser riscada no quadro de pontuação."
-                    ]
-                }
-            ]
-        },
-        {
-            "titulo": "Pressão Arterial Sistólica",
-            "icone": "blood_pressure",
-            "dica": "Para aprofundar seus estudos, clique nos seguintes botões para mais informações",
-            "texto": [
-                "Embora a pressão arterial elevada (hipertensão) seja um importante fator de risco para doenças cardiovasculares é a pressão arterial sistólica baixa ou em queda (hipotensão) que é mais significativa no contexto da avaliação da gravidade de uma doença aguda."
-            ],
-            "modais": [
-                {
-                    "titulo": "Hipotensão",
-                    "id": "htModal",
-                    "texto": [
-                        "A hipotensão pode indicar o comprometimento circulatório devido à sepse ou depleção de volume, insuficiência cardíaca ou distúrbio do ritmo cardíaco, depressão do sistema nervoso central (SNC), hipoadrenalismo e/ou efeito de medicamentos para baixar a pressão arterial.",
-                        "É importante que você observe que algumas pessoas têm uma pressão arterial sistólica naturalmente baixa (≥100mmHg) e isso deve ser considerado se o paciente estiver bem e todos os outros parâmetros fisiológicos estiverem normais, ou se este contexto for confirmado por referência através de registros anteriores de pressão arteiral do paciente.",
-                        "A hipertensão possui menos peso no contexto da avaliação de uma doença aguda. A hipertensão grave, por exemplo, pressão arterial sistólica ≥200mmH, pode ocorrer como consequência de fatores físicos, como dor, ou psicológicos, como angústia ou estresse, mas também como a origem desses fatores. Portante, é importante identificar se a doença aguda que o paciente apresenta tem origem a partir da hipertensão grave ou é uma consequêcia dela e tomar as medidas clínicas adequadas."
-                    ]
-                },
-                {
-                    "titulo": "Pressão Sanguinea Diastólica",
-                    "id": "psdModal",
-                    "texto": [
-                        "A pessão arteiral diastólica não faz parte do sistema de pontuação da gravidade de uma doença agudam porque não agrega valor a este contexto. No entanto, caro aluno, a pressão arterial diastólica deve ser registrada rotineiramente, pois pode estar gravemente elevada e exigir tratamento em alguns cenários agudos, por exemplo, a hipertensão acelerada."
-                    ]
-                }
-            ]
-        },
-        {
-            "titulo": "Pulso",
-            "icone": "heart_cardiogram",
-            "texto": [
-                "Você sabia que a medida do pulso é um indicador importante da condição clínica do paciente."
-            ],
-            "dica": "Para ir além em seus estudos, clique nos botões abaixo para mais informações sobre:",
-            "modais": [
-                {
-                    "titulo": "Taquicardia",
-                    "id": "tcModal",
-                    "texto": [
-                        "A taquicardia pode ser um indicativo de comprometimento circulatório, devido à sepse ou depleção de volume, insuficiência cardíaca, dor ou angústia geral.",
-                        "Também pode ser devido arritmia cardíaca, distúrbio metabólico, como por exemplo o hipertireoidismo ou a intoxicação por drogas simpaticomiméticos ou drogas antilinérgicas."
-                    ]
-                },
-                {
-                    "titulo": "Braquicardia",
-                    "id": "bcModal",
-                    "texto": [
-                        "A braquicardia também é um indicador fisiológico importante. Uma baixa frequência cardíaca pode ser normal quando o paciente apresenta bom condicionamento físico, ou como efeito colateral/consequência de medicação, por exemplo, betabloqueadores.",
-                        "No entanto, cabe ressaltar que ela também pode ser um idicador importante de hipotermia, depressão do sistema nervoso central (SNC), hipotireoidismo ou arritmia."
-                    ]
-                }
-            ]
-        },
-        {
-            "titulo": "Nível de Consciência",
-            "icone": "child_cognition",
-            "texto": [
-                "Uma mudança no nível de consciência do paciente é um indicador importante da severidade de doenças agudas. Ao fazer a avaliação do nível de consciência, você deve seguir a sequência indicada aqui e documentar apensar o primeiro item em que houver resposta positiva do paciente. Por exemplo, se um paciente responde ao estímulo verbal, não é necessário verificar sua resposta a dor."
-            ],
-            "dica": "Clique nos botões abaixo para mais informações.",
-            "ncp": [
-                {
-                    "letra": "A",
-                    "placeholder": "O paciente está <strong>ACORDADO</strong>",
-                    "titulo": "Alerta",
-                    "id":"ncpAModal",
-                    "texto": [
-                        "Você deve considerar alerta um paciente totalmente acordado, embora não necessariamente orientado, Esse paciente tem abertura ocular espontânea e responde à voz. Embora ele possa estar confuso, demonstra função motora."
-                    ]
-                },
-                {
-                    "letra": "C",
-                    "placeholder": "O paciente está alerta mas <strong>CONFUSO</strong> ou desorientado",
-                    "titulo": "Nova Confusão",
-                    "id":"ncpCModal",
-                    "texto": [
-                        "Um pacitente pode estar alerta, mas confuso ou desorientado. Nem sempre é possível determinar se este estado de confusão é “novo” quando um paciente se apreenta com uma doença aguda. Tal apresentação deve sempre despertar preocupação sobre as causas subjacentes, potencialmente graves e justificar uma avaliação clínica urgente.",
-                        "Além do registro do nível de consciência, usando a escala ACVPU, você também deve considerar o início do estado mental agudamente alterado, por exemplo, uma nova confusão (delírio) pode ser um sinal importante de que o paciente requer avaliação urgente.",
-                        "A confusão incial (qualquer nova redução na ecala de coma de Glasgow ou um delírio tmbém se enquadra neste critério) é um sinal de deterioração clínica potencialmente grave em pacientes, especialmente aqueles com sepse confirmada suspeita. O NEWS 2 inclui uma “nova confusão” como parte da avaliação de consciência, daí o termo ACVPU ao contrário de AVPU para refeltir essa mudança. Uma nova confusão marca 3 pontos no gráfico NEWS 2, indicando um código vermelho (quando uma única pontuação é 3), por exemplo, o paciente requer avaliação urgente."
-                    ]
-                },
-                {
-                    "letra": "V",
-                    "placeholder": "O paciente responde ao estímulo <strong>VERBAL</strong>",
-                    "titulo": "Voz",
-                    "id":"ncpVModal",
-                    "texto": [
-                        "FIQUE ATENTO!<br>Se o paciente apresentar algum tipo de respostas quando você fala com ele, elas podem se encaixar em um dos três componentes de verificação: abertura ocular, voz e motricidade.",
-                        "Por exemplo, os olhos do paciente se abrem ao ser questionado:’’Você está bem?” A resposta pode ser um grunhido, gemido ou leve movimento de um membro quando solicitado por voz e qualuqer uma dela deve ser aceita como positiva."
-                    ]
-                },
-                {
-                    "letra": "P",
-                    "placeholder": "O paciente responde à estimulação por <strong>DOR</strong>",
-                    "titulo": "Dor",
-                    "id":"ncpPModal",
-                    "texto": [
-                        "Há pacientes que responderão ao estímulo de dor quando testados. Entretanto, um paciente que não está alerta e que não respondeu ao etímulo de voz após a testagem de ambos os itens, provavelmente exibe apenas ausência de dor ou mesmo flexão/extensão involuntária dos membros no estímulo à dor.",
-                        "É de fundamental importância que a pessoa que realiza esta avaliação seja adequadamente treinada e tenha extremo cuidado ao testar no paciente o estímulo da dor, como método de avaliação dos níveis de consciência."
-                    ]
-                },
-                {
-                    "letra": "U",
-                    "placeholder": "O paciente não reage a <strong>NENHUM</strong> estímulo",
-                    "titulo": "O paciente não reage a NENHUM estímulo",
-                    "id":"ncpUModal",
-                    "texto": [
-                        "Observe que ambos os termos são tmabém comumente referidos como “inconsciente”. Este é o resultado registrado caso o paciente não dê qualquer resposta aos estímulos visuais, de voz, resposta motora ou dor."
-                    ]
-                }
-            ]
-        },
-        {
-            "titulo": "Temperatura",
-            "icone": "thermometer",
-            "texto": [
-                "No que se refere à temperatura, é importante resaltar que tanto a pirexia quando a hiportermia estão incluídas no sistema de pontuação do NEWS 2, refletindo o fato de que os tais extremos são marcadores sensíveis à gravidade da doença aguda e distúrbios fisiológicos."
-            ]
+          "titulo": "Escala 2",
+          "id": "escala2Modal",
+          "texto": [
+            "Caro aluno, a ecala 2 é um sistema de pontuação dedicado aos pacientes com insuficiência respiratória hipercápnica, cuja saturação de oxigência ideal é definida em um nível inferior (88-92%) com o sistema de pontuação NEWS 2 ajustado adequadamente.",
+            "Observe que esta escala de pontuação SpO2 é para pacientes com uma necessidade de oxigenação prescrita entre 88-92%, por exemplo, em pacientes com insuficiencia respiratória hipercápnica, confirmada através da análise de gases sanguíneos em um hospital prévio ou naquele em que ocorreu sua internação.",
+            "É importante ressaltar que a decisão de usar a nova SpO2, pontuando com base na escala 2, deve ser tomada através de uma decisão clínica competente, que precisa ser documentada na ficha clínica/prontuário do paciente.",
+            "Fique atento, pois em todas as outras circunstâncias, a ecala normal de pontuação NEWS2 SpO2 (escala 1) deve ser usada.",
+            "A fim de evitar dúvidas, a escala de pontuação SpO2 que não está sendo usada, deve ser riscada no quadro de pontuação."
+          ]
         }
-    ],
-    "table":[
-        "Uma taxa respiratória reduzida é um indicador importante de depressão ou narcose do SNC.",
-        "O gráfico NEWS 2 tem 3 escalas de pontuação para SpO2",
-        "A pontuação de ponderação de 2 deve ser adicionada à pontuação NEWS 2 para qualuqer paciente que requer oxigênio suplementar",
-        "A pressão arteiral sistólica baixa ou decrescente é mais significativa no contexto da avaliação da gravidade da doença aguda.",
-        "Em ACVPU o C significa confusão",
-        "Tanto a pirexia quando a hipotermia estão incluídas no sistema de pontuação NEWS 2."
-    ]
+      ]
+    },
+    {
+      "titulo": "Pressão Arterial Sistólica",
+      "icone": "blood_pressure",
+      "dica": "Para aprofundar seus estudos, clique nos seguintes botões para mais informações",
+      "texto": [
+        "Embora a pressão arterial elevada (hipertensão) seja um importante fator de risco para doenças cardiovasculares é a pressão arterial sistólica baixa ou em queda (hipotensão) que é mais significativa no contexto da avaliação da gravidade de uma doença aguda."
+      ],
+      "modais": [
+        {
+          "titulo": "Hipotensão",
+          "id": "htModal",
+          "texto": [
+            "A hipotensão pode indicar o comprometimento circulatório devido à sepse ou depleção de volume, insuficiência cardíaca ou distúrbio do ritmo cardíaco, depressão do sistema nervoso central (SNC), hipoadrenalismo e/ou efeito de medicamentos para baixar a pressão arterial.",
+            "É importante que você observe que algumas pessoas têm uma pressão arterial sistólica naturalmente baixa (≥100mmHg) e isso deve ser considerado se o paciente estiver bem e todos os outros parâmetros fisiológicos estiverem normais, ou se este contexto for confirmado por referência através de registros anteriores de pressão arteiral do paciente.",
+            "A hipertensão possui menos peso no contexto da avaliação de uma doença aguda. A hipertensão grave, por exemplo, pressão arterial sistólica ≥200mmH, pode ocorrer como consequência de fatores físicos, como dor, ou psicológicos, como angústia ou estresse, mas também como a origem desses fatores. Portante, é importante identificar se a doença aguda que o paciente apresenta tem origem a partir da hipertensão grave ou é uma consequêcia dela e tomar as medidas clínicas adequadas."
+          ]
+        },
+        {
+          "titulo": "Pressão Sanguinea Diastólica",
+          "id": "psdModal",
+          "texto": [
+            "A pessão arteiral diastólica não faz parte do sistema de pontuação da gravidade de uma doença agudam porque não agrega valor a este contexto. No entanto, caro aluno, a pressão arterial diastólica deve ser registrada rotineiramente, pois pode estar gravemente elevada e exigir tratamento em alguns cenários agudos, por exemplo, a hipertensão acelerada."
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Pulso",
+      "icone": "heart_cardiogram",
+      "texto": [
+        "Você sabia que a medida do pulso é um indicador importante da condição clínica do paciente."
+      ],
+      "dica": "Para ir além em seus estudos, clique nos botões abaixo para mais informações sobre:",
+      "modais": [
+        {
+          "titulo": "Taquicardia",
+          "id": "tcModal",
+          "texto": [
+            "A taquicardia pode ser um indicativo de comprometimento circulatório, devido à sepse ou depleção de volume, insuficiência cardíaca, dor ou angústia geral.",
+            "Também pode ser devido arritmia cardíaca, distúrbio metabólico, como por exemplo o hipertireoidismo ou a intoxicação por drogas simpaticomiméticos ou drogas antilinérgicas."
+          ]
+        },
+        {
+          "titulo": "Braquicardia",
+          "id": "bcModal",
+          "texto": [
+            "A braquicardia também é um indicador fisiológico importante. Uma baixa frequência cardíaca pode ser normal quando o paciente apresenta bom condicionamento físico, ou como efeito colateral/consequência de medicação, por exemplo, betabloqueadores.",
+            "No entanto, cabe ressaltar que ela também pode ser um idicador importante de hipotermia, depressão do sistema nervoso central (SNC), hipotireoidismo ou arritmia."
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Nível de Consciência",
+      "icone": "child_cognition",
+      "texto": [
+        "Uma mudança no nível de consciência do paciente é um indicador importante da severidade de doenças agudas. Ao fazer a avaliação do nível de consciência, você deve seguir a sequência indicada aqui e documentar apensar o primeiro item em que houver resposta positiva do paciente. Por exemplo, se um paciente responde ao estímulo verbal, não é necessário verificar sua resposta a dor."
+      ],
+      "dica": "Clique nos botões abaixo para mais informações.",
+      "ncp": [
+        {
+          "letra": "A",
+          "placeholder": "O paciente está <strong>ACORDADO</strong>",
+          "titulo": "Alerta",
+          "id": "ncpAModal",
+          "texto": [
+            "Você deve considerar alerta um paciente totalmente acordado, embora não necessariamente orientado, Esse paciente tem abertura ocular espontânea e responde à voz. Embora ele possa estar confuso, demonstra função motora."
+          ]
+        },
+        {
+          "letra": "C",
+          "placeholder": "O paciente está alerta mas <strong>CONFUSO</strong> ou desorientado",
+          "titulo": "Nova Confusão",
+          "id": "ncpCModal",
+          "texto": [
+            "Um pacitente pode estar alerta, mas confuso ou desorientado. Nem sempre é possível determinar se este estado de confusão é “novo” quando um paciente se apreenta com uma doença aguda. Tal apresentação deve sempre despertar preocupação sobre as causas subjacentes, potencialmente graves e justificar uma avaliação clínica urgente.",
+            "Além do registro do nível de consciência, usando a escala ACVPU, você também deve considerar o início do estado mental agudamente alterado, por exemplo, uma nova confusão (delírio) pode ser um sinal importante de que o paciente requer avaliação urgente.",
+            "A confusão incial (qualquer nova redução na ecala de coma de Glasgow ou um delírio tmbém se enquadra neste critério) é um sinal de deterioração clínica potencialmente grave em pacientes, especialmente aqueles com sepse confirmada suspeita. O NEWS 2 inclui uma “nova confusão” como parte da avaliação de consciência, daí o termo ACVPU ao contrário de AVPU para refeltir essa mudança. Uma nova confusão marca 3 pontos no gráfico NEWS 2, indicando um código vermelho (quando uma única pontuação é 3), por exemplo, o paciente requer avaliação urgente."
+          ]
+        },
+        {
+          "letra": "V",
+          "placeholder": "O paciente responde ao estímulo <strong>VERBAL</strong>",
+          "titulo": "Voz",
+          "id": "ncpVModal",
+          "texto": [
+            "FIQUE ATENTO!<br>Se o paciente apresentar algum tipo de respostas quando você fala com ele, elas podem se encaixar em um dos três componentes de verificação: abertura ocular, voz e motricidade.",
+            "Por exemplo, os olhos do paciente se abrem ao ser questionado:’’Você está bem?” A resposta pode ser um grunhido, gemido ou leve movimento de um membro quando solicitado por voz e qualuqer uma dela deve ser aceita como positiva."
+          ]
+        },
+        {
+          "letra": "P",
+          "placeholder": "O paciente responde à estimulação por <strong>DOR</strong>",
+          "titulo": "Dor",
+          "id": "ncpPModal",
+          "texto": [
+            "Há pacientes que responderão ao estímulo de dor quando testados. Entretanto, um paciente que não está alerta e que não respondeu ao etímulo de voz após a testagem de ambos os itens, provavelmente exibe apenas ausência de dor ou mesmo flexão/extensão involuntária dos membros no estímulo à dor.",
+            "É de fundamental importância que a pessoa que realiza esta avaliação seja adequadamente treinada e tenha extremo cuidado ao testar no paciente o estímulo da dor, como método de avaliação dos níveis de consciência."
+          ]
+        },
+        {
+          "letra": "U",
+          "placeholder": "O paciente não reage a <strong>NENHUM</strong> estímulo",
+          "titulo": "O paciente não reage a NENHUM estímulo",
+          "id": "ncpUModal",
+          "texto": [
+            "Observe que ambos os termos são tmabém comumente referidos como “inconsciente”. Este é o resultado registrado caso o paciente não dê qualquer resposta aos estímulos visuais, de voz, resposta motora ou dor."
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Temperatura",
+      "icone": "thermometer",
+      "texto": [
+        "No que se refere à temperatura, é importante resaltar que tanto a pirexia quando a hiportermia estão incluídas no sistema de pontuação do NEWS 2, refletindo o fato de que os tais extremos são marcadores sensíveis à gravidade da doença aguda e distúrbios fisiológicos."
+      ]
+    }
+  ],
+  "table": [
+    "Uma taxa respiratória reduzida é um indicador importante de depressão ou narcose do SNC.",
+    "O gráfico NEWS 2 tem 3 escalas de pontuação para SpO2",
+    "A pontuação de ponderação de 2 deve ser adicionada à pontuação NEWS 2 para qualuqer paciente que requer oxigênio suplementar",
+    "A pressão arteiral sistólica baixa ou decrescente é mais significativa no contexto da avaliação da gravidade da doença aguda.",
+    "Em ACVPU o C significa confusão",
+    "Tanto a pirexia quando a hipotermia estão incluídas no sistema de pontuação NEWS 2."
+  ]
 }

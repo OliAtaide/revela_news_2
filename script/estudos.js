@@ -223,16 +223,15 @@ $(document).on("click", ".btn-modal", function (v, i) {
 });
 
 $(document).on("change", ".input-resposta", function () {
-    var data = $(this).data('resposta');
-    var val = $(this).val();
-    var icone = $(this).data('icone');
-    console.log($(icone));
-    if (val == data){
-        $(icone).removeClass('bi-x-circle');
-        $(icone).addClass('bi-check-circle');
-    }
-    else{
-        $(icone).removeClass('bi-check-circle');
-        $(icone).addClass('bi-x-circle');
-    }
-})
+  var data = $(this).data("resposta");
+  var val = $(this).val();
+  var icone = $(this).data("icone");
+  console.log($(icone));
+  if (val == data) {
+    $(icone).removeClass("bi-x-circle");
+    $(icone).addClass("bi-check-circle");
+  } else {
+    $(icone).removeClass("bi-check-circle");
+    $(icone).addClass("bi-x-circle");
+  }
+});

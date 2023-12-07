@@ -159,8 +159,8 @@ $.ajax({
         `
       );
     });
-    $('.swiper-wrapper .here').after($('.here .swiper-slide'));
-    $('.swiper-wrapper .here').remove();
+    $(".swiper-wrapper .here").after($(".here .swiper-slide"));
+    $(".swiper-wrapper .here").remove();
   },
 });
 
@@ -170,8 +170,8 @@ $(document).on("click", ".opcao-resposta .nav-link", function () {
   const i = $(this).data("index");
   $(btn).val(val);
 
-  $(`#respostas${i} .nav-link`).removeClass('selected');
-  $(this).addClass('selected');
+  $(`#respostas${i} .nav-link`).removeClass("selected");
+  $(this).addClass("selected");
 });
 
 $(document).on("click", ".btn-submit", function () {

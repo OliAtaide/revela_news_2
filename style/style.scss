@@ -811,25 +811,45 @@ table:not(.estudo-tabela) {
 }
 
 .container:has(.swiper-slide-modal-trigger.swiper-slide-active) .footer {
-    .btn-proximo{
-        display: none !important
+    .btn-proximo {
+        display: none !important;
     }
 }
 
 .container:has(.swiper-slide-modal-trigger.swiper-slide-active) .footer {
-    .btn-modal{
-        display: block !important
+    .btn-modal {
+        display: block !important;
     }
 }
 
-.icone-resposta{
+.icone-resposta {
     font-size: 24px;
 }
 
 .bi-check-circle {
-    color: #789F8C;
+    color: #789f8c;
 }
 
-.bi-x-circle{
+.bi-x-circle {
     color: #c56e53;
+}
+
+.btn-anterior-defined.swiper-button-disabled {
+    display: none;
+}
+
+.navbar-nav:has(.btn-anterior:not(.swiper-button-disabled)) {
+    .link-anterior {
+        display: none;
+    }
+}
+
+.btn-proximo-defined.swiper-button-disabled {
+    display: none;
+}
+
+.navbar-nav:has(.btn-proximo:not(.swiper-button-disabled)) {
+    .link-proximo {
+        display: none;
+    }
 }
