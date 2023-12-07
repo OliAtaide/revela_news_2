@@ -84,7 +84,6 @@ $.ajax({
       $(".swiper-wrapper .here").append(
         `
             <div class="swiper-slide">
-
                 <div class="aviso">
                     <span class="mdi mdi-head-lightbulb"></span>
                     Caro aluno, leia com atenção a resposta clínica a seguir, depois selecione o seu
@@ -116,7 +115,7 @@ $.ajax({
             </div>
         `
       );
-      $("body").append(
+      $(".slide4-modals").append(
         `
         <div class="modal fade modal-resposta" id="modalResposta${i}" tabindex="-1" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">

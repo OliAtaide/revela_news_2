@@ -303,6 +303,24 @@ body {
   border-color: white transparent transparent;
 }
 
+.balao-4::before {
+  right: auto;
+  left: 10%;
+  bottom: -20px;
+  top: auto;
+  border: 10px solid;
+  border-color: black transparent transparent;
+}
+
+.balao-4::after {
+  right: auto;
+  left: calc(10% + 0.5px);
+  bottom: -17px;
+  top: auto;
+  border: 9px solid;
+  border-color: white transparent transparent;
+}
+
 .swiper,
 .main {
   overflow-y: visible;

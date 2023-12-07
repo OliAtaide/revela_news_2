@@ -50,23 +50,29 @@ function printMenu() {
                     <div class="estudo-de-caso">
                         <div class="row">
                             <div class="col">
-                                <h3 class="estudo-titulo">
-                                    Estudo de Caso ${i + 1}
-                                </h3>
-                                <div class="estudo-descricao">
-                                    <p>
-                                        ${v.texto}
-                                    </p>
-                                    <p>
-                                        As observações mostradas à direita são relatadas:
-                                    </p>
-                                </div>
-                                <div class="dica d-flex mb-3">
-                                    <span class="mdi mdi-cursor-default-click"></span>
-                                    Usando o gráfico de pontuação do NEWS 2, preencha cada um dos
-                                    parâmetros
-                                    individuais
-                                    no quadro do lado oposto e clique em enviar.
+                                <div class="d-flex flex-column h-100">
+                                    <h3 class="estudo-titulo">
+                                        Estudo de Caso ${i + 1}
+                                    </h3>
+                                    <div class="estudo-descricao">
+                                        <p>
+                                            ${v.texto}
+                                        </p>
+                                        <p>
+                                            As observações mostradas à direita são relatadas:
+                                        </p>
+                                    </div>
+                                    <div class="dica d-flex mb-3">
+                                        <span class="mdi mdi-cursor-default-click"></span>
+                                        Usando o gráfico de pontuação do NEWS 2, preencha cada um dos
+                                        parâmetros
+                                        individuais
+                                        no quadro do lado oposto e clique em enviar.
+                                    </div>
+                                    <div class="balao balao-4 w-75 mt-auto">
+                                        E usar os botões na parte
+                                        inferior direita da tela para navegar através do curso.
+                                    </div>
                                 </div>
                             </div>
                             <div class="col">
@@ -198,17 +204,16 @@ function printMenu() {
 `
         );
       });
-      
-    $('.swiper-wrapper .estudos').after($('.estudos .swiper-slide'));
-    $('.swiper-wrapper .estudos').remove();
+
+      $(".swiper-wrapper .estudos").after($(".estudos .swiper-slide"));
+      $(".swiper-wrapper .estudos").remove();
     },
   });
 }
 
 printMenu();
 
-
-$(document).on('click', '.btn-modal', function (v, i) {
-    const index = $('.swiper-slide-active').data('index');
-    $('#estudoModal' + index).modal('show');
-})
+$(document).on("click", ".btn-modal", function (v, i) {
+  const index = $(".swiper-slide-active").data("index");
+  $("#estudoModal" + index).modal("show");
+});
