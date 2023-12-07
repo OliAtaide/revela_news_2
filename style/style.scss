@@ -734,8 +734,8 @@ table:not(.estudo-tabela) {
     width: 100%;
 }
 
-.estudo-de-caso{
-    input{
+.estudo-de-caso {
+    input {
         width: 52px;
         height: 36px;
     }
@@ -759,36 +759,47 @@ table:not(.estudo-tabela) {
         padding-right: 2em;
     }
 
-    th{
+    th {
         //width: 40%;
         height: 100%;
         vertical-align: middle;
 
-        &:first-child{
+        &:first-child {
             padding-left: 2em;
         }
-        &:last-child{
+        &:last-child {
             padding-right: 2em;
         }
     }
-
 }
 
-.estudo-descricao{
+.estudo-descricao {
     border: 2px solid #262626;
     padding: 1.5em;
     margin-bottom: 1.5em;
 
-    p:last-child{
+    p:last-child {
         margin: 0;
     }
 }
 
-.row-escolhas{
-    .col:first-child .btn{
-        background-color: #426D6F !important;
+.row-escolhas {
+    .col:first-child .btn {
+        background-color: #426d6f !important;
     }
-    .col:last-child .btn{
-        background-color: #C56E53 !important;
+    .col:last-child .btn {
+        background-color: #c56e53 !important;
+    }
+}
+
+.container:has(.swiper-slide-modal-trigger.swiper-slide-active) .footer {
+    .btn-proximo{
+        display: none !important
+    }
+}
+
+.container:has(.swiper-slide-modal-trigger.swiper-slide-active) .footer {
+    .btn-modal{
+        display: block !important
     }
 }

@@ -44,7 +44,7 @@ function printMenu() {
             `;
         }
 
-        $(".swiper-wrapper").append(
+        $(".swiper-wrapper .estudos").append(
           `
                 <div class="swiper-slide">
                     <div class="estudo-de-caso">
@@ -87,7 +87,7 @@ function printMenu() {
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide swiper-slide-modal-trigger" data-index=${i}>
                     <div class="estudo-de-caso">
                         <div class="row">
                             <div class="col">
@@ -131,12 +131,12 @@ function printMenu() {
         );
         $("body").append(
           `
-            <div class="modal fade modal-resposta estudo-de-caso" id="respostaModal${i}" tabindex="-1" aria-labelledby="respostaModal${i}Label"
+            <div class="modal fade modal-resposta estudo-de-caso" id="estudoModal${i}" tabindex="-1" aria-labelledby="estudoModal${i}Label"
                         aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="respostaModal${i}Label">
+                                        <h1 class="modal-title fs-5" id="estudoModal${i}Label">
                                             Pense em Sepse
                                         </h1>
                                     </div>
@@ -198,8 +198,17 @@ function printMenu() {
 `
         );
       });
+      
+    $('.swiper-wrapper .estudos').after($('.estudos .swiper-slide'));
+    $('.swiper-wrapper .estudos').remove();
     },
   });
 }
 
 printMenu();
+
+
+$(document).on('click', '.btn-modal', function (v, i) {
+    const index = $('.swiper-slide-active').data('index');
+    $('#estudoModal' + index).modal('show');
+})

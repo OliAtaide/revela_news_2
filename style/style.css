@@ -685,10 +685,18 @@ table:not(.estudo-tabela) thead {
 }
 
 .row-escolhas .col:first-child .btn {
-  background-color: #426D6F !important;
+  background-color: #426d6f !important;
 }
 .row-escolhas .col:last-child .btn {
-  background-color: #C56E53 !important;
+  background-color: #c56e53 !important;
+}
+
+.container:has(.swiper-slide-modal-trigger.swiper-slide-active) .footer .btn-proximo {
+  display: none !important;
+}
+
+.container:has(.swiper-slide-modal-trigger.swiper-slide-active) .footer .btn-modal {
+  display: block !important;
 }
 
 /*# sourceMappingURL=style.css.map */
