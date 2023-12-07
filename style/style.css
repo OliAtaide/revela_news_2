@@ -717,4 +717,16 @@ table:not(.estudo-tabela) thead {
   display: block !important;
 }
 
+.icone-resposta {
+  font-size: 24px;
+}
+
+.bi-check-circle {
+  color: #789F8C;
+}
+
+.bi-x-circle {
+  color: #c56e53;
+}
+
 /*# sourceMappingURL=style.css.map */

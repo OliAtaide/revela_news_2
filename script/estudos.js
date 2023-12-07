@@ -28,8 +28,12 @@ function printMenu() {
                         ${v.dados[j]}
                     </th>
                     <td>
-                        <input class="ms-auto" type="number" min="0">
+                        <input class="input-resposta ms-auto" type="number" min="0"
+                            data-resposta="${v.respostas[j]}" data-icone="#iconeResposta${i}_${j}">
                     </td>
+                    <th class="bg-white px-0 ps-3">
+                        <i class="bi icone-resposta" id="iconeResposta${i}_${j}"></i>
+                    </th>
                 </tr>
             `;
           rows2 += `
@@ -217,3 +221,18 @@ $(document).on("click", ".btn-modal", function (v, i) {
   const index = $(".swiper-slide-active").data("index");
   $("#estudoModal" + index).modal("show");
 });
+
+$(document).on("change", ".input-resposta", function () {
+    var data = $(this).data('resposta');
+    var val = $(this).val();
+    var icone = $(this).data('icone');
+    console.log($(icone));
+    if (val == data){
+        $(icone).removeClass('bi-x-circle');
+        $(icone).addClass('bi-check-circle');
+    }
+    else{
+        $(icone).removeClass('bi-check-circle');
+        $(icone).addClass('bi-x-circle');
+    }
+})
